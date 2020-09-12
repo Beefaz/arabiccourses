@@ -1,7 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e941f123-fb92-418a-82fe-f1ed01a19c98" name="Default Changelist" comment="" />
+    <list default="true" id="e941f123-fb92-418a-82fe-f1ed01a19c98" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/public/arabic.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/sectionContent/AboutUs.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/sectionContent/Contacts.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/sectionContent/Lessons.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/sectionContent/RemoteCourses.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/sectionContent/SectionContentLoader.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/sectionContent/SectionContentLoader3.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/Constants.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/img/avatar.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/img/background/desert.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/img/languageFlags/arabicLogo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/img/languageFlags/ltflag.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/img/languageFlags/ukflag.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/arabiccourses.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/arabiccourses.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/robots.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/buttons/LanguageButton.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/buttons/LanguageButton.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/navbar/Navbar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/navbar/Navbar.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/section/Section.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/section/Section.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/sectionContent/SectionContent.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/logos/Logo.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/functions/SwitchComponents.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/Contacts.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/mailto/Mailto.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/Gallery.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/navbar/NavbarItems.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/LanguageCourses.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/sectionContent/Gallery.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/Lessons.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/sectionContent/GalleryModal.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/RemoteTraining.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/sectionContent/GalleryModalContent.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/img/arabicLogo.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/res/img/gallery/arabicLogo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/img/desert.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/img/ltflag.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/res/img/gallery/ltflag.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/img/ukflag.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/res/img/gallery/ukflag.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -12,7 +51,26 @@
       <executable />
     </execution>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="C:\Users\SOLO\Desktop\Web\React\arabiccourses\.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
   <component name="ProjectId" id="1faeLmD0v7SLGlCifqiQp5JzMRS" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -20,8 +78,50 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../tryout" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path" value="node" />
+    <property name="nodejs_package_manager_path" value="yarn" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\SOLO\Desktop\Web\React\arabiccourses\src\components\sectionContent" />
+      <recent name="C:\Users\SOLO\Desktop\Web\React\arabiccourses\public" />
+      <recent name="C:\Users\SOLO\Desktop\Web\React\arabiccourses\src\res\img" />
+      <recent name="C:\Users\SOLO\Desktop\Web\React\arabiccourses\src\components\buttons" />
+      <recent name="C:\Users\SOLO\Desktop\Web\React\arabiccourses\src\components\navbar" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\SOLO\Desktop\Web\React\arabiccourses\src\res\img\background" />
+      <recent name="C:\Users\SOLO\Desktop\Web\React\arabiccourses\src\res\img\gallery" />
+      <recent name="C:\Users\SOLO\Desktop\Web\React\arabiccourses\src\res\img\logo" />
+      <recent name="C:\Users\SOLO\Desktop\Web\React\arabiccourses\public" />
+      <recent name="C:\Users\SOLO\Desktop\Web\React\arabiccourses\src\res\img\languageFlags" />
+    </key>
+  </component>
+  <component name="RunManager" selected="npm.npm start">
+    <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
+      <method v="2" />
+    </configuration>
+    <configuration name="npm start" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <package-manager value="npm" />
+      <envs />
+      <method v="2" />
+    </configuration>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -45,8 +145,156 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1596460576176</updated>
-      <workItem from="1596460578095" duration="393000" />
+      <workItem from="1596460578095" duration="34046000" />
+      <workItem from="1596633254270" duration="12843000" />
+      <workItem from="1596738582730" duration="619000" />
+      <workItem from="1596798177830" duration="18594000" />
+      <workItem from="1596889699206" duration="1246000" />
+      <workItem from="1596891293628" duration="4069000" />
+      <workItem from="1596896333553" duration="2206000" />
+      <workItem from="1596899071292" duration="11538000" />
+      <workItem from="1597684305611" duration="910000" />
+      <workItem from="1597702426073" duration="8584000" />
+      <workItem from="1597837983863" duration="18776000" />
+      <workItem from="1597929453995" duration="4744000" />
+      <workItem from="1598020253263" duration="29729000" />
+      <workItem from="1598355122565" duration="20762000" />
+      <workItem from="1598539571000" duration="9366000" />
+      <workItem from="1598606248648" duration="18464000" />
+      <workItem from="1598629622999" duration="7650000" />
+      <workItem from="1598639142830" duration="1831000" />
+      <workItem from="1598954771432" duration="21426000" />
+      <workItem from="1598981535095" duration="4786000" />
+      <workItem from="1599068520694" duration="6993000" />
+      <workItem from="1599391394257" duration="12634000" />
+      <workItem from="1599476635780" duration="12979000" />
+      <workItem from="1599490400450" duration="4122000" />
+      <workItem from="1599656003497" duration="11610000" />
+      <workItem from="1599668121514" duration="2725000" />
+      <workItem from="1599927474388" duration="1038000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/arabiccourses" />
+    </ignored-roots>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="392" y="90" key="#Inspections" timestamp="1596634786679">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="392" y="90" key="#Inspections/0.0.1600.860@0.0.1600.860" timestamp="1596634786679" />
+    <state x="565" y="239" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1598963966637">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="565" y="239" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1600.860@0.0.1600.860" timestamp="1598963966637" />
+    <state x="530" y="179" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1596472948886">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="530" y="179" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1600.860@0.0.1600.860" timestamp="1596472948886" />
+    <state x="741" y="159" key="#npm_start" timestamp="1596900584333">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="741" y="159" key="#npm_start/0.0.1600.860@0.0.1600.860" timestamp="1596900584333" />
+    <state x="455" y="34" key="CommitChangelistDialog2" timestamp="1599928648654">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="455" y="34" key="CommitChangelistDialog2/0.0.1600.860@0.0.1600.860" timestamp="1599928648654" />
+    <state x="580" y="187" key="FileChooserDialogImpl" timestamp="1599928240985">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="580" y="187" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1599928240985" />
+    <state x="876" y="334" key="Github.ShareDialog" timestamp="1599927682559">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="876" y="334" key="Github.ShareDialog/0.0.1600.860@0.0.1600.860" timestamp="1599927682559" />
+    <state width="1556" height="217" key="GridCell.Tab.0.bottom" timestamp="1599673261383">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1556" height="217" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1599673261383" />
+    <state width="1556" height="217" key="GridCell.Tab.0.center" timestamp="1599673261383">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1556" height="217" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1599673261383" />
+    <state width="1556" height="217" key="GridCell.Tab.0.left" timestamp="1599673261383">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1556" height="217" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1599673261383" />
+    <state width="1556" height="217" key="GridCell.Tab.0.right" timestamp="1599673261383">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1556" height="217" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1599673261383" />
+    <state width="778" height="270" key="GridCell.Tab.1.bottom" timestamp="1599406043347">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="778" height="270" key="GridCell.Tab.1.bottom/0.0.1600.860@0.0.1600.860" timestamp="1599406043347" />
+    <state width="778" height="270" key="GridCell.Tab.1.center" timestamp="1599406043347">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="778" height="270" key="GridCell.Tab.1.center/0.0.1600.860@0.0.1600.860" timestamp="1599406043347" />
+    <state width="778" height="270" key="GridCell.Tab.1.left" timestamp="1599406043347">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="778" height="270" key="GridCell.Tab.1.left/0.0.1600.860@0.0.1600.860" timestamp="1599406043347" />
+    <state width="778" height="270" key="GridCell.Tab.1.right" timestamp="1599406043347">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="778" height="270" key="GridCell.Tab.1.right/0.0.1600.860@0.0.1600.860" timestamp="1599406043347" />
+    <state width="778" height="270" key="GridCell.Tab.2.bottom" timestamp="1599406043348">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="778" height="270" key="GridCell.Tab.2.bottom/0.0.1600.860@0.0.1600.860" timestamp="1599406043348" />
+    <state width="778" height="270" key="GridCell.Tab.2.center" timestamp="1599406043347">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="778" height="270" key="GridCell.Tab.2.center/0.0.1600.860@0.0.1600.860" timestamp="1599406043347" />
+    <state width="778" height="270" key="GridCell.Tab.2.left" timestamp="1599406043347">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="778" height="270" key="GridCell.Tab.2.left/0.0.1600.860@0.0.1600.860" timestamp="1599406043347" />
+    <state width="778" height="270" key="GridCell.Tab.2.right" timestamp="1599406043348">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="778" height="270" key="GridCell.Tab.2.right/0.0.1600.860@0.0.1600.860" timestamp="1599406043348" />
+    <state width="778" height="270" key="GridCell.Tab.3.bottom" timestamp="1599406043348">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="778" height="270" key="GridCell.Tab.3.bottom/0.0.1600.860@0.0.1600.860" timestamp="1599406043348" />
+    <state width="778" height="270" key="GridCell.Tab.3.center" timestamp="1599406043348">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="778" height="270" key="GridCell.Tab.3.center/0.0.1600.860@0.0.1600.860" timestamp="1599406043348" />
+    <state width="778" height="270" key="GridCell.Tab.3.left" timestamp="1599406043348">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="778" height="270" key="GridCell.Tab.3.left/0.0.1600.860@0.0.1600.860" timestamp="1599406043348" />
+    <state width="778" height="270" key="GridCell.Tab.3.right" timestamp="1599406043348">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="778" height="270" key="GridCell.Tab.3.right/0.0.1600.860@0.0.1600.860" timestamp="1599406043348" />
+    <state x="586" y="143" key="RollbackChangesDialog" timestamp="1596466167316">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="586" y="143" key="RollbackChangesDialog/0.0.1600.860@0.0.1600.860" timestamp="1596466167316" />
+    <state x="303" y="61" key="SettingsEditor" timestamp="1596891354129">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="303" y="61" key="SettingsEditor/0.0.1600.860@0.0.1600.860" timestamp="1596891354129" />
+    <state x="507" y="256" key="com.intellij.ide.util.TipDialog" timestamp="1599927504192">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="507" y="256" key="com.intellij.ide.util.TipDialog/0.0.1600.860@0.0.1600.860" timestamp="1599927504192" />
+    <state x="456" y="190" key="run.anything.popup" timestamp="1599665030101">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="456" y="190" key="run.anything.popup/0.0.1600.860@0.0.1600.860" timestamp="1599665030101" />
+    <state x="456" y="72" width="672" height="676" key="search.everywhere.popup" timestamp="1599656819504">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="456" y="72" width="672" height="676" key="search.everywhere.popup/0.0.1600.860@0.0.1600.860" timestamp="1599656819504" />
   </component>
 </project>

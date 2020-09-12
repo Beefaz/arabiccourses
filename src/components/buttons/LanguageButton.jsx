@@ -1,37 +1,43 @@
 import React from "react";
-import arabic from "../../res/img/arabicLogo.png"
-import ltflag from "../../res/img/ltflag.png"
-import ukflag from "../../res/img/ukflag.png"
 
+const LanguageButton = (props) => {
 
-const DefaultButton = (props) => {
-        const buttonStyle = {
-            ...props.style,
-            width: '4vw',
-            height: '3vw',
-            color: 'black',
-            borderRadius: '50%',
-            backgroundColor: 'white',
-            cursor: 'pointer',
-            borderInline: 'true',
-            fontWeight: 'bold',
-            fontSize: '1vw',
-            textAlign: 'center',
-        };
-        const imgStyle = {
-          height: '1vw',
-          position: 'absolute'
-        };
-        if (props.buttonText === 'AR') {
-            return <button style={buttonStyle} onClick={props.onClick}><img style={imgStyle} src={arabic} alt=""/>
-            </button>
-        } else if (props.buttonText === 'EN') {
-            return <button style={buttonStyle} onClick={props.onClick}><img style={imgStyle} src={ukflag}
-                                                                            alt=""/><p>{props.buttonText}</p></button>
-        } else {
-            return <button style={buttonStyle} onClick={props.onClick}><img style={imgStyle} src={ltflag}
-                                                                            alt=""/><p>{props.buttonText} /p></button>
-        }
-    }
-;
-export default DefaultButton;
+    const colStyle = {
+        display: 'flex',
+        padding: '10px',
+    };
+
+    const imgStyle = {
+        padding: '1px',
+        margin: 'auto',
+        cursor: 'pointer',
+        height: '3em',
+        width: '3em',
+        border: '3px',
+        borderRadius: '50%',
+        borderColor: 'grey',
+        backgroundColor: 'white',
+        borderStyle: 'outset'
+    };
+
+    const addBorder = (e) => {
+        e.currentTarget.style.borderStyle = 'inset';
+        e.currentTarget.style.borderColor = 'rgba(226,157,73,1)';
+        e.currentTarget.style.backgroundColor =  'rgba(226,157,73,1)';
+    };
+
+    const removeBorder = (e) => {
+        e.currentTarget.style.borderStyle = 'outset';
+        e.currentTarget.style.borderColor = 'grey';
+        e.currentTarget.style.backgroundColor =  'white';
+    };
+
+    return <div style={colStyle} onClick={props.onClick}>
+        <img style={imgStyle}
+             src={props.image}
+             alt=""
+             onMouseEnter={addBorder}
+             onMouseLeave={removeBorder}/>
+    </div>
+};
+export default LanguageButton;

@@ -1,22 +1,30 @@
 import React from "react";
-import {Navbar, Form, FormControl, Button} from "react-bootstrap";
-import {BrowserRouter as Router, Switch, Route, Link} from "react-router-dom";
-import DropdownButton from "../dropdown/DropdownButton";
-import DefaultButton from "../buttons/DefaultButton";
+import {Navbar} from "react-bootstrap";
+import LanguageButton from "../buttons/LanguageButton";
+import NavBarItems from "./NavbarItems";
+import {Row} from "react-bootstrap";
+import {LANGUAGES, FLAGS} from "../../res/Constants";
 
-const NavBar = () => {
-    return <div>
-        <Router>
-            <Navbar className="d-flex">
-                <Form className="d-flex flex-grow-1">
-                    <FormControl className="d-flex flex-grow-1" type="text" placeholder="Search" variant="m-1"/>
-                </Form>
-                <DefaultButton buttonText="Paieška"/>
-                <DropdownButton/>
-            </Navbar>
-            <Switch>
-            </Switch>
-        </Router>
-    </div>
+const NavBar = (props) => {
+
+    return <Navbar collapseOnSelect
+                   fixed="top"
+                   expand="lg"
+                   bg="dark"
+                   variant="dark">
+        <Navbar.Toggle style={{margin: '1rem'}}
+                       aria-controls="responsive-navbar-nav"/>
+        <Navbar.Collapse id="responsive-navbar-nav">
+            <NavBarItems {...props}/>
+        </Navbar.Collapse>
+        <Row style={{marginLeft: 'auto'}}>
+            <LanguageButton onClick={() => props.setLanguage(LANGUAGES.LT)}
+                            image={FLAGS[0]}/>
+            <LanguageButton onClick={() => props.setLanguage(LANGUAGES.EN)}
+                            image={FLAGS[1]}/>
+            <LanguageButton onClick={() => props.setLanguage(LANGUAGES.AR)} i
+                            mage={FLAGS[2]}/>
+        </Row>
+    </Navbar>
 };
 export default NavBar;
