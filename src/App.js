@@ -6,7 +6,7 @@ import {BrowserRouter as Router, Switch, Route} from "react-router-dom";
 import Section from "./components/section/Section";
 import {LANGUAGES, LINKS} from "./res/Constants";
 
-function App() {
+const App = () => {
     const bgStyle = {
         margin: 'auto',
         backgroundPosition: 'top center',
@@ -38,6 +38,6 @@ function App() {
             </Jumbotron>
         </Router>
     );
-}
+};
 
 export default App;
