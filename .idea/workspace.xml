@@ -1,8 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e941f123-fb92-418a-82fe-f1ed01a19c98" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/arabiccourses.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/arabiccourses.iml" afterDir="false" />
+    <list default="true" id="e941f123-fb92-418a-82fe-f1ed01a19c98" name="Default Changelist" comment=".">
+      <change afterPath="$PROJECT_DIR$/.netlify/state.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/arabic.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/asset-manifest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/precache-manifest.2a184703e39150694a5e2c9b815aaa46.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/service-worker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/static/css/main.5ecd60fb.chunk.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/static/css/main.5ecd60fb.chunk.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/static/js/2.fe897e42.chunk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/static/js/2.fe897e42.chunk.js.LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/static/js/2.fe897e42.chunk.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/static/js/main.b753e661.chunk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/static/js/main.b753e661.chunk.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/static/js/runtime-main.406cf174.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/static/js/runtime-main.406cf174.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/static/media/arabicLogo.9c9f2c30.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/static/media/avatar.baf2b66a.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/static/media/desert.4ac9d773.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/static/media/skype.6c7dfa60.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/img/logo/googleMeet.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/img/logo/skype.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -14,6 +35,9 @@
     <execution>
       <executable />
     </execution>
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="arabiccourses" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -41,6 +65,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -135,7 +160,8 @@
       <workItem from="1599490400450" duration="4122000" />
       <workItem from="1599656003497" duration="11610000" />
       <workItem from="1599668121514" duration="2725000" />
-      <workItem from="1599927474388" duration="3448000" />
+      <workItem from="1599927474388" duration="4399000" />
+      <workItem from="1599932070649" duration="212000" />
     </task>
     <task id="LOCAL-00001" summary=".">
       <created>1599928706613</created>
@@ -158,13 +184,21 @@
       <option name="project" value="LOCAL" />
       <updated>1599930793815</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary=".">
+      <created>1599931214342</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1599931214342</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <ignored-roots>
       <path value="$PROJECT_DIR$/arabiccourses" />
     </ignored-roots>
@@ -188,34 +222,38 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="741" y="159" key="#npm_start/0.0.1600.860@0.0.1600.860" timestamp="1596900584333" />
-    <state x="455" y="34" key="CommitChangelistDialog2" timestamp="1599930792614">
+    <state x="455" y="34" key="CommitChangelistDialog2" timestamp="1599932217666">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="455" y="34" key="CommitChangelistDialog2/0.0.1600.860@0.0.1600.860" timestamp="1599930792614" />
+    <state x="455" y="34" key="CommitChangelistDialog2/0.0.1600.860@0.0.1600.860" timestamp="1599932217666" />
+    <state x="546" y="107" width="921" height="660" key="DiffContextDialog" timestamp="1599931757512">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="546" y="107" width="921" height="660" key="DiffContextDialog/0.0.1600.860@0.0.1600.860" timestamp="1599931757512" />
     <state x="580" y="187" key="FileChooserDialogImpl" timestamp="1599928240985">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="580" y="187" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1599928240985" />
-    <state x="876" y="334" key="Github.ShareDialog" timestamp="1599927682559">
+    <state x="876" y="334" key="Github.ShareDialog" timestamp="1599931671966">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="876" y="334" key="Github.ShareDialog/0.0.1600.860@0.0.1600.860" timestamp="1599927682559" />
-    <state width="1061" height="211" key="GridCell.Tab.0.bottom" timestamp="1599930935200">
+    <state x="876" y="334" key="Github.ShareDialog/0.0.1600.860@0.0.1600.860" timestamp="1599931671966" />
+    <state width="1061" height="211" key="GridCell.Tab.0.bottom" timestamp="1599931934133">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1061" height="211" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1599930935200" />
-    <state width="1061" height="211" key="GridCell.Tab.0.center" timestamp="1599930935199">
+    <state width="1061" height="211" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1599931934133" />
+    <state width="1061" height="211" key="GridCell.Tab.0.center" timestamp="1599931934133">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1061" height="211" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1599930935199" />
-    <state width="1061" height="211" key="GridCell.Tab.0.left" timestamp="1599930935199">
+    <state width="1061" height="211" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1599931934133" />
+    <state width="1061" height="211" key="GridCell.Tab.0.left" timestamp="1599931934133">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1061" height="211" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1599930935199" />
-    <state width="1061" height="211" key="GridCell.Tab.0.right" timestamp="1599930935200">
+    <state width="1061" height="211" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1599931934133" />
+    <state width="1061" height="211" key="GridCell.Tab.0.right" timestamp="1599931934133">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1061" height="211" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1599930935200" />
+    <state width="1061" height="211" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1599931934133" />
     <state width="778" height="270" key="GridCell.Tab.1.bottom" timestamp="1599406043347">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
@@ -272,10 +310,10 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="303" y="61" key="SettingsEditor/0.0.1600.860@0.0.1600.860" timestamp="1596891354129" />
-    <state x="507" y="256" key="com.intellij.ide.util.TipDialog" timestamp="1599927504192">
+    <state x="507" y="256" key="com.intellij.ide.util.TipDialog" timestamp="1599932070708">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="507" y="256" key="com.intellij.ide.util.TipDialog/0.0.1600.860@0.0.1600.860" timestamp="1599927504192" />
+    <state x="507" y="256" key="com.intellij.ide.util.TipDialog/0.0.1600.860@0.0.1600.860" timestamp="1599932070708" />
     <state x="456" y="190" key="run.anything.popup" timestamp="1599665030101">
       <screen x="0" y="0" width="1600" height="860" />
     </state>

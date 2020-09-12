@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/arabiccourses/static/css/main.5ecd60fb.chunk.css",
+    "main.js": "/arabiccourses/static/js/main.b753e661.chunk.js",
+    "main.js.map": "/arabiccourses/static/js/main.b753e661.chunk.js.map",
+    "runtime-main.js": "/arabiccourses/static/js/runtime-main.406cf174.js",
+    "runtime-main.js.map": "/arabiccourses/static/js/runtime-main.406cf174.js.map",
+    "static/js/2.fe897e42.chunk.js": "/arabiccourses/static/js/2.fe897e42.chunk.js",
+    "static/js/2.fe897e42.chunk.js.map": "/arabiccourses/static/js/2.fe897e42.chunk.js.map",
+    "index.html": "/arabiccourses/index.html",
+    "precache-manifest.2a184703e39150694a5e2c9b815aaa46.js": "/arabiccourses/precache-manifest.2a184703e39150694a5e2c9b815aaa46.js",
+    "service-worker.js": "/arabiccourses/service-worker.js",
+    "static/css/main.5ecd60fb.chunk.css.map": "/arabiccourses/static/css/main.5ecd60fb.chunk.css.map",
+    "static/js/2.fe897e42.chunk.js.LICENSE.txt": "/arabiccourses/static/js/2.fe897e42.chunk.js.LICENSE.txt",
+    "static/media/arabicLogo.png": "/arabiccourses/static/media/arabicLogo.9c9f2c30.png",
+    "static/media/avatar.jpg": "/arabiccourses/static/media/avatar.baf2b66a.jpg",
+    "static/media/desert.jpg": "/arabiccourses/static/media/desert.4ac9d773.jpg",
+    "static/media/skype.png": "/arabiccourses/static/media/skype.6c7dfa60.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.406cf174.js",
+    "static/js/2.fe897e42.chunk.js",
+    "static/css/main.5ecd60fb.chunk.css",
+    "static/js/main.b753e661.chunk.js"
+  ]
+}
