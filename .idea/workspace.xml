@@ -2,44 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e941f123-fb92-418a-82fe-f1ed01a19c98" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/public/arabic.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/sectionContent/AboutUs.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/sectionContent/Contacts.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/sectionContent/Lessons.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/sectionContent/RemoteCourses.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/sectionContent/SectionContentLoader.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/sectionContent/SectionContentLoader3.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/Constants.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/img/avatar.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/img/background/desert.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/img/languageFlags/arabicLogo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/img/languageFlags/ltflag.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/img/languageFlags/ukflag.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/arabiccourses.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/arabiccourses.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/robots.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/buttons/LanguageButton.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/buttons/LanguageButton.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/navbar/Navbar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/navbar/Navbar.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/section/Section.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/section/Section.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/sectionContent/SectionContent.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/logos/Logo.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/functions/SwitchComponents.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/res/Contacts.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/mailto/Mailto.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/res/Gallery.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/navbar/NavbarItems.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/res/LanguageCourses.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/sectionContent/Gallery.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/res/Lessons.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/sectionContent/GalleryModal.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/res/RemoteTraining.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/sectionContent/GalleryModalContent.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/res/img/arabicLogo.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/res/img/gallery/arabicLogo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/res/img/desert.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/res/img/ltflag.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/res/img/gallery/ltflag.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/res/img/ukflag.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/res/img/gallery/ukflag.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/Constants.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/res/Constants.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -171,8 +135,16 @@
       <workItem from="1599490400450" duration="4122000" />
       <workItem from="1599656003497" duration="11610000" />
       <workItem from="1599668121514" duration="2725000" />
-      <workItem from="1599927474388" duration="1038000" />
+      <workItem from="1599927474388" duration="2774000" />
     </task>
+    <task id="LOCAL-00001" summary=".">
+      <created>1599928706613</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1599928706614</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -182,6 +154,8 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/arabiccourses" />
     </ignored-roots>
+    <MESSAGE value="." />
+    <option name="LAST_COMMIT_MESSAGE" value="." />
   </component>
   <component name="WindowStateProjectService">
     <state x="392" y="90" key="#Inspections" timestamp="1596634786679">
@@ -200,10 +174,10 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="741" y="159" key="#npm_start/0.0.1600.860@0.0.1600.860" timestamp="1596900584333" />
-    <state x="455" y="34" key="CommitChangelistDialog2" timestamp="1599928648654">
+    <state x="455" y="34" key="CommitChangelistDialog2" timestamp="1599928703860">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="455" y="34" key="CommitChangelistDialog2/0.0.1600.860@0.0.1600.860" timestamp="1599928648654" />
+    <state x="455" y="34" key="CommitChangelistDialog2/0.0.1600.860@0.0.1600.860" timestamp="1599928703860" />
     <state x="580" y="187" key="FileChooserDialogImpl" timestamp="1599928240985">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
