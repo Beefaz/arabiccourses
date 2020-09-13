@@ -22,8 +22,8 @@ const NavBar = (props) => {
                             image={FLAGS[0]}/>
             <LanguageButton onClick={() => props.setLanguage(LANGUAGES.EN)}
                             image={FLAGS[1]}/>
-            <LanguageButton onClick={() => props.setLanguage(LANGUAGES.AR)} i
-                            mage={FLAGS[2]}/>
+            <LanguageButton onClick={() => props.setLanguage(LANGUAGES.AR)}
+                            image={FLAGS[2]}/>
         </Row>
     </Navbar>
 };

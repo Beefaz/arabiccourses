@@ -19,7 +19,7 @@ export const LOGOS = {
     }
 };
 export const GALLERY_IMAGES = importAll(require.context('./img/gallery', false, /\.(png|jpe?g|svg)$/));
-export const LINKS = ['/home', '/remotecourses', '/lessons',  '/gallery', '/contacts'];
+export const LINKS = ['/aboutUs', '/remotecourses', '/lessons',  '/gallery', '/contacts'];
 export const FLAGS = [flagLT, flagEN, flagAR];
 export const LANGUAGES = {
     LT: {
