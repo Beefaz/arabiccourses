@@ -16,7 +16,7 @@ const Contacts = (props) => {
             <Col style={{paddingBottom: '1rem'}} md={12} lg={4}>
                 <h1>{props.label}</h1>
                 <p style={textStyle}>{props.language.EMAIL}<br/>
-                    <Mailto mail='arabu.kalbos@yahoo.com'/><br/>
+                    <Mailto email='arabu.kalbos@yahoo.com'/><br/>
                     {props.language.ADDRESS}<br/>
                     Pakalnės gatvė 13, Vilnius, Lithuania
                 </p>

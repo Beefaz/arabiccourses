@@ -1,12 +1,9 @@
 import React from "react";
 
 const Mailto = (props) => {
-    const href = {
-        mailto: props.mailto
-    };
-    return <a href={href}
+    return <a href={'mailto:'+ props.email}
               style={{wordWrap: "break-word", textShadow: '1px 1px #000000'}}>
-        {props.mail}
+        {props.email}
     </a>
 };
 export default Mailto;

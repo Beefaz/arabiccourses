@@ -51,7 +51,7 @@ export const RemoteCourses = (props) => {
             <Col md={12} lg={6}>
                 {newLinesToComponents('p', paragraphStyle, props.language.REMOTECOURSES.TEXT2)}
                 <h3>
-                    <Mailto mail='arabu.kalbos@yahoo.com'/>
+                    <Mailto email='arabu.kalbos@yahoo.com'/>
                 </h3>
             </Col>
         </Row>
