@@ -5,25 +5,6 @@ import Mailto from "../mailto/Mailto";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 
-/*
-const mediaBreakpoints = [
-useMedia("(max-width: 400px)"),
-useMedia("(max-width: 600px)"),
-useMedia("(max-width: 3200px)")
-];
-
-console.table(mediaBreakpoints);
-
-
-{mediaBreakpoints.map(
-(media, index) => (
-<p {...media} {...styles[index]} key={index}>abc</p>
-),
-)}
-
-    <h3 style={{lineHeight: '2em', wordWrap: "break-word"}}>
-*/
-
 export const RemoteCourses = (props) => {
     const paragraphStyle = {
         lineHeight: '2rem',

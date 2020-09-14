@@ -5,9 +5,6 @@ import AboutUs from "./AboutUs";
 import Gallery from "./Gallery";
 import Contacts from "./Contacts";
 
-
-
-/// reikia butinai key kiekvienam child, perduodu per props.
 const SectionContentLoader = (props) =>  {
     const SECTION_CONTENT = {
         '0': <AboutUs {...props}/>,

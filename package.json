@@ -2,7 +2,7 @@
   "name": "arabiccourses",
   "version": "0.1.0",
   "private": true,
-  "homepage": "arabiccourses.lt",
+  "homepage": "www.arabiccourses.lt",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.2",
     "@testing-library/react": "^10.4.8",
@@ -18,8 +18,8 @@
     "resolve-url": "^0.2.1"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
+    "start": "npm start",
+    "build": "nprm run build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },

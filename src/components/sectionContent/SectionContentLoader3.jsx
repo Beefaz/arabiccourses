@@ -1,5 +1,3 @@
-
-
 import React from "react";
 import RemoteCourses from "./RemoteCourses";
 import Lessons from "./Lessons";
