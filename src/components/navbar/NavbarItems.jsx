@@ -17,7 +17,8 @@ const NavBarItems = (props) => {
         color: 'rgba(255,255,255,1)',
         display: 'flex',
         alignItems: 'center',
-        justifyContent: 'center'
+        justifyContent: 'center',
+        textDecoration: 'none'
     };
 
     const addShadow = (e) => {
