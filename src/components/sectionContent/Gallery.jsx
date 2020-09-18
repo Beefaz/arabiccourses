@@ -12,7 +12,8 @@ const Gallery = (props) => {
 
     const rowStyle = {
         display: 'flex',
-        flexWrap: 'wrap'
+        flexWrap: 'wrap',
+        margin: '0'
     };
     const colStyle = {
         padding: '0',

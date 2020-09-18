@@ -2,20 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e941f123-fb92-418a-82fe-f1ed01a19c98" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/res/img/gallery/arabicLogo2.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/buttons/LanguageButton.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/buttons/LanguageButton.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/logos/Logo.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/logos/Logo.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/mailto/Mailto.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/mailto/Mailto.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/navbar/NavbarItems.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/navbar/NavbarItems.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/section/Section.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/section/Section.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/sectionContent/AboutUs.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/sectionContent/AboutUs.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/sectionContent/Contacts.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/sectionContent/Contacts.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/sectionContent/Gallery.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/sectionContent/Gallery.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/sectionContent/Lessons.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/sectionContent/Lessons.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/sectionContent/RemoteCourses.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/sectionContent/RemoteCourses.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/sectionContent/SectionContentLoader.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/sectionContent/SectionContentLoader.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/Constants.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/res/Constants.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -155,7 +145,7 @@
       <workItem from="1599932070649" duration="1009000" />
       <workItem from="1600257136334" duration="1831000" />
       <workItem from="1600341273189" duration="138000" />
-      <workItem from="1600430091056" duration="15510000" />
+      <workItem from="1600430091056" duration="20188000" />
     </task>
     <task id="LOCAL-00001" summary=".">
       <created>1599928706613</created>
@@ -206,7 +196,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600086088418</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="added more responsiveness for all screen sizes.&#10;changed most of text/component styling, sizes">
+      <created>1600449091613</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1600449091613</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -218,7 +215,8 @@
       <path value="$PROJECT_DIR$/arabiccourses" />
     </ignored-roots>
     <MESSAGE value="." />
-    <option name="LAST_COMMIT_MESSAGE" value="." />
+    <MESSAGE value="added more responsiveness for all screen sizes.&#10;changed most of text/component styling, sizes" />
+    <option name="LAST_COMMIT_MESSAGE" value="added more responsiveness for all screen sizes.&#10;changed most of text/component styling, sizes" />
   </component>
   <component name="WindowStateProjectService">
     <state x="392" y="90" key="#Inspections" timestamp="1596634786679">
@@ -237,10 +235,10 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="741" y="159" key="#npm_start/0.0.1600.860@0.0.1600.860" timestamp="1596900584333" />
-    <state x="455" y="34" key="CommitChangelistDialog2" timestamp="1600086086886">
+    <state x="455" y="34" key="CommitChangelistDialog2" timestamp="1600453785990">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="455" y="34" key="CommitChangelistDialog2/0.0.1600.860@0.0.1600.860" timestamp="1600086086886" />
+    <state x="455" y="34" key="CommitChangelistDialog2/0.0.1600.860@0.0.1600.860" timestamp="1600453785990" />
     <state x="546" y="107" width="921" height="660" key="DiffContextDialog" timestamp="1599931757512">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
@@ -333,10 +331,10 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="507" y="256" key="com.intellij.ide.util.TipDialog/0.0.1600.860@0.0.1600.860" timestamp="1600430311423" />
-    <state x="456" y="190" key="run.anything.popup" timestamp="1599665030101">
+    <state x="456" y="190" key="run.anything.popup" timestamp="1600451631356">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="456" y="190" key="run.anything.popup/0.0.1600.860@0.0.1600.860" timestamp="1599665030101" />
+    <state x="456" y="190" key="run.anything.popup/0.0.1600.860@0.0.1600.860" timestamp="1600451631356" />
     <state x="456" y="72" width="672" height="676" key="search.everywhere.popup" timestamp="1599656819504">
       <screen x="0" y="0" width="1600" height="860" />
     </state>

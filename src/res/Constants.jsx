@@ -37,8 +37,9 @@ export const LANGUAGES = {
                 'Naujos grupės formuojamos kas du mėnesius arba susidarius grupei iš 4 vienodo lygio žmonių.\n' +
                 'Artimiausia A1 lygio kurso pradžia 2020 m. spalio 6 d.\n' +
                 'Registracija el. paštu:'
-        }
-    },
+        },
+        ABOUTUS: 'Naujoji arabų kalbos studija Vilniaus centre kviečia mokytis arabų kalbos individualiai arba mažose grupėse (nuo 2 iki 4 žmonių). Mokytojas iš arabų šalies, turintis daugiau nei aštuonerių metų mokymo patirtį tiek individualiai, tiek grupėmis, tiek nuotoliniu būdu.'
+},
     EN: {
         LINKLABELS: ['About us', 'Remote courses', 'Lessons', 'Gallery', 'Contacts'],
         EMAIL: 'E-mail:',
@@ -54,7 +55,8 @@ export const LANGUAGES = {
                 'New groups are formed each 2 months or when there is 4 people of same level to form a group.\n' +
                 'Closest A1 level course start - 2020 October 6th.\n' +
                 'Sign up:'
-        }
+        },
+        ABOUTUS: 'New Arabic language studio in Vilnius Center invite you to learn Arabic individually or in small groups (2 to 4 people). A teacher from an Arab country with more than eight years of teaching experience, either individually, collectively or remotely.'
     },
     AR: {
         LINKLABELS: ['معلومات','الدراسة عن  بعد', 'الدروس', 'معرض الصور','البريد و الهاتف'],
@@ -71,6 +73,7 @@ export const LANGUAGES = {
                 'Naujos grupės formuojamos kas du mėnesius arba susidarius grupei iš 4 vienodo lygio žmonių.\n' +
                 'Artimiausia A1 lygio kurso pradžia 2020 m. spalio 6 d.\n' +
                 'Registracija el. paštu:'
-        }
+        },
+        ABOUTUS: 'استديو جديد للغة العربية في مركز فيلنيوس  ندعوك لتعلم اللغة العربية بشكل فردي أو مجموعات صغيرة (من 2 إلى 4 أشخاص).  مدرس من بلد عربي لده أكثر من ثماني سنوات من الخبرة في التدريس سواء بشكل فردي أو جماعي أو عن بعد '
     }
 };
