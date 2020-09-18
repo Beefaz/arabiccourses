@@ -5,7 +5,7 @@ import AboutUs from "./AboutUs";
 import Gallery from "./Gallery";
 import Contacts from "./Contacts";
 
-const SectionContentLoader = (props) =>  {
+const SectionContentLoader = (props) => {
     const SECTION_CONTENT = {
         '0': <AboutUs {...props}/>,
         '1': <RemoteCourses {...props}/>,

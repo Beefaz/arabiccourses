@@ -14,7 +14,8 @@ const App = () => {
         backgroundImage: `url(${bgImage})`,
         minHeight: '150vh',
         padding: '0',
-        backgroundSize: 'cover'
+        backgroundSize: 'cover',
+        opacity: '0.97'
     };
 
     const [language, setLanguage] = useState(LANGUAGES.LT);

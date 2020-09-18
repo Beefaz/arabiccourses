@@ -1,18 +1,20 @@
 import React from "react";
+import {useMediaPredicate} from "react-media-hook";
 
 const LanguageButton = (props) => {
+    const screensize = useMediaPredicate("(min-width: 400px)");
 
     const colStyle = {
         display: 'flex',
-        padding: '10px',
+        padding: screensize ? '10px' : '5px',
     };
 
     const imgStyle = {
         padding: '1px',
         margin: 'auto',
         cursor: 'pointer',
-        height: '3em',
-        width: '3em',
+        height: screensize ? '3rem' : '2.5rem',
+        width: screensize ? '3rem' : '2.5rem',
         border: '3px',
         borderRadius: '50%',
         borderColor: 'grey',

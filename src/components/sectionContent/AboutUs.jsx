@@ -5,7 +5,7 @@ import image from "../../res/img/avatar.jpg"
 
 const AboutUs = (props) => {
     return <div>
-        <h1>{props.label}</h1><br/>
+        {props.label}
         <Image src={image}
                alt=""
                thumbnail/>

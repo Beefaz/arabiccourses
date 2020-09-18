@@ -15,7 +15,7 @@ const Gallery = (props) => {
         flexWrap: 'wrap'
     };
     const colStyle = {
-        padding: '2px',
+        padding: '0',
     };
     const imageWrapperStyle = {
         color: 'red',
@@ -31,15 +31,16 @@ const Gallery = (props) => {
     };
     const imageStyle = {
         borderRadius: '10%',
-        borderStyle: 'none'
+        borderStyle: 'none',
+        padding: '1px'
     };
 
     return <div>
-        <h1>{props.label}</h1><br/>
+        {props.label}
         <Row style={rowStyle}>
             {GALLERY_IMAGES.map(
                 (image, index) => (
-                    <Col xs={6} md={2} lg={1} key={index} style={colStyle}>
+                    <Col xs={4} sm={3} md={2} lg={1} key={index} style={colStyle}>
                         <div style={imageWrapperStyle}
                              onMouseOver={(e) => e.currentTarget.style.borderStyle = 'inset'}
                              onMouseOut={(e) => e.currentTarget.style.borderStyle = 'outset'}>

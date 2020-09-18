@@ -3,22 +3,24 @@ import Iframe from 'react-iframe';
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Mailto from "../mailto/Mailto";
+import {useMediaPredicate} from "react-media-hook";
 
 const Contacts = (props) => {
+    const screensize = useMediaPredicate("(min-width: 400px)");
     const textStyle = {
-        lineHeight: '3rem',
-        fontWeight: 'bolder',
-        fontSize: '1.3rem'
+        lineHeight: screensize ? '2.5rem' : '2rem',
+        fontWeight: '600',
+        fontSize: screensize ? '1.2rem' : '1.1rem',
     };
 
     return <div>
         <Row>
-            <Col style={{paddingBottom: '1rem'}} md={12} lg={4}>
-                <h1>{props.label}</h1>
+            <Col md={12} lg={4}>
+                {props.label}
                 <p style={textStyle}>{props.language.EMAIL}<br/>
-                    <Mailto email='arabu.kalbos@yahoo.com'/><br/>
+                    <Mailto className='text-info' email='arabu.kalbos@yahoo.com'/><br/>
                     {props.language.ADDRESS}<br/>
-                    Pakalnės gatvė 13, Vilnius, Lithuania
+                    Pakalnės gatvė 13, Vilnius
                 </p>
             </Col>
             <Col md={12} lg={8}>

@@ -2,13 +2,15 @@ import React from "react";
 import {Link} from "react-router-dom";
 import {LINKS} from "../../res/Constants";
 import Nav from "react-bootstrap/Nav";
+import {useMediaPredicate} from "react-media-hook";
 
 const NavBarItems = (props) => {
+    const screensize = useMediaPredicate("(min-width: 320px)");
     const linkBoxStyle = {
         flexGrow: '1',
         display: 'flex',
         listStyle: 'none',
-        fontSize: '1.5rem',
+        fontSize: screensize ? '1.5rem' : '1.3rem'
     };
 
     const linkStyle = {
@@ -22,12 +24,12 @@ const NavBarItems = (props) => {
     };
 
     const addShadow = (e) => {
-        e.currentTarget.style.fontSize = '2rem';
+        e.currentTarget.style.fontSize = screensize ? '2rem' : '1.3rem';
         e.currentTarget.style.textShadow = '1px 1px 5px rgba(226,157,73,1)';
         e.currentTarget.style.fontWeight = 'bold';
     };
     const removeShadow = (e) => {
-        e.currentTarget.style.fontSize = '1.5rem';
+        e.currentTarget.style.fontSize = screensize ? '1.5rem' : '1.3rem';
         e.currentTarget.style.textShadow = 'none';
         e.currentTarget.style.fontWeight = 'inherit';
     };

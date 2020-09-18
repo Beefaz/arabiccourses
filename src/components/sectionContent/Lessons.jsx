@@ -3,7 +3,7 @@ import Iframe from "react-iframe";
 
 const Lessons = (props) => {
     return <div>
-        <h1>{props.label}</h1><br/>
+        {props.label}
         <Iframe width="100%"
                 height="415"
                 frameBorder="0"
