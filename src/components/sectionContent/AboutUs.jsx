@@ -4,18 +4,19 @@ import {useMediaPredicate} from "react-media-hook";
 
 
 const AboutUs = (props) => {
-    const screensize = useMediaPredicate("(min-width: 400px)");
+    const screensizeSM = useMediaPredicate("(min-width: 400px)");
+    const screensizeMD = useMediaPredicate("(min-width: 500px)");
     const textStyle = {
-        lineHeight: screensize ? '2.5rem' : '2rem',
+        lineHeight: screensizeSM ? '2.5rem' : '2rem',
         fontWeight: '600',
-        fontSize: screensize ? '1.2rem' : '1.1rem'
+        fontSize: screensizeSM ? '1.2rem' : '1.1rem'
     };
     const imageStyle = {
-        shapeOutside: screensize ? 'circle(50%)' : 'none',
+        shapeOutside: screensizeMD ? 'circle(50%)' : 'none',
         borderRadius: '50%',
         overflow: 'hidden',
-        float: screensize ? 'right' : 'inherit',
-        width: screensize ? '50vh' : '20vh'
+        float: screensizeMD ? 'right' : 'inherit',
+        width: screensizeMD ? '50vh' : '20vh'
     };
 
     return <div style={{display:'inline-block'}}>
