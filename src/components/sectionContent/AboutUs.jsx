@@ -5,7 +5,7 @@ import {useMediaPredicate} from "react-media-hook";
 
 const AboutUs = (props) => {
     const screensize = useMediaPredicate("(min-width: 400px)");
-    const screensizeForImage = useMediaPredicate("(min-width: 600px)");
+    const screensizeForImage = useMediaPredicate("(min-width: 700px)");
 
     const textStyle = {
         lineHeight: screensize ? '2.5rem' : '2rem',
@@ -17,10 +17,11 @@ const AboutUs = (props) => {
         borderRadius: '50%',
         overflow: 'hidden',
         float: 'right',
-        width: screensizeForImage ? '50vh' : '50vw'
+        height: screensizeForImage ? '50vh' : '45vw',
+        width: screensizeForImage ? '50vh' : '45vw'
     };
 
-    return <div style={{display:'inline-block'}}>
+    return <div style={{display: 'inline-block'}}>
         {props.label}
         <img style={imageStyle}
              src={image}
