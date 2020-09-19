@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="e941f123-fb92-418a-82fe-f1ed01a19c98" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/sectionContent/AboutUs.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/sectionContent/AboutUs.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -143,7 +143,8 @@
       <workItem from="1599932070649" duration="1009000" />
       <workItem from="1600257136334" duration="1831000" />
       <workItem from="1600341273189" duration="138000" />
-      <workItem from="1600430091056" duration="23242000" />
+      <workItem from="1600430091056" duration="23612000" />
+      <workItem from="1600516346089" duration="454000" />
     </task>
     <task id="LOCAL-00001" summary=".">
       <created>1599928706613</created>
@@ -222,7 +223,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600454956824</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="test for persisting issue with improper image size of 'About us' section for tablets.">
+      <created>1600459413605</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1600459413605</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -238,7 +246,8 @@
     <MESSAGE value="Added 'About us' section content, styles and translations" />
     <MESSAGE value="adjusted 'About us' image size for tablets" />
     <MESSAGE value="final adjustment of 'About us' image size for tablets/phones" />
-    <option name="LAST_COMMIT_MESSAGE" value="final adjustment of 'About us' image size for tablets/phones" />
+    <MESSAGE value="test for persisting issue with improper image size of 'About us' section for tablets." />
+    <option name="LAST_COMMIT_MESSAGE" value="test for persisting issue with improper image size of 'About us' section for tablets." />
   </component>
   <component name="WindowStateProjectService">
     <state x="392" y="90" key="#Inspections" timestamp="1596634786679">
@@ -257,10 +266,10 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="741" y="159" key="#npm_start/0.0.1600.860@0.0.1600.860" timestamp="1596900584333" />
-    <state x="455" y="34" key="CommitChangelistDialog2" timestamp="1600454954532">
+    <state x="455" y="34" key="CommitChangelistDialog2" timestamp="1600459410790">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="455" y="34" key="CommitChangelistDialog2/0.0.1600.860@0.0.1600.860" timestamp="1600454954532" />
+    <state x="455" y="34" key="CommitChangelistDialog2/0.0.1600.860@0.0.1600.860" timestamp="1600459410790" />
     <state x="546" y="107" width="921" height="660" key="DiffContextDialog" timestamp="1599931757512">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
@@ -273,22 +282,22 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="876" y="334" key="Github.ShareDialog/0.0.1600.860@0.0.1600.860" timestamp="1599931671966" />
-    <state width="1556" height="210" key="GridCell.Tab.0.bottom" timestamp="1600448762486">
+    <state width="1556" height="210" key="GridCell.Tab.0.bottom" timestamp="1600459459222">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1556" height="210" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1600448762486" />
-    <state width="1556" height="210" key="GridCell.Tab.0.center" timestamp="1600448762486">
+    <state width="1556" height="210" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1600459459222" />
+    <state width="1556" height="210" key="GridCell.Tab.0.center" timestamp="1600459459222">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1556" height="210" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1600448762486" />
-    <state width="1556" height="210" key="GridCell.Tab.0.left" timestamp="1600448762485">
+    <state width="1556" height="210" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1600459459222" />
+    <state width="1556" height="210" key="GridCell.Tab.0.left" timestamp="1600459459222">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1556" height="210" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1600448762485" />
-    <state width="1556" height="210" key="GridCell.Tab.0.right" timestamp="1600448762486">
+    <state width="1556" height="210" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1600459459222" />
+    <state width="1556" height="210" key="GridCell.Tab.0.right" timestamp="1600459459222">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1556" height="210" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1600448762486" />
+    <state width="1556" height="210" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1600459459222" />
     <state width="778" height="270" key="GridCell.Tab.1.bottom" timestamp="1599406043347">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
@@ -349,17 +358,17 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="392" y="165" key="Vcs.Push.Dialog.v2/0.0.1600.860@0.0.1600.860" timestamp="1600085128544" />
-    <state x="507" y="256" key="com.intellij.ide.util.TipDialog" timestamp="1600430311423">
+    <state x="507" y="256" key="com.intellij.ide.util.TipDialog" timestamp="1600516348738">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="507" y="256" key="com.intellij.ide.util.TipDialog/0.0.1600.860@0.0.1600.860" timestamp="1600430311423" />
+    <state x="507" y="256" key="com.intellij.ide.util.TipDialog/0.0.1600.860@0.0.1600.860" timestamp="1600516348738" />
     <state x="456" y="190" key="run.anything.popup" timestamp="1600451631356">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="456" y="190" key="run.anything.popup/0.0.1600.860@0.0.1600.860" timestamp="1600451631356" />
-    <state x="456" y="72" width="672" height="676" key="search.everywhere.popup" timestamp="1599656819504">
+    <state x="456" y="72" width="672" height="676" key="search.everywhere.popup" timestamp="1600517007775">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="456" y="72" width="672" height="676" key="search.everywhere.popup/0.0.1600.860@0.0.1600.860" timestamp="1599656819504" />
+    <state x="456" y="72" width="672" height="676" key="search.everywhere.popup/0.0.1600.860@0.0.1600.860" timestamp="1600517007775" />
   </component>
 </project>
