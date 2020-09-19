@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e941f123-fb92-418a-82fe-f1ed01a19c98" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/res/Constants.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/res/Constants.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -145,7 +144,7 @@
       <workItem from="1600257136334" duration="1831000" />
       <workItem from="1600341273189" duration="138000" />
       <workItem from="1600430091056" duration="23612000" />
-      <workItem from="1600516346089" duration="4376000" />
+      <workItem from="1600516346089" duration="5003000" />
     </task>
     <task id="LOCAL-00001" summary=".">
       <created>1599928706613</created>
@@ -238,7 +237,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600517055141</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="changed link of 'About us' section to appear as homepage.&#10;added link which returns wrong URL to homepage.">
+      <created>1600523361568</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1600523361568</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -256,7 +262,8 @@
     <MESSAGE value="final adjustment of 'About us' image size for tablets/phones" />
     <MESSAGE value="test for persisting issue with improper image size of 'About us' section for tablets." />
     <MESSAGE value="test fix for slow bootstrap loading speed, to improve google page rating" />
-    <option name="LAST_COMMIT_MESSAGE" value="test fix for slow bootstrap loading speed, to improve google page rating" />
+    <MESSAGE value="changed link of 'About us' section to appear as homepage.&#10;added link which returns wrong URL to homepage." />
+    <option name="LAST_COMMIT_MESSAGE" value="changed link of 'About us' section to appear as homepage.&#10;added link which returns wrong URL to homepage." />
   </component>
   <component name="WindowStateProjectService">
     <state x="392" y="90" key="#Inspections" timestamp="1596634786679">
@@ -275,10 +282,10 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="741" y="159" key="#npm_start/0.0.1600.860@0.0.1600.860" timestamp="1596900584333" />
-    <state x="455" y="34" key="CommitChangelistDialog2" timestamp="1600517051462">
+    <state x="455" y="34" key="CommitChangelistDialog2" timestamp="1600523359551">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="455" y="34" key="CommitChangelistDialog2/0.0.1600.860@0.0.1600.860" timestamp="1600517051462" />
+    <state x="455" y="34" key="CommitChangelistDialog2/0.0.1600.860@0.0.1600.860" timestamp="1600523359551" />
     <state x="546" y="107" width="921" height="660" key="DiffContextDialog" timestamp="1599931757512">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
