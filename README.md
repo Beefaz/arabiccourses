@@ -6,7 +6,7 @@ React web app project
 
 jsx, hooks, states, minor inline-css, js object styling
 
-react-router-dom, iframes, react-media-hook, react-bootstrap
+react-router-dom, iframes, react-media-hook, react-bootstrap, @loadable/component
 
 most of page content is loaded dynamically from Constants.jsx
 

@@ -1,9 +1,10 @@
 import React from "react";
 import {Navbar} from "react-bootstrap";
-import LanguageButton from "../buttons/LanguageButton";
 import NavBarItems from "./NavbarItems";
 import {Row} from "react-bootstrap";
 import {LANGUAGES, FLAGS} from "../../res/Constants";
+import loadable from '@loadable/component'
+const LanguageButton = loadable(() => import('../buttons/LanguageButton'));
 
 const NavBar = (props) => {
 
