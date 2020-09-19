@@ -3,7 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="e941f123-fb92-418a-82fe-f1ed01a19c98" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/Constants.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/res/Constants.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +49,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/res/img/gallery" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/background" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -60,19 +61,19 @@
     <property name="settings.editor.selected.configurable" value="settings.nodejs" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\SOLO\Desktop\Web\React\arabiccourses\src\components\background" />
+      <recent name="C:\Users\SOLO\Desktop\Web\React\arabiccourses\src\res\img\background" />
+      <recent name="C:\Users\SOLO\Desktop\Web\React\arabiccourses\src\res\img\gallery" />
+      <recent name="C:\Users\SOLO\Desktop\Web\React\arabiccourses\src\res\img\logo" />
+      <recent name="C:\Users\SOLO\Desktop\Web\React\arabiccourses\public" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\SOLO\Desktop\Web\React\arabiccourses\src\res\img\gallery" />
       <recent name="C:\Users\SOLO\Desktop\Web\React\arabiccourses\src\components\sectionContent" />
       <recent name="C:\Users\SOLO\Desktop\Web\React\arabiccourses\public" />
       <recent name="C:\Users\SOLO\Desktop\Web\React\arabiccourses\src\res\img" />
       <recent name="C:\Users\SOLO\Desktop\Web\React\arabiccourses\src\components\buttons" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\SOLO\Desktop\Web\React\arabiccourses\src\res\img\background" />
-      <recent name="C:\Users\SOLO\Desktop\Web\React\arabiccourses\src\res\img\gallery" />
-      <recent name="C:\Users\SOLO\Desktop\Web\React\arabiccourses\src\res\img\logo" />
-      <recent name="C:\Users\SOLO\Desktop\Web\React\arabiccourses\public" />
-      <recent name="C:\Users\SOLO\Desktop\Web\React\arabiccourses\src\res\img\languageFlags" />
     </key>
   </component>
   <component name="RunManager" selected="npm.npm start">
@@ -144,7 +145,7 @@
       <workItem from="1600257136334" duration="1831000" />
       <workItem from="1600341273189" duration="138000" />
       <workItem from="1600430091056" duration="23612000" />
-      <workItem from="1600516346089" duration="454000" />
+      <workItem from="1600516346089" duration="4376000" />
     </task>
     <task id="LOCAL-00001" summary=".">
       <created>1599928706613</created>
@@ -230,7 +231,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600459413605</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="test fix for slow bootstrap loading speed, to improve google page rating">
+      <created>1600517055141</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1600517055141</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -247,7 +255,8 @@
     <MESSAGE value="adjusted 'About us' image size for tablets" />
     <MESSAGE value="final adjustment of 'About us' image size for tablets/phones" />
     <MESSAGE value="test for persisting issue with improper image size of 'About us' section for tablets." />
-    <option name="LAST_COMMIT_MESSAGE" value="test for persisting issue with improper image size of 'About us' section for tablets." />
+    <MESSAGE value="test fix for slow bootstrap loading speed, to improve google page rating" />
+    <option name="LAST_COMMIT_MESSAGE" value="test fix for slow bootstrap loading speed, to improve google page rating" />
   </component>
   <component name="WindowStateProjectService">
     <state x="392" y="90" key="#Inspections" timestamp="1596634786679">
@@ -266,38 +275,38 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="741" y="159" key="#npm_start/0.0.1600.860@0.0.1600.860" timestamp="1596900584333" />
-    <state x="455" y="34" key="CommitChangelistDialog2" timestamp="1600459410790">
+    <state x="455" y="34" key="CommitChangelistDialog2" timestamp="1600517051462">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="455" y="34" key="CommitChangelistDialog2/0.0.1600.860@0.0.1600.860" timestamp="1600459410790" />
+    <state x="455" y="34" key="CommitChangelistDialog2/0.0.1600.860@0.0.1600.860" timestamp="1600517051462" />
     <state x="546" y="107" width="921" height="660" key="DiffContextDialog" timestamp="1599931757512">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="546" y="107" width="921" height="660" key="DiffContextDialog/0.0.1600.860@0.0.1600.860" timestamp="1599931757512" />
-    <state x="580" y="187" key="FileChooserDialogImpl" timestamp="1599928240985">
+    <state x="580" y="187" key="FileChooserDialogImpl" timestamp="1600520980401">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="580" y="187" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1599928240985" />
+    <state x="580" y="187" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1600520980401" />
     <state x="876" y="334" key="Github.ShareDialog" timestamp="1599931671966">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="876" y="334" key="Github.ShareDialog/0.0.1600.860@0.0.1600.860" timestamp="1599931671966" />
-    <state width="1556" height="210" key="GridCell.Tab.0.bottom" timestamp="1600459459222">
+    <state width="1556" height="210" key="GridCell.Tab.0.bottom" timestamp="1600523255744">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1556" height="210" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1600459459222" />
-    <state width="1556" height="210" key="GridCell.Tab.0.center" timestamp="1600459459222">
+    <state width="1556" height="210" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1600523255744" />
+    <state width="1556" height="210" key="GridCell.Tab.0.center" timestamp="1600523255744">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1556" height="210" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1600459459222" />
-    <state width="1556" height="210" key="GridCell.Tab.0.left" timestamp="1600459459222">
+    <state width="1556" height="210" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1600523255744" />
+    <state width="1556" height="210" key="GridCell.Tab.0.left" timestamp="1600523255742">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1556" height="210" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1600459459222" />
-    <state width="1556" height="210" key="GridCell.Tab.0.right" timestamp="1600459459222">
+    <state width="1556" height="210" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1600523255742" />
+    <state width="1556" height="210" key="GridCell.Tab.0.right" timestamp="1600523255744">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1556" height="210" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1600459459222" />
+    <state width="1556" height="210" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1600523255744" />
     <state width="778" height="270" key="GridCell.Tab.1.bottom" timestamp="1599406043347">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
@@ -362,13 +371,13 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="507" y="256" key="com.intellij.ide.util.TipDialog/0.0.1600.860@0.0.1600.860" timestamp="1600516348738" />
-    <state x="456" y="190" key="run.anything.popup" timestamp="1600451631356">
+    <state x="456" y="190" key="run.anything.popup" timestamp="1600522409407">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="456" y="190" key="run.anything.popup/0.0.1600.860@0.0.1600.860" timestamp="1600451631356" />
-    <state x="456" y="72" width="672" height="676" key="search.everywhere.popup" timestamp="1600517007775">
+    <state x="456" y="190" key="run.anything.popup/0.0.1600.860@0.0.1600.860" timestamp="1600522409407" />
+    <state x="456" y="72" width="672" height="676" key="search.everywhere.popup" timestamp="1600522515363">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="456" y="72" width="672" height="676" key="search.everywhere.popup/0.0.1600.860@0.0.1600.860" timestamp="1600517007775" />
+    <state x="456" y="72" width="672" height="676" key="search.everywhere.popup/0.0.1600.860@0.0.1600.860" timestamp="1600522515363" />
   </component>
 </project>

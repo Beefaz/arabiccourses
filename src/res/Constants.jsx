@@ -19,7 +19,7 @@ export const LOGOS = {
     }
 };
 export const GALLERY_IMAGES = importAll(require.context('./img/gallery', false, /\.(png|jpe?g|svg)$/));
-export const LINKS = ['/aboutUs', '/remotecourses', '/lessons',  '/gallery', '/contacts'];
+export const LINKS = ['/', '/remotecourses', '/lessons',  '/gallery', '/contacts'];
 export const FLAGS = [flagLT, flagEN, flagAR];
 export const LANGUAGES = {
     LT: {
@@ -41,6 +41,7 @@ export const LANGUAGES = {
         ABOUTUS: 'Naujoji arabų kalbos studija Vilniaus centre kviečia mokytis arabų kalbos individualiai arba mažose grupėse (nuo 2 iki 4 žmonių). Mokytojas iš arabų šalies, turintis daugiau nei aštuonerių metų mokymo patirtį tiek individualiai, tiek grupėmis, tiek nuotoliniu būdu.'
 },
     EN: {
+        ERRORMESSAGE: 'Such page does not exist',
         LINKLABELS: ['About us', 'Remote courses', 'Lessons', 'Gallery', 'Contacts'],
         EMAIL: 'E-mail:',
         ADDRESS: 'Address:',
@@ -59,20 +60,13 @@ export const LANGUAGES = {
         ABOUTUS: 'New Arabic language studio in Vilnius Center invite you to learn Arabic individually or in small groups (2 to 4 people). A teacher from an Arab country with more than eight years of teaching experience, either individually, collectively or remotely.'
     },
     AR: {
+        ERRORMESSAGE: 'Reikia vertimo',
         LINKLABELS: ['معلومات','الدراسة عن  بعد', 'الدروس', 'معرض الصور','البريد و الهاتف'],
         EMAIL: 'البريد الإلكتروني:',
         ADDRESS: 'عنوان:',
         REMOTECOURSES: {
-            TEXT1: 'Užsiėmimai vyksta jums patogiu laiku.\n' +
-                'Pirma pamoka nemokama.\n' +
-                'Grupėse ne daugiau 4 žmonių.\n' +
-                'Pamokos vyksta nuotoliniu būdu per:',
-            TEXT2: 'Vienos pamokos trukmė 90 min.\n' +
-                'Vieną kursą sudaro 20 pamokų (40 akademinių valandų).\n' +
-                'Visa mokymo medžiaga atsiunčiama el. paštu.\n' +
-                'Naujos grupės formuojamos kas du mėnesius arba susidarius grupei iš 4 vienodo lygio žmonių.\n' +
-                'Artimiausia A1 lygio kurso pradžia 2020 m. spalio 6 d.\n' +
-                'Registracija el. paštu:'
+            TEXT1: 'Reikia vertimo',
+            TEXT2: 'Reikia vertimo',
         },
         ABOUTUS: 'استديو جديد للغة العربية في مركز فيلنيوس  ندعوك لتعلم اللغة العربية بشكل فردي أو مجموعات صغيرة (من 2 إلى 4 أشخاص).  مدرس من بلد عربي لده أكثر من ثماني سنوات من الخبرة في التدريس سواء بشكل فردي أو جماعي أو عن بعد '
     }
