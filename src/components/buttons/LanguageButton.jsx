@@ -35,7 +35,9 @@ const LanguageButton = (props) => {
         e.currentTarget.style.backgroundColor =  'white';
     };
 
-    return <button style={buttonStyle} onClick={props.onClick}>
+    return <button style={buttonStyle}
+                   onClick={props.onClick}
+                   aria-label={props.label}>
         <img style={imgStyle}
              src={props.image}
              alt=""

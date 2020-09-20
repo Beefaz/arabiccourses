@@ -27,13 +27,13 @@ const NavBar = (props) => {
         </Navbar.Collapse>
         <div style={langButtonContainerStyle}>
             <NavItem as={LanguageButton} onClick={() => props.setLanguage(LANGUAGES.LT)}
-                     aria-label="Lietuvių"
+                     label="Lietuvių"
                      image={FLAGS[0]}/>
             <NavItem as={LanguageButton} onClick={() => props.setLanguage(LANGUAGES.EN)}
-                     aria-label="English"
+                     label="English"
                      image={FLAGS[1]}/>
             <NavItem as={LanguageButton} onClick={() => props.setLanguage(LANGUAGES.AR)}
-                     aria-label="اَلْعَرَبِيَّةُ"
+                     label="اَلْعَرَبِيَّةُ"
                      image={FLAGS[2]}/>
         </div>
     </Navbar>
