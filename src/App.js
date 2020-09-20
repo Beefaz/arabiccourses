@@ -27,14 +27,13 @@ const App = () => {
                         language={language}/>
                 <Switch>
                     {language.LINKLABELS.map((sectionName, index) => (
-                            <Route exact path={LINKS[index]}
-                                   key={index}>
-                                <Section label={sectionName}
-                                         index={index}
-                                         language={language}/>
-                            </Route>
-                        ),
-                    )}
+                        <Route exact path={LINKS[index]}
+                               key={index}>
+                            <Section label={sectionName}
+                                     index={index}
+                                     language={language}/>
+                        </Route>
+                    ),)}
                     <Route path='/*'>
                         <Section label={language.LINKLABELS[0]}
                                  index={0}
