@@ -1,7 +1,7 @@
 import React from "react";
 import {Link} from "react-router-dom";
 import {LINKS} from "../../res/Constants";
-import Nav from "react-bootstrap/Nav";
+import {Nav} from "react-bootstrap";
 import {useMediaPredicate} from "react-media-hook";
 
 const NavBarItems = (props) => {
@@ -37,14 +37,15 @@ const NavBarItems = (props) => {
     return <Nav style={linkBoxStyle}>
         {props.language.LINKLABELS.map(
             (sectionName, index) => (
-                <Link style={linkStyle}
-                      label={sectionName}
-                      onMouseOver={addShadow}
-                      onMouseLeave={removeShadow}
-                      to={LINKS[index]}
-                      key={index}>
+                <Nav.Link as={Link} style={linkStyle}
+                          label={sectionName}
+                          onMouseOver={addShadow}
+                          onMouseLeave={removeShadow}
+                          to={LINKS[index]}
+                          key={index}
+                          href={LINKS[index]}>
                     {sectionName}
-                </Link>
+                </Nav.Link>
             ),
         )}
     </Nav>
