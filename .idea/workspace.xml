@@ -1,9 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e941f123-fb92-418a-82fe-f1ed01a19c98" name="Default Changelist" comment="">
+    <list default="true" id="e941f123-fb92-418a-82fe-f1ed01a19c98" name="Default Changelist" comment="added @loadable Background.jsx to increase load speed.&#10;removed unused divs&#10;changed some styling params">
+      <change afterPath="$PROJECT_DIR$/src/components/images/Background.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/buttons/LanguageButton.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/buttons/LanguageButton.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/navbar/Navbar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/navbar/Navbar.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/section/Section.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/section/Section.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/sectionContent/Contacts.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/sectionContent/Contacts.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,6 +20,20 @@
     <execution>
       <executable />
     </execution>
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
   </component>
   <component name="FavoritesManager">
     <favorites_list name="arabiccourses" />
@@ -146,7 +166,7 @@
       <workItem from="1600430091056" duration="23612000" />
       <workItem from="1600516346089" duration="5242000" />
       <workItem from="1600526287273" duration="5709000" />
-      <workItem from="1600598916771" duration="5122000" />
+      <workItem from="1600598916771" duration="19943000" />
     </task>
     <task id="LOCAL-00001" summary=".">
       <created>1599928706613</created>
@@ -288,7 +308,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600604043416</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="minor code changes">
+      <created>1600604066620</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1600604066620</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -313,7 +340,9 @@
     <MESSAGE value="Fixed issue when nav menu wasn't closing" />
     <MESSAGE value="added robots.txt" />
     <MESSAGE value="changed div to button for aria accessibility (selectable with keyboard)" />
-    <option name="LAST_COMMIT_MESSAGE" value="changed div to button for aria accessibility (selectable with keyboard)" />
+    <MESSAGE value="minor code changes" />
+    <MESSAGE value="added @loadable Background.jsx to increase load speed.&#10;removed unused divs&#10;changed some styling params" />
+    <option name="LAST_COMMIT_MESSAGE" value="added @loadable Background.jsx to increase load speed.&#10;removed unused divs&#10;changed some styling params" />
   </component>
   <component name="WindowStateProjectService">
     <state x="392" y="90" key="#Inspections" timestamp="1596634786679">
@@ -332,10 +361,10 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="741" y="159" key="#npm_start/0.0.1600.860@0.0.1600.860" timestamp="1596900584333" />
-    <state x="455" y="0" key="CommitChangelistDialog2" timestamp="1600604041691">
+    <state x="455" y="0" key="CommitChangelistDialog2" timestamp="1600619371654">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="455" y="0" key="CommitChangelistDialog2/0.0.1600.860@0.0.1600.860" timestamp="1600604041691" />
+    <state x="455" y="0" key="CommitChangelistDialog2/0.0.1600.860@0.0.1600.860" timestamp="1600619371654" />
     <state x="546" y="107" width="921" height="660" key="DiffContextDialog" timestamp="1599931757512">
       <screen x="0" y="0" width="1600" height="860" />
     </state>

@@ -7,7 +7,6 @@ const LanguageButton = (props) => {
     const buttonStyle = {
         background: 'none',
         border: 'none',
-        display: 'flex',
         padding: screensize ? '10px' : '5px',
     };
 
