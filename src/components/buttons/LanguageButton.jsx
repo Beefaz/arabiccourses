@@ -4,7 +4,9 @@ import {useMediaPredicate} from "react-media-hook";
 const LanguageButton = (props) => {
     const screensize = useMediaPredicate("(min-width: 400px)");
 
-    const colStyle = {
+    const buttonStyle = {
+        background: 'none',
+        border: 'none',
         display: 'flex',
         padding: screensize ? '10px' : '5px',
     };
@@ -34,12 +36,13 @@ const LanguageButton = (props) => {
         e.currentTarget.style.backgroundColor =  'white';
     };
 
-    return <div style={colStyle} onClick={props.onClick}>
+    return <button style={buttonStyle} onClick={props.onClick}>
         <img style={imgStyle}
              src={props.image}
              alt=""
              onMouseEnter={addBorder}
-             onMouseLeave={removeBorder}/>
-    </div>
+             onMouseLeave={removeBorder}
+        />
+    </button>
 };
 export default LanguageButton;
