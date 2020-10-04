@@ -6,21 +6,43 @@ import Mailto from "../mailto/Mailto";
 import {useMediaPredicate} from "react-media-hook";
 
 const Contacts = (props) => {
-    const screensize = useMediaPredicate("(min-width: 400px)");
-    const textStyle = {
-        lineHeight: screensize ? '2.5rem' : '2rem',
+    const screenSM = useMediaPredicate("(min-width: 784px)");
+    const screenMD = useMediaPredicate("(max-width: 992px)");
+    const containerStyle = {
+        display: screenMD ? 'flex' : 'inherit',
+        flexWrap: 'wrap',
+        justifyContent: 'space-between',
+        gap: '1rem',
         fontWeight: '600',
-        fontSize: screensize ? '1.2rem' : '1.1rem',
+        fontSize: screenSM ? '1.2rem' : '1.1rem',
+        lineHeight: screenSM ? '2.5rem' : '2rem',
+        ...props.language.STYLES.TEXTDIRECTION
+    };
+    const containerChildStyle ={
+        paddingBottom: screenSM ? '1.5rem' : '0.5rem',
+    };
+    const bolder={
+        fontWeight: '700',
+        margin: '0',
     };
 
     return <Row>
         <Col md={12} lg={4}>
             {props.label}
-            <p style={textStyle}>{props.language.EMAIL}<br/>
-                <Mailto className='text-info' email='arabu.kalbos@yahoo.com'/><br/>
-                {props.language.ADDRESS}<br/>
-                Pakalnės gatvė 13, Vilnius
-            </p>
+            <div style={containerStyle}>
+                <div style={containerChildStyle}>
+                    <p style={bolder}>{props.language.EMAIL}</p>
+                    <p><Mailto className='text-info' email='arabu.kalbos@yahoo.com'/></p>
+                </div>
+                <div style={containerChildStyle}>
+                    <p style={bolder}>{props.language.ADDRESS}</p>
+                    <p>Pakalnės gatvė 13, Vilnius</p>
+                </div>
+                <div style={containerChildStyle}>
+                    <p style={bolder}>{props.language.PHONE}</p>
+                    <p style={props.language.STYLES.PHONEDIRECTION}>+370-699-35923</p>
+                </div>
+            </div>
         </Col>
         <Col md={12} lg={8}>
             <Iframe

@@ -10,12 +10,13 @@ const AboutUs = (props) => {
     const textStyle = {
         lineHeight: screensize ? '2.5rem' : '2rem',
         fontWeight: '600',
-        fontSize: screensize ? '1.2rem' : '1.1rem'
+        fontSize: screensize ? '1.2rem' : '1.1rem',
+        ...props.language.TEXTDIRECTION
     };
 
-    return <div style={{display: 'inline-block'}}>
+    return <div style={{display: 'inline-block', width: '100%'}}>
         {props.label}
-        <AvatarImage float='right'
+        <AvatarImage float = {props.language.STYLES.AVATARIMAGEFLOAT}
              src={image}/>
         <p style={textStyle}>{props.language.ABOUTUS}</p>
     </div>

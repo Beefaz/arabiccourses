@@ -3,7 +3,13 @@ import SectionContentLoader from "../sectionContent/SectionContentLoader";
 import {useMediaPredicate} from "react-media-hook";
 
 const Section = (props) => {
-    const setSectionLabel = () => <h3 className='dark' style={{paddingBottom: '1rem'}}>{props.label}</h3>;
+    const sectionLabelStyle = {
+        fontWeight: '900',
+        paddingBottom: '1rem',
+        ...props.language.STYLES.TEXTDIRECTION
+    };
+
+    const setSectionLabel = () => <h3 className='dark' style={sectionLabelStyle}>{props.label}</h3>;
     const screensize = useMediaPredicate("(min-width: 500px)");
 
     const sectionStyle = {

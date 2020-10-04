@@ -16,7 +16,7 @@ const Gallery = (props) => {
         margin: '0'
     };
     const colStyle = {
-        padding: '0',
+        padding: '0.4rem',
     };
     const imageWrapperStyle = {
         color: 'red',

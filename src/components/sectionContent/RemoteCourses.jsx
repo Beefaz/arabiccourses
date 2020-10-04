@@ -12,6 +12,7 @@ export const RemoteCourses = (props) => {
         lineHeight: screensize ? '2.5rem' : '2rem',
         fontWeight: '600',
         fontSize: screensize ? '1.2rem' : '1.1rem',
+        ...props.language.STYLES.TEXTDIRECTION
     };
 
     const newLinesToComponents = (HTMLComponentString, styleProp, content) => {
@@ -28,6 +29,7 @@ export const RemoteCourses = (props) => {
                 {newLinesToComponents('h4', textStyle, props.language.REMOTECOURSES.TEXT1)}
                 <h4 style={textStyle}>
                     <Logo {...LOGOS.GOOGLE}/>
+                    <span style={{paddingLeft: '1rem'}}/>
                     <Logo {...LOGOS.SKYPE}/>
                 </h4>
             </Col>

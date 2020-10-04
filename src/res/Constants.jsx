@@ -23,9 +23,14 @@ export const LINKS = ['/', '/remotecourses', '/lessons',  '/gallery', '/contacts
 export const FLAGS = [flagLT, flagEN, flagAR];
 export const LANGUAGES = {
     LT: {
+        STYLES: {
+            AVATARIMAGEFLOAT: 'right'
+        },
+        PAGE404: 'Atsiprašome, toks puslapis neegzistuoja',
         LINKLABELS: ['Apie mus','Nuotoliniai kursai', 'Pamokos', 'Galerija', 'Kontaktai'],
         EMAIL: 'El-paštas:',
         ADDRESS: 'Adresas:',
+        PHONE: 'Telefonas:',
         REMOTECOURSES: {
             TEXT1: 'Užsiėmimai vyksta jums patogiu laiku.\n' +
                 'Pirma pamoka nemokama.\n' +
@@ -41,10 +46,14 @@ export const LANGUAGES = {
         ABOUTUS: 'Naujoji arabų kalbos studija Vilniaus centre kviečia mokytis arabų kalbos individualiai arba mažose grupėse (nuo 2 iki 4 žmonių). Mokytojas iš arabų šalies, turintis daugiau nei aštuonerių metų mokymo patirtį tiek individualiai, tiek grupėmis, tiek nuotoliniu būdu.'
 },
     EN: {
-        ERRORMESSAGE: 'Such page does not exist',
+        STYLES: {
+            AVATARIMAGEFLOAT:'right'
+        },
+        PAGE404: 'Sorry. Such page does not exist',
         LINKLABELS: ['About us', 'Remote courses', 'Lessons', 'Gallery', 'Contacts'],
         EMAIL: 'E-mail:',
         ADDRESS: 'Address:',
+        PHONE: 'Phone:',
         REMOTECOURSES: {
             TEXT1: 'Courses can be scheduled for any time.\n' +
                 'First lesson for free.\n' +
@@ -60,14 +69,24 @@ export const LANGUAGES = {
         ABOUTUS: 'New Arabic language studio in Vilnius Center invite you to learn Arabic individually or in small groups (2 to 4 people). A teacher from an Arab country with more than eight years of teaching experience, either individually, collectively or remotely.'
     },
     AR: {
-        ERRORMESSAGE: 'Reikia vertimo',
+        STYLES: {
+            PHONEDIRECTION:{ direction: 'ltr', textAlign: 'end'},
+            TEXTDIRECTION: { direction: 'rtl', textAlign: 'start'},
+            AVATARIMAGEFLOAT: 'left'
+        },
+        PAGE404: 'آسف. هذه الصفحة غير موجودة',
         LINKLABELS: ['معلومات','الدراسة عن  بعد', 'الدروس', 'معرض الصور','البريد و الهاتف'],
         EMAIL: 'البريد الإلكتروني:',
         ADDRESS: 'عنوان:',
+        PHONE: 'رقم الهاتف:',
         REMOTECOURSES: {
-            TEXT1: 'Reikia vertimo',
-            TEXT2: 'Reikia vertimo',
+            TEXT1: 'دورات عن بعد لمجموعات لا تزيد عن 4 أشخاص.\n' +
+                'الدروس تتم عن بعد من خلال:',
+            TEXT2: 'مدة الدرس الواحد 90 دقيقة.\n' +
+                'تتكون الدورة الواحدة من 20 درسًا (40 ساعة أكاديمية).\n' +
+                'يتم إرسال جميع المواد التدريبية عبر البريد الإلكتروني الأقرب إلى بداية دورة المستوى A1 في 2020. 6 \n' +
+                'أكتوبر التسجيل عبر البريد الإلكتروني:'
         },
-        ABOUTUS: 'استديو جديد للغة العربية في مركز فيلنيوس  ندعوك لتعلم اللغة العربية بشكل فردي أو مجموعات صغيرة (من 2 إلى 4 أشخاص).  مدرس من بلد عربي لده أكثر من ثماني سنوات من الخبرة في التدريس سواء بشكل فردي أو جماعي أو عن بعد '
+        ABOUTUS: 'استديو جديد للغة العربية في مركز فيلنيوس  ندعوك لتعلم اللغة العربية بشكل فردي أو مجموعات صغيرة (من 2 إلى 4 أشخاص).  مدرس من بلد عربي لده أكثر من ثماني سنوات من الخبرة في التدريس سواء بشكل فردي أو جماعي أو عن بعد.'
     }
 };

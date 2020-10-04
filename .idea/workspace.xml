@@ -3,11 +3,13 @@
   <component name="ChangeListManager">
     <list default="true" id="e941f123-fb92-418a-82fe-f1ed01a19c98" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/buttons/LanguageButton.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/buttons/LanguageButton.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/navbar/Navbar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/navbar/Navbar.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/res/img/languageFlags/arabicLogo.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/res/img/languageFlags/arabicLogo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/res/img/languageFlags/ltflag.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/res/img/languageFlags/ltflag.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/res/img/languageFlags/ukflag.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/res/img/languageFlags/ukflag.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/logos/Logo.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/logos/Logo.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/section/Section.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/section/Section.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/sectionContent/AboutUs.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/sectionContent/AboutUs.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/sectionContent/Contacts.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/sectionContent/Contacts.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/sectionContent/Gallery.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/sectionContent/Gallery.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/sectionContent/RemoteCourses.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/sectionContent/RemoteCourses.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/Constants.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/res/Constants.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -164,7 +166,8 @@
       <workItem from="1600430091056" duration="23612000" />
       <workItem from="1600516346089" duration="5242000" />
       <workItem from="1600526287273" duration="5709000" />
-      <workItem from="1600598916771" duration="21682000" />
+      <workItem from="1600598916771" duration="21797000" />
+      <workItem from="1601826382341" duration="13750000" />
     </task>
     <task id="LOCAL-00001" summary=".">
       <created>1599928706613</created>
@@ -320,7 +323,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600619412227</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="fixed issue when aria-label wasn't showing in html&#10;changed button images to 1:1 ratio, reduced image size">
+      <created>1600621434281</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1600621434281</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -347,7 +357,8 @@
     <MESSAGE value="changed div to button for aria accessibility (selectable with keyboard)" />
     <MESSAGE value="minor code changes" />
     <MESSAGE value="added @loadable Background.jsx to increase load speed.&#10;removed unused divs&#10;changed some styling params" />
-    <option name="LAST_COMMIT_MESSAGE" value="added @loadable Background.jsx to increase load speed.&#10;removed unused divs&#10;changed some styling params" />
+    <MESSAGE value="fixed issue when aria-label wasn't showing in html&#10;changed button images to 1:1 ratio, reduced image size" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed issue when aria-label wasn't showing in html&#10;changed button images to 1:1 ratio, reduced image size" />
   </component>
   <component name="WindowStateProjectService">
     <state x="392" y="90" key="#Inspections" timestamp="1596634786679">
@@ -366,10 +377,10 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="741" y="159" key="#npm_start/0.0.1600.860@0.0.1600.860" timestamp="1596900584333" />
-    <state x="455" y="0" key="CommitChangelistDialog2" timestamp="1600619410677">
+    <state x="455" y="0" key="CommitChangelistDialog2" timestamp="1600621432754">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="455" y="0" key="CommitChangelistDialog2/0.0.1600.860@0.0.1600.860" timestamp="1600619410677" />
+    <state x="455" y="0" key="CommitChangelistDialog2/0.0.1600.860@0.0.1600.860" timestamp="1600621432754" />
     <state x="546" y="107" width="921" height="660" key="DiffContextDialog" timestamp="1599931757512">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
@@ -382,22 +393,22 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="876" y="334" key="Github.ShareDialog/0.0.1600.860@0.0.1600.860" timestamp="1599931671966" />
-    <state width="1556" height="210" key="GridCell.Tab.0.bottom" timestamp="1600621226044">
+    <state width="813" height="210" key="GridCell.Tab.0.bottom" timestamp="1601840372272">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1556" height="210" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1600621226044" />
-    <state width="1556" height="210" key="GridCell.Tab.0.center" timestamp="1600621226044">
+    <state width="813" height="210" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1601840372272" />
+    <state width="813" height="210" key="GridCell.Tab.0.center" timestamp="1601840372272">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1556" height="210" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1600621226044" />
-    <state width="1556" height="210" key="GridCell.Tab.0.left" timestamp="1600621226044">
+    <state width="813" height="210" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1601840372272" />
+    <state width="813" height="210" key="GridCell.Tab.0.left" timestamp="1601840372272">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1556" height="210" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1600621226044" />
-    <state width="1556" height="210" key="GridCell.Tab.0.right" timestamp="1600621226044">
+    <state width="813" height="210" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1601840372272" />
+    <state width="813" height="210" key="GridCell.Tab.0.right" timestamp="1601840372272">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1556" height="210" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1600621226044" />
+    <state width="813" height="210" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1601840372272" />
     <state width="778" height="270" key="GridCell.Tab.1.bottom" timestamp="1599406043347">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
@@ -458,17 +469,17 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="392" y="165" key="Vcs.Push.Dialog.v2/0.0.1600.860@0.0.1600.860" timestamp="1600085128544" />
-    <state x="507" y="256" key="com.intellij.ide.util.TipDialog" timestamp="1600598914786">
+    <state x="507" y="256" key="com.intellij.ide.util.TipDialog" timestamp="1601826465361">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="507" y="256" key="com.intellij.ide.util.TipDialog/0.0.1600.860@0.0.1600.860" timestamp="1600598914786" />
+    <state x="507" y="256" key="com.intellij.ide.util.TipDialog/0.0.1600.860@0.0.1600.860" timestamp="1601826465361" />
     <state x="456" y="190" key="run.anything.popup" timestamp="1600531403179">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="456" y="190" key="run.anything.popup/0.0.1600.860@0.0.1600.860" timestamp="1600531403179" />
-    <state x="456" y="72" width="672" height="676" key="search.everywhere.popup" timestamp="1600531822265">
+    <state x="456" y="72" width="672" height="676" key="search.everywhere.popup" timestamp="1601829004999">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="456" y="72" width="672" height="676" key="search.everywhere.popup/0.0.1600.860@0.0.1600.860" timestamp="1600531822265" />
+    <state x="456" y="72" width="672" height="676" key="search.everywhere.popup/0.0.1600.860@0.0.1600.860" timestamp="1601829004999" />
   </component>
 </project>
