@@ -19,7 +19,7 @@ const NavBar = (props) => {
                    expand="lg"
                    bg="dark"
                    variant="dark"
-                   style={{display: 'flex'}}>
+                   style={{display: 'flex', minHeight: '88px'}}>
         <Navbar.Toggle style={{margin: '1rem'}}
                        aria-controls="responsive-navbar-nav"/>
         <Navbar.Collapse id="responsive-navbar-nav" style={{flexGrow: '15'}}>

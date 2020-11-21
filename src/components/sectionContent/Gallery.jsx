@@ -38,6 +38,12 @@ const Gallery = (props) => {
 
     return <div>
         {props.label}
+        <GalleryModal
+            images={GALLERY_IMAGES}
+            modalShow={modalShow}
+            setModalShow={setModalShow}
+            imageIndex={imageIndex}
+            setImageIndex={setImageIndex}/>
         <Row style={rowStyle}>
             {GALLERY_IMAGES.map(
                 (image, index) => (
@@ -54,12 +60,6 @@ const Gallery = (props) => {
                                        setImageIndex(index)
                                    }}/>
                         </div>
-                        <GalleryModal
-                            images={GALLERY_IMAGES}
-                            modalShow={modalShow}
-                            setModalShow={setModalShow}
-                            imageIndex={imageIndex}
-                            setImageIndex={setImageIndex}/>
                     </Col>
                 ),
             )}

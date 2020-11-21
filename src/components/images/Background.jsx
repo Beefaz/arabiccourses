@@ -2,17 +2,24 @@ import React from "react";
 import bgImage from "../../res/img/background/desert.jpg";
 
 const Background = () => {
-
-    const bgStyle = {
-        margin: 'auto',
-        backgroundPosition: 'top center',
-        backgroundRepeat: 'no-repeat',
-        backgroundImage: `url(${bgImage})`,
-        minHeight: '150vh',
-        padding: '0',
-        backgroundSize: 'cover',
-        opacity: '0.97'
+    const imgContainerStyle = {
+        width: '100%',
+        height: '100%',
+        position: 'absolute',
+        zIndex: '-1',
     };
-    return <div style={bgStyle}/>
+    const imgProps = {
+        src: bgImage,
+        style: {
+            height:'100%',
+            width: '100%',
+            objectFit: 'cover',
+            overflow: 'hidden'
+        },
+    };
+
+    return <div style={imgContainerStyle}>
+        <img {...imgProps} alt='background'/>
+    </div>
 };
 export default Background;

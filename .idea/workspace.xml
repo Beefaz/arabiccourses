@@ -1,15 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e941f123-fb92-418a-82fe-f1ed01a19c98" name="Default Changelist" comment="">
+    <list default="true" id="e941f123-fb92-418a-82fe-f1ed01a19c98" name="Default Changelist" comment="updated Boostrap,&#10;added IframeBlock.jsx to show spinner while loading videos or google maps.&#10;changed photos in Gallery.jsx&#10;added additional text in AboutUs section&#10;changed styling of background, to match all screen sizes">
+      <change afterPath="$PROJECT_DIR$/src/components/iframeBlock/IframeBlock.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/img/gallery/119160502_100791735110771_7614592884645562947_o2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/logos/Logo.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/logos/Logo.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/images/Background.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/images/Background.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/navbar/Navbar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/navbar/Navbar.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/section/Section.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/section/Section.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/sectionContent/AboutUs.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/sectionContent/AboutUs.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/sectionContent/Contacts.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/sectionContent/Contacts.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/sectionContent/Gallery.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/sectionContent/Gallery.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/sectionContent/GalleryModal.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/sectionContent/GalleryModal.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/sectionContent/Lessons.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/sectionContent/Lessons.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/sectionContent/RemoteCourses.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/sectionContent/RemoteCourses.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/res/Constants.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/res/Constants.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/img/gallery/arabicLogo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/img/gallery/arabicLogo2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/img/gallery/ltflag.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/img/gallery/ukflag.png" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +81,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/public" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../react-planes-app" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -167,7 +180,21 @@
       <workItem from="1600516346089" duration="5242000" />
       <workItem from="1600526287273" duration="5709000" />
       <workItem from="1600598916771" duration="21797000" />
-      <workItem from="1601826382341" duration="13750000" />
+      <workItem from="1601826382341" duration="13986000" />
+      <workItem from="1602072958373" duration="597000" />
+      <workItem from="1602518429471" duration="2970000" />
+      <workItem from="1602522534140" duration="1827000" />
+      <workItem from="1602526011841" duration="582000" />
+      <workItem from="1602526793367" duration="2161000" />
+      <workItem from="1602536051720" duration="249000" />
+      <workItem from="1602536396346" duration="49000" />
+      <workItem from="1602536550633" duration="28000" />
+      <workItem from="1602537491206" duration="833000" />
+      <workItem from="1602546263048" duration="617000" />
+      <workItem from="1602679883910" duration="338000" />
+      <workItem from="1602680316003" duration="5843000" />
+      <workItem from="1602689912391" duration="3273000" />
+      <workItem from="1605970816111" duration="12032000" />
     </task>
     <task id="LOCAL-00001" summary=".">
       <created>1599928706613</created>
@@ -330,7 +357,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600621434281</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="added missing translations,&#10;added proper styling for arabic language (reversed)">
+      <created>1601840441635</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1601840441635</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -358,13 +392,11 @@
     <MESSAGE value="minor code changes" />
     <MESSAGE value="added @loadable Background.jsx to increase load speed.&#10;removed unused divs&#10;changed some styling params" />
     <MESSAGE value="fixed issue when aria-label wasn't showing in html&#10;changed button images to 1:1 ratio, reduced image size" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed issue when aria-label wasn't showing in html&#10;changed button images to 1:1 ratio, reduced image size" />
+    <MESSAGE value="added missing translations,&#10;added proper styling for arabic language (reversed)" />
+    <MESSAGE value="updated Boostrap,&#10;added IframeBlock.jsx to show spinner while loading videos or google maps.&#10;changed photos in Gallery.jsx&#10;added additional text in AboutUs section&#10;changed styling of background, to match all screen sizes" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated Boostrap,&#10;added IframeBlock.jsx to show spinner while loading videos or google maps.&#10;changed photos in Gallery.jsx&#10;added additional text in AboutUs section&#10;changed styling of background, to match all screen sizes" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="392" y="90" key="#Inspections" timestamp="1596634786679">
-      <screen x="0" y="0" width="1600" height="860" />
-    </state>
-    <state x="392" y="90" key="#Inspections/0.0.1600.860@0.0.1600.860" timestamp="1596634786679" />
     <state x="565" y="239" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1600600961713">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
@@ -373,42 +405,38 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="530" y="179" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1600.860@0.0.1600.860" timestamp="1600526387908" />
-    <state x="741" y="159" key="#npm_start" timestamp="1596900584333">
+    <state x="455" y="0" key="CommitChangelistDialog2" timestamp="1605995044153">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="741" y="159" key="#npm_start/0.0.1600.860@0.0.1600.860" timestamp="1596900584333" />
-    <state x="455" y="0" key="CommitChangelistDialog2" timestamp="1600621432754">
-      <screen x="0" y="0" width="1600" height="860" />
-    </state>
-    <state x="455" y="0" key="CommitChangelistDialog2/0.0.1600.860@0.0.1600.860" timestamp="1600621432754" />
+    <state x="455" y="0" key="CommitChangelistDialog2/0.0.1600.860@0.0.1600.860" timestamp="1605995044153" />
     <state x="546" y="107" width="921" height="660" key="DiffContextDialog" timestamp="1599931757512">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="546" y="107" width="921" height="660" key="DiffContextDialog/0.0.1600.860@0.0.1600.860" timestamp="1599931757512" />
-    <state x="580" y="187" key="FileChooserDialogImpl" timestamp="1600600670556">
+    <state x="580" y="187" key="FileChooserDialogImpl" timestamp="1605991972688">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="580" y="187" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1600600670556" />
+    <state x="580" y="187" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1605991972688" />
     <state x="876" y="334" key="Github.ShareDialog" timestamp="1599931671966">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="876" y="334" key="Github.ShareDialog/0.0.1600.860@0.0.1600.860" timestamp="1599931671966" />
-    <state width="813" height="210" key="GridCell.Tab.0.bottom" timestamp="1601840372272">
+    <state width="811" height="210" key="GridCell.Tab.0.bottom" timestamp="1605994909311">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="813" height="210" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1601840372272" />
-    <state width="813" height="210" key="GridCell.Tab.0.center" timestamp="1601840372272">
+    <state width="811" height="210" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1605994909311" />
+    <state width="811" height="210" key="GridCell.Tab.0.center" timestamp="1605994909310">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="813" height="210" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1601840372272" />
-    <state width="813" height="210" key="GridCell.Tab.0.left" timestamp="1601840372272">
+    <state width="811" height="210" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1605994909310" />
+    <state width="811" height="210" key="GridCell.Tab.0.left" timestamp="1605994909309">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="813" height="210" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1601840372272" />
-    <state width="813" height="210" key="GridCell.Tab.0.right" timestamp="1601840372272">
+    <state width="811" height="210" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1605994909309" />
+    <state width="811" height="210" key="GridCell.Tab.0.right" timestamp="1605994909310">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="813" height="210" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1601840372272" />
+    <state width="811" height="210" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1605994909310" />
     <state width="778" height="270" key="GridCell.Tab.1.bottom" timestamp="1599406043347">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
@@ -457,10 +485,6 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state width="778" height="270" key="GridCell.Tab.3.right/0.0.1600.860@0.0.1600.860" timestamp="1599406043348" />
-    <state x="586" y="143" key="RollbackChangesDialog" timestamp="1596466167316">
-      <screen x="0" y="0" width="1600" height="860" />
-    </state>
-    <state x="586" y="143" key="RollbackChangesDialog/0.0.1600.860@0.0.1600.860" timestamp="1596466167316" />
     <state x="303" y="61" key="SettingsEditor" timestamp="1600445896115">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
@@ -469,14 +493,14 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="392" y="165" key="Vcs.Push.Dialog.v2/0.0.1600.860@0.0.1600.860" timestamp="1600085128544" />
-    <state x="507" y="256" key="com.intellij.ide.util.TipDialog" timestamp="1601826465361">
+    <state x="507" y="256" key="com.intellij.ide.util.TipDialog" timestamp="1602518435198">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="507" y="256" key="com.intellij.ide.util.TipDialog/0.0.1600.860@0.0.1600.860" timestamp="1601826465361" />
-    <state x="456" y="190" key="run.anything.popup" timestamp="1600531403179">
+    <state x="507" y="256" key="com.intellij.ide.util.TipDialog/0.0.1600.860@0.0.1600.860" timestamp="1602518435198" />
+    <state x="456" y="190" key="run.anything.popup" timestamp="1605988894980">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="456" y="190" key="run.anything.popup/0.0.1600.860@0.0.1600.860" timestamp="1600531403179" />
+    <state x="456" y="190" key="run.anything.popup/0.0.1600.860@0.0.1600.860" timestamp="1605988894980" />
     <state x="456" y="72" width="672" height="676" key="search.everywhere.popup" timestamp="1601829004999">
       <screen x="0" y="0" width="1600" height="860" />
     </state>

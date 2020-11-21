@@ -2,6 +2,8 @@ import React from "react";
 import image from "../../res/img/avatar.jpg"
 import {useMediaPredicate} from "react-media-hook";
 import loadable$2 from "@loadable/component";
+import {newLinesToComponents} from "../../res/Constants";
+
 const AvatarImage = loadable$2(() => import('../images/AvatarImage'));
 
 const AboutUs = (props) => {
@@ -16,9 +18,9 @@ const AboutUs = (props) => {
 
     return <div style={{display: 'inline-block', width: '100%'}}>
         {props.label}
-        <AvatarImage float = {props.language.STYLES.AVATARIMAGEFLOAT}
-             src={image}/>
-        <p style={textStyle}>{props.language.ABOUTUS}</p>
+        <AvatarImage float={props.language.STYLES.AVATARIMAGEFLOAT}
+                     src={image}/>
+        {newLinesToComponents('p', textStyle, props.language.ABOUTUS)}
     </div>
 };
 export default AboutUs;

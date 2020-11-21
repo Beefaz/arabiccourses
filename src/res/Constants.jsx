@@ -3,8 +3,15 @@ import flagLT from './img/languageFlags/ltflag.png'
 import flagEN from './img/languageFlags/ukflag.png'
 import skypeLogo from '../res/img/logo/skype.png'
 import googleMeetLogo from '../res/img/logo/googleMeet.png'
+import React from "react";
 
 const importAll = r => r.keys().map(r);
+export const newLinesToComponents = (HTMLComponentString, styleProp, content) => {
+    return content.split('\n').map((lineText, index) => React.createElement(HTMLComponentString, {
+        style: styleProp,
+        key: index,
+    }, lineText))
+};
 
 export const LOGOS = {
     GOOGLE : {
@@ -40,10 +47,14 @@ export const LANGUAGES = {
                 'Vieną kursą sudaro 20 pamokų (40 akademinių valandų).\n' +
                 'Visa mokymo medžiaga atsiunčiama el. paštu.\n' +
                 'Naujos grupės formuojamos kas du mėnesius arba susidarius grupei iš 4 vienodo lygio žmonių.\n' +
-                'Artimiausia A1 lygio kurso pradžia 2020 m. spalio 6 d.\n' +
+                'Artimiausia A1 lygio kurso pradžia 202ą m. sausio 11 d.\n' +
                 'Registracija el. paštu:'
         },
-        ABOUTUS: 'Naujoji arabų kalbos studija Vilniaus centre kviečia mokytis arabų kalbos individualiai arba mažose grupėse (nuo 2 iki 4 žmonių). Mokytojas iš arabų šalies, turintis daugiau nei aštuonerių metų mokymo patirtį tiek individualiai, tiek grupėmis, tiek nuotoliniu būdu.'
+        ABOUTUS: 'Naujoji arabų kalbos studija Vilniaus centre kviečia mokytis arabų kalbos individualiai arba mažose grupėse (nuo 2 iki 4 žmonių).\n'+
+            'Mokytojas iš arabų šalies, turintis daugiau nei aštuonerių metų mokymo patirtį tiek individualiai, tiek grupėmis, tiek nuotoliniu būdu.\n'+
+            'Paskaitų metu ne tik mokysime gramatikos, taisyklingos rašybos bei kalbėsenos, bet ir pasidalinsime naudinga informacija apie arabiškai kalbančias šalis, jų kultūrą, tradicijas bei informacija apie Lietuvoje vykstančius renginius, kurie įtrauks Jus į arabiškąjį pasaulį. Visa paskaitų mokymo medžiaga bus pateikiama paskaitų metu.\n' +
+            'O kad mokytis būtų dar maloniau, pavaišinsime karštos arbatos puodeliu!\n ' +
+            'Be mokymų galime pasiųlyti ir vertimus raštu ir žodžiu iš lietuvių ir anglų kalbų į arabų kalbą. Taip pat verčiame iš arabų kalbos.'
 },
     EN: {
         STYLES: {

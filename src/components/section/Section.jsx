@@ -13,10 +13,7 @@ const Section = (props) => {
     const screensize = useMediaPredicate("(min-width: 500px)");
 
     const sectionStyle = {
-        position: 'absolute',
-        top: '5.5rem',
-        right: '0',
-        left: '0',
+        width: '100%',
         backgroundColor: 'rgba(226,157,73,0.9)',
         borderRadius: '25px',
         margin: screensize ? '2rem' : '1rem',

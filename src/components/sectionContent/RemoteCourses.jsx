@@ -1,5 +1,5 @@
 import React from "react";
-import {LOGOS} from '../../res/Constants'
+import {LOGOS, newLinesToComponents} from '../../res/Constants'
 import Logo from "../logos/Logo";
 import Mailto from "../mailto/Mailto";
 import Row from "react-bootstrap/Row";
@@ -13,13 +13,6 @@ export const RemoteCourses = (props) => {
         fontWeight: '600',
         fontSize: screensize ? '1.2rem' : '1.1rem',
         ...props.language.STYLES.TEXTDIRECTION
-    };
-
-    const newLinesToComponents = (HTMLComponentString, styleProp, content) => {
-        return content.split('\n').map((lineText, index) => React.createElement(HTMLComponentString, {
-            style: styleProp,
-            key: index,
-        }, lineText))
     };
 
     return <div>

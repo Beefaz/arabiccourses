@@ -1,14 +1,10 @@
 import React from "react";
-import Iframe from "react-iframe";
+import IframeBlock from "../iframeBlock/IframeBlock";
 
 const Lessons = (props) => {
     return <div>
         {props.label}
-        <Iframe width="100%"
-                height="415"
-                frameBorder="0"
-                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture; fullscreen"
-                url={"https://www.youtube.com/embed/LyzupN62MGA"}/>
+        <IframeBlock url={'https://www.youtube.com/embed/4-h4QW0J_Fk'}/>
     </div>
 };
 export default Lessons;
