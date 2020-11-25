@@ -19,11 +19,11 @@ const Gallery = (props) => {
         padding: '0.4rem',
     };
     const imageWrapperStyle = {
+        boxShadow: '1px 1px 5px 1px #000, -1px -1px 5px 1px #000',
         color: 'red',
         border: '3px',
         borderStyle: 'outset',
         borderColor: 'rgba(226,157,73,1)',
-        backgroundColor: 'white',
         display: 'flex',
         alignItems: 'center',
         height: '100%',
@@ -32,6 +32,7 @@ const Gallery = (props) => {
     };
     const imageStyle = {
         borderRadius: '10%',
+        backgroundColor: 'rgba(226,157,73,1)',
         borderStyle: 'none',
         padding: '1px'
     };

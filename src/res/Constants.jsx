@@ -90,7 +90,6 @@ export const LANGUAGES = {
             PHONEDIRECTION:{ direction: 'ltr', textAlign: 'end'},
             TEXTDIRECTION: { direction: 'rtl', textAlign: 'start'},
             AVATARIMAGEFLOAT: 'left',
-            LOGOSFLOAT: {float: 'right'},
         },
         PAGE404: 'آسف. هذه الصفحة غير موجودة',
         LINKLABELS: ['معلومات','الدراسة عن  بعد', 'الدروس', 'معرض الصور','البريد و الهاتف'],

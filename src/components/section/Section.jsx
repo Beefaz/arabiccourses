@@ -18,6 +18,7 @@ const Section = (props) => {
         borderRadius: '25px',
         margin: screensize ? '2rem' : '1rem',
         padding: screensize ? '3rem' : '1rem',
+        boxShadow: '5px 5px 10px 2px, -5px -5px 10px 2px',
     };
 
     return <div style={sectionStyle}>

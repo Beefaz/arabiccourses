@@ -5,6 +5,7 @@ import Iframe from "react-iframe";
 const IframeBlock = (props) => {
     const [show, setShow] = useState(true);
     const containerStyle = {
+        boxShadow: '1px 1px 5px 1px, -1px -1px 5px 1px',
         display: 'flex',
         height: '400px',
         width: '100%',

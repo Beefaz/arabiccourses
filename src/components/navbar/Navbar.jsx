@@ -8,6 +8,11 @@ import NavItem from "react-bootstrap/NavItem";
 const LanguageButton = loadable(() => import('../buttons/LanguageButton'));
 
 const NavBar = (props) => {
+    const navbarStyle = {
+        display: 'flex',
+        minHeight: '88px',
+        boxShadow: '1px 1px 5px 1px #000, -1px -1px 5px 1px #000',
+    };
     const langButtonContainerStyle = {
         flexGrow: '1',
         display: 'flex',
@@ -19,7 +24,7 @@ const NavBar = (props) => {
                    expand="lg"
                    bg="dark"
                    variant="dark"
-                   style={{display: 'flex', minHeight: '88px'}}>
+                   style={navbarStyle}>
         <Navbar.Toggle style={{margin: '1rem'}}
                        aria-controls="responsive-navbar-nav"/>
         <Navbar.Collapse id="responsive-navbar-nav" style={{flexGrow: '15'}}>

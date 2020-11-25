@@ -13,7 +13,7 @@ const AboutUs = (props) => {
         lineHeight: screensize ? '2.5rem' : '2rem',
         fontWeight: '600',
         fontSize: screensize ? '1.2rem' : '1.1rem',
-        ...props.language.STYLES.TEXTDIRECTION
+        ...props.language.STYLES.TEXTDIRECTION,
     };
 
     return <div style={{display: 'inline-block', width: '100%'}}>
