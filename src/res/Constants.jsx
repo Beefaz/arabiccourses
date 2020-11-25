@@ -47,7 +47,7 @@ export const LANGUAGES = {
                 'Vieną kursą sudaro 20 pamokų (40 akademinių valandų).\n' +
                 'Visa mokymo medžiaga atsiunčiama el. paštu.\n' +
                 'Naujos grupės formuojamos kas du mėnesius arba susidarius grupei iš 4 vienodo lygio žmonių.\n' +
-                'Artimiausia A1 lygio kurso pradžia 202ą m. sausio 11 d.\n' +
+                'Artimiausia A1 lygio kurso pradžia 2021 m. sausio 11 d.\n' +
                 'Registracija el. paštu:'
         },
         ABOUTUS: 'Naujoji arabų kalbos studija Vilniaus centre kviečia mokytis arabų kalbos individualiai arba mažose grupėse (nuo 2 iki 4 žmonių).\n'+
@@ -74,16 +74,23 @@ export const LANGUAGES = {
                 'Full course consists of 20 lessons (40 academic hours).\n' +
                 'All course material will be provided by e-mail.\n' +
                 'New groups are formed each 2 months or when there is 4 people of same level to form a group.\n' +
-                'Closest A1 level course start - 2020 October 6th.\n' +
+                'Closest A1 level course start - 2020 January 11th.\n' +
                 'Sign up:'
         },
-        ABOUTUS: 'New Arabic language studio in Vilnius Center invite you to learn Arabic individually or in small groups (2 to 4 people). A teacher from an Arab country with more than eight years of teaching experience, either individually, collectively or remotely.'
+        ABOUTUS: 'New Arabic language studio in Vilnius Center invite you to learn Arabic individually or in small groups (2 to 4 people).\n'+
+            'A teacher from an Arab country with more than eight years of teaching experience, either individually, collectively or remotely.\n' +
+            'During the lectures, we will not only teach grammar, correct spelling and speaking, but also share useful information about Arabic-speaking countries, their culture, traditions and information about events taking place in Lithuania that will involve you in the Arab world. All lecture teaching materials will be provided during the lectures.\n' +
+            '\n' +
+            'And to make studying even more enjoyable, we will serve you a cup of hot tea!\n' +
+            '\n' +
+            'In addition to training, we can also offer written and verbal translations from Lithuanian and English into Arabic. We also translate from Arabic.'
     },
     AR: {
         STYLES: {
             PHONEDIRECTION:{ direction: 'ltr', textAlign: 'end'},
             TEXTDIRECTION: { direction: 'rtl', textAlign: 'start'},
-            AVATARIMAGEFLOAT: 'left'
+            AVATARIMAGEFLOAT: 'left',
+            LOGOSFLOAT: {float: 'right'},
         },
         PAGE404: 'آسف. هذه الصفحة غير موجودة',
         LINKLABELS: ['معلومات','الدراسة عن  بعد', 'الدروس', 'معرض الصور','البريد و الهاتف'],
@@ -98,6 +105,7 @@ export const LANGUAGES = {
                 'يتم إرسال جميع المواد التدريبية عبر البريد الإلكتروني الأقرب إلى بداية دورة المستوى A1 في 2020. 6 \n' +
                 'أكتوبر التسجيل عبر البريد الإلكتروني:'
         },
-        ABOUTUS: 'استديو جديد للغة العربية في مركز فيلنيوس  ندعوك لتعلم اللغة العربية بشكل فردي أو مجموعات صغيرة (من 2 إلى 4 أشخاص).  مدرس من بلد عربي لده أكثر من ثماني سنوات من الخبرة في التدريس سواء بشكل فردي أو جماعي أو عن بعد.'
+        ABOUTUS: 'استديو جديد للغة العربية في مركز فيلنيوس  ندعوك لتعلم اللغة العربية بشكل فردي أو مجموعات صغيرة (من 2 إلى 4 أشخاص).\n' +
+            'مدرس من بلد عربي لده أكثر من ثماني سنوات من الخبرة في التدريس سواء بشكل فردي أو جماعي أو عن بعد.'
     }
 };

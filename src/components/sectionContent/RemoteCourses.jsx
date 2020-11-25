@@ -12,7 +12,13 @@ export const RemoteCourses = (props) => {
         lineHeight: screensize ? '2.5rem' : '2rem',
         fontWeight: '600',
         fontSize: screensize ? '1.2rem' : '1.1rem',
-        ...props.language.STYLES.TEXTDIRECTION
+        ...props.language.STYLES.TEXTDIRECTION,
+    };
+    const logoStyle = {
+        lineHeight: screensize ? '2.5rem' : '2rem',
+        fontWeight: '600',
+        fontSize: screensize ? '1.2rem' : '1.1rem',
+        ...props.language.STYLES.LOGOSFLOAT,
     };
 
     return <div>
@@ -20,7 +26,7 @@ export const RemoteCourses = (props) => {
         <Row>
             <Col md={12} lg={6}>
                 {newLinesToComponents('h4', textStyle, props.language.REMOTECOURSES.TEXT1)}
-                <h4 style={textStyle}>
+                <h4 style={logoStyle}>
                     <Logo {...LOGOS.GOOGLE}/>
                     <span style={{paddingLeft: '1rem'}}/>
                     <Logo {...LOGOS.SKYPE}/>
