@@ -41,7 +41,7 @@ const Contacts = (props) => {
                 </div>
                 <div>
                     <p style={bolder}>{props.language.FB}</p>
-                    <p> <a href="https://www.facebook.com/pages/category/Language-School/Arabu-Kalba-100786425111302/" target="_blank">{props.language.JOIN}</a></p>
+                    <p> <a  target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/pages/category/Language-School/Arabu-Kalba-100786425111302/">{props.language.JOIN}</a></p>
                 </div>
             </div>
         </Col>
