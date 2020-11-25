@@ -48,7 +48,7 @@ const Gallery = (props) => {
         <Row style={rowStyle}>
             {GALLERY_IMAGES.map(
                 (image, index) => (
-                    <Col xs={4} sm={3} md={2} lg={1} key={index} style={colStyle}>
+                    <Col xs={4} sm={3} md={3} lg={2} key={index} style={colStyle}>
                         <div style={imageWrapperStyle}
                              onMouseOver={(e) => e.currentTarget.style.borderStyle = 'inset'}
                              onMouseOut={(e) => e.currentTarget.style.borderStyle = 'outset'}>

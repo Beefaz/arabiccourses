@@ -11,7 +11,7 @@ const NavBar = (props) => {
     const navbarStyle = {
         display: 'flex',
         minHeight: '88px',
-        boxShadow: '1px 1px 5px 1px #000, -1px -1px 5px 1px #000',
+        boxShadow: '5px 5px 10px 2px, -5px -5px 10px 2px',
     };
     const langButtonContainerStyle = {
         flexGrow: '1',

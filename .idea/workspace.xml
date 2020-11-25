@@ -3,13 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="e941f123-fb92-418a-82fe-f1ed01a19c98" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/iframeBlock/IframeBlock.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/iframeBlock/IframeBlock.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/images/AvatarImage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/images/AvatarImage.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/section/Section.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/section/Section.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/sectionContent/AboutUs.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/sectionContent/AboutUs.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/navbar/Navbar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/navbar/Navbar.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/sectionContent/Contacts.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/sectionContent/Contacts.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/sectionContent/Gallery.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/sectionContent/Gallery.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/sectionContent/RemoteCourses.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/sectionContent/RemoteCourses.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/res/Constants.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/res/Constants.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -185,7 +181,7 @@
       <workItem from="1605970816111" duration="12757000" />
       <workItem from="1605996172076" duration="77000" />
       <workItem from="1606243037224" duration="420000" />
-      <workItem from="1606312910767" duration="7505000" />
+      <workItem from="1606312910767" duration="10574000" />
     </task>
     <task id="LOCAL-00001" summary=".">
       <created>1599928706613</created>
@@ -376,7 +372,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606315286500</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="fixed some styling issues, added new text,&#10;added shadows">
+      <created>1606322999764</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1606322999764</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -407,7 +410,8 @@
     <MESSAGE value="added missing translations,&#10;added proper styling for arabic language (reversed)" />
     <MESSAGE value="updated Boostrap,&#10;added IframeBlock.jsx to show spinner while loading videos or google maps.&#10;changed photos in Gallery.jsx&#10;added additional text in AboutUs section&#10;changed styling of background, to match all screen sizes" />
     <MESSAGE value="fixed some styling issues, added new text" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed some styling issues, added new text" />
+    <MESSAGE value="fixed some styling issues, added new text,&#10;added shadows" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed some styling issues, added new text,&#10;added shadows" />
   </component>
   <component name="WindowStateProjectService">
     <state x="565" y="239" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1600600961713">
@@ -418,10 +422,10 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="530" y="179" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1600.860@0.0.1600.860" timestamp="1600526387908" />
-    <state x="455" y="0" key="CommitChangelistDialog2" timestamp="1606322979048">
+    <state x="455" y="0" key="CommitChangelistDialog2" timestamp="1606322997198">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="455" y="0" key="CommitChangelistDialog2/0.0.1600.860@0.0.1600.860" timestamp="1606322979048" />
+    <state x="455" y="0" key="CommitChangelistDialog2/0.0.1600.860@0.0.1600.860" timestamp="1606322997198" />
     <state x="546" y="107" width="921" height="660" key="DiffContextDialog" timestamp="1599931757512">
       <screen x="0" y="0" width="1600" height="860" />
     </state>

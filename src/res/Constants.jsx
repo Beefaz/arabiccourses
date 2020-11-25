@@ -38,6 +38,8 @@ export const LANGUAGES = {
         EMAIL: 'El-paštas:',
         ADDRESS: 'Adresas:',
         PHONE: 'Telefonas:',
+        FB: 'Facebook:',
+        JOIN: 'Prisijunkite prie mūsų grupės',
         REMOTECOURSES: {
             TEXT1: 'Užsiėmimai vyksta jums patogiu laiku.\n' +
                 'Pirma pamoka nemokama.\n' +
@@ -52,9 +54,9 @@ export const LANGUAGES = {
         },
         ABOUTUS: 'Naujoji arabų kalbos studija Vilniaus centre kviečia mokytis arabų kalbos individualiai arba mažose grupėse (nuo 2 iki 4 žmonių).\n'+
             'Mokytojas iš arabų šalies, turintis daugiau nei aštuonerių metų mokymo patirtį tiek individualiai, tiek grupėmis, tiek nuotoliniu būdu.\n'+
-            'Paskaitų metu ne tik mokysime gramatikos, taisyklingos rašybos bei kalbėsenos, bet ir pasidalinsime naudinga informacija apie arabiškai kalbančias šalis, jų kultūrą, tradicijas bei informacija apie Lietuvoje vykstančius renginius, kurie įtrauks Jus į arabiškąjį pasaulį. Visa paskaitų mokymo medžiaga bus pateikiama paskaitų metu.\n' +
+            'Pamokų metu ne tik mokysime gramatikos, taisyklingos rašybos bei kalbėsenos, bet ir pasidalinsime naudinga informacija apie arabiškai kalbančias šalis, jų kultūrą, tradicijas bei informacija apie Lietuvoje vykstančius renginius, kurie įtrauks Jus į arabiškąjį pasaulį. Visa mokymo medžiaga bus pateikiama pamokų metu.\n' +
             'O kad mokytis būtų dar maloniau, pavaišinsime karštos arbatos puodeliu!\n ' +
-            'Be mokymų galime pasiųlyti ir vertimus raštu ir žodžiu iš lietuvių ir anglų kalbų į arabų kalbą. Taip pat verčiame iš arabų kalbos.'
+            'Be mokymų galime pasiūlyti vertimus raštu bei žodžiu iš lietuvių ir anglų kalbų į arabų kalbą. Taip pat verčiame iš arabų kalbos.'
 },
     EN: {
         STYLES: {
@@ -65,6 +67,8 @@ export const LANGUAGES = {
         EMAIL: 'E-mail:',
         ADDRESS: 'Address:',
         PHONE: 'Phone:',
+        FB: 'Facebook:',
+        JOIN: 'Join our group',
         REMOTECOURSES: {
             TEXT1: 'Courses can be scheduled for any time.\n' +
                 'First lesson for free.\n' +
@@ -79,7 +83,7 @@ export const LANGUAGES = {
         },
         ABOUTUS: 'New Arabic language studio in Vilnius Center invite you to learn Arabic individually or in small groups (2 to 4 people).\n'+
             'A teacher from an Arab country with more than eight years of teaching experience, either individually, collectively or remotely.\n' +
-            'During the lectures, we will not only teach grammar, correct spelling and speaking, but also share useful information about Arabic-speaking countries, their culture, traditions and information about events taking place in Lithuania that will involve you in the Arab world. All lecture teaching materials will be provided during the lectures.\n' +
+            'During the lectures, we will not only teach grammar, correct spelling and speaking, but also share useful information about Arabic-speaking countries, their culture, traditions and information about events taking place in Lithuania that will involve you in the Arab world. All study materials will be provided during the lectures.\n' +
             '\n' +
             'And to make studying even more enjoyable, we will serve you a cup of hot tea!\n' +
             '\n' +
@@ -96,6 +100,8 @@ export const LANGUAGES = {
         EMAIL: 'البريد الإلكتروني:',
         ADDRESS: 'عنوان:',
         PHONE: 'رقم الهاتف:',
+        FB: 'فيسبوك:',
+        JOIN: 'انضم لمجموعتنا',
         REMOTECOURSES: {
             TEXT1: 'دورات عن بعد لمجموعات لا تزيد عن 4 أشخاص.\n' +
                 'الدروس تتم عن بعد من خلال:',
