@@ -25,7 +25,7 @@ export const LOGOS = {
         img: skypeLogo
     }
 };
-export const GALLERY_IMAGES = importAll(require.context('./img/gallery', false, /\.(png|jpe?g|svg)$/));
+export const GALLERY_IMAGES = importAll(require.context('./img/gallery', false, /\.(png|jpe?g|svg|webp)$/));
 export const LINKS = ['/', '/remotecourses', '/lessons',  '/gallery', '/contacts'];
 export const FLAGS = [flagLT, flagEN, flagAR];
 export const LANGUAGES = {
