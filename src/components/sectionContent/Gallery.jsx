@@ -9,6 +9,10 @@ import {GALLERY_IMAGES} from "../../res/Constants"
 const Gallery = (props) => {
     const [modalShow, setModalShow] = useState(false);
     const [imageIndex, setImageIndex] = useState(0);
+    const openCarousel = (e) => {
+        e.preventDefault();
+        return e.key === 'Enter' && setModalShow(true);
+    };
 
     const rowStyle = {
         display: 'flex',
@@ -20,21 +24,23 @@ const Gallery = (props) => {
     };
     const imageWrapperStyle = {
         boxShadow: '1px 1px 5px 1px #000, -1px -1px 5px 1px #000',
-        color: 'red',
         border: '3px',
-        borderStyle: 'outset',
+        borderStyle: 'inset',
+        backgroundColor: 'rgba(226,157,73,1)',
         borderColor: 'rgba(226,157,73,1)',
         display: 'flex',
         alignItems: 'center',
         height: '100%',
         cursor: 'pointer',
         borderRadius: '10%',
+        overflow: 'hidden',
     };
     const imageStyle = {
         borderRadius: '10%',
-        backgroundColor: 'rgba(226,157,73,1)',
+        width: '100%',
+        objectFit: 'cover',
         borderStyle: 'none',
-        padding: '1px'
+        padding: '0px',
     };
 
     return <div>
@@ -49,9 +55,12 @@ const Gallery = (props) => {
             {GALLERY_IMAGES.map(
                 (image, index) => (
                     <Col xs={4} sm={3} md={3} lg={2} key={index} style={colStyle}>
-                        <div style={imageWrapperStyle}
-                             onMouseOver={(e) => e.currentTarget.style.borderStyle = 'inset'}
-                             onMouseOut={(e) => e.currentTarget.style.borderStyle = 'outset'}>
+                        <button style={imageWrapperStyle}
+                                onKeyPress={(e => openCarousel(e))}
+                                onMouseOver={(e) => e.currentTarget.style.borderStyle = 'inset'}
+                                onMouseOut={(e) => e.currentTarget.style.borderStyle = 'outset'}
+                                role="button"
+                                aria-label={'imageThumbnail'.concat(index.toString())}>
                             <Image src={image}
                                    alt=""
                                    thumbnail
@@ -60,7 +69,7 @@ const Gallery = (props) => {
                                        setModalShow(true);
                                        setImageIndex(index)
                                    }}/>
-                        </div>
+                        </button>
                     </Col>
                 ),
             )}

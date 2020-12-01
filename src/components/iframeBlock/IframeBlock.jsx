@@ -3,7 +3,7 @@ import {Spinner} from "react-bootstrap";
 import Iframe from "react-iframe";
 
 const IframeBlock = (props) => {
-    const [show, setShow] = useState(true);
+    const [spinnerShow, setSpinnerShow] = useState(true);
     const containerStyle = {
         boxShadow: '1px 1px 5px 1px, -1px -1px 5px 1px',
         display: 'flex',
@@ -25,12 +25,12 @@ const IframeBlock = (props) => {
 
     useEffect(() => {
         setTimeout(() => {
-            setShow(false);
+            setSpinnerShow(false);
         }, 1500);
-    }, [show, setShow]);
+    }, [spinnerShow, setSpinnerShow]);
 
     return <div style={containerStyle}>
-        {show && <div style={spinnerStyle}><Spinner animation="border" role="status"/></div>}
+        {spinnerShow && <div style={spinnerStyle}><Spinner animation="border" role="status"/></div>}
         <Iframe width="100%"
                 height="100%"
                 frameBorder="0"

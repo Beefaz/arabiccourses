@@ -12,6 +12,6 @@ status: 95% done. Waiting for more content to add.
 
 SEO rating (Lighthouse web tool - web.dev/measure): performance 84/100, accessibility 100/100, best practices 100/100, SEO 100/100.
 
-Need site traffic, so i would appreciate if you could spend some time and use this google search with 'arabu kalbos kursai' query nad click on www.arabiccourses.lt:
+Need site traffic, so i would appreciate if you could spend some time and use google search with 'arabu kalbos kursai' query and click on www.arabiccourses.lt:
 
 Site is already visible in 1st page on google search. Thanks!

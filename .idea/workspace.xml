@@ -3,9 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="e941f123-fb92-418a-82fe-f1ed01a19c98" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/res/img/gallery/119160502_100791735110771_7614592884645562947_o2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/res/img/gallery/Certificate.webp" beforeDir="false" afterPath="$PROJECT_DIR$/src/res/img/gallery/2Certificate.webp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/res/img/gallery/Lesson.webp" beforeDir="false" afterPath="$PROJECT_DIR$/src/res/img/gallery/1Lesson.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/iframeBlock/IframeBlock.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/iframeBlock/IframeBlock.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/sectionContent/Gallery.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/sectionContent/Gallery.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +65,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/res/img/gallery" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../react-planes-app" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -182,7 +183,7 @@
       <workItem from="1606243037224" duration="420000" />
       <workItem from="1606312910767" duration="11357000" />
       <workItem from="1606328027029" duration="438000" />
-      <workItem from="1606843821204" duration="2707000" />
+      <workItem from="1606843821204" duration="8606000" />
     </task>
     <task id="LOCAL-00001" summary=".">
       <created>1599928706613</created>
@@ -422,7 +423,21 @@
       <option name="project" value="LOCAL" />
       <updated>1606855256958</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="renamed">
+      <created>1606856455380</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1606856455380</updated>
+    </task>
+    <task id="LOCAL-00036" summary="renamed">
+      <created>1606856485709</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1606856485709</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -433,7 +448,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/arabiccourses" />
     </ignored-roots>
-    <MESSAGE value="Added 'About us' section content, styles and translations" />
     <MESSAGE value="adjusted 'About us' image size for tablets" />
     <MESSAGE value="final adjustment of 'About us' image size for tablets/phones" />
     <MESSAGE value="test for persisting issue with improper image size of 'About us' section for tablets." />
@@ -458,7 +472,8 @@
     <MESSAGE value="added webp images loader." />
     <MESSAGE value="resized, converted gallery image" />
     <MESSAGE value="reworked photo (removed finger stamp, resized, converted to .webp)" />
-    <option name="LAST_COMMIT_MESSAGE" value="reworked photo (removed finger stamp, resized, converted to .webp)" />
+    <MESSAGE value="renamed" />
+    <option name="LAST_COMMIT_MESSAGE" value="renamed" />
   </component>
   <component name="WindowStateProjectService">
     <state x="565" y="239" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1600600961713">
@@ -469,38 +484,38 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="530" y="179" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1600.860@0.0.1600.860" timestamp="1600526387908" />
-    <state x="455" y="0" key="CommitChangelistDialog2" timestamp="1606856453614">
+    <state x="455" y="0" key="CommitChangelistDialog2" timestamp="1606862495956">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="455" y="0" key="CommitChangelistDialog2/0.0.1600.860@0.0.1600.860" timestamp="1606856453614" />
+    <state x="455" y="0" key="CommitChangelistDialog2/0.0.1600.860@0.0.1600.860" timestamp="1606862495956" />
     <state x="546" y="107" width="921" height="660" key="DiffContextDialog" timestamp="1599931757512">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="546" y="107" width="921" height="660" key="DiffContextDialog/0.0.1600.860@0.0.1600.860" timestamp="1599931757512" />
-    <state x="580" y="187" key="FileChooserDialogImpl" timestamp="1606843918676">
+    <state x="580" y="187" key="FileChooserDialogImpl" timestamp="1606859070483">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="580" y="187" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1606843918676" />
+    <state x="580" y="187" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1606859070483" />
     <state x="876" y="334" key="Github.ShareDialog" timestamp="1599931671966">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="876" y="334" key="Github.ShareDialog/0.0.1600.860@0.0.1600.860" timestamp="1599931671966" />
-    <state width="808" height="210" key="GridCell.Tab.0.bottom" timestamp="1606328469899">
+    <state width="807" height="210" key="GridCell.Tab.0.bottom" timestamp="1606860553512">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="808" height="210" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1606328469899" />
-    <state width="808" height="210" key="GridCell.Tab.0.center" timestamp="1606328469899">
+    <state width="807" height="210" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1606860553512" />
+    <state width="807" height="210" key="GridCell.Tab.0.center" timestamp="1606860553511">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="808" height="210" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1606328469899" />
-    <state width="808" height="210" key="GridCell.Tab.0.left" timestamp="1606328469899">
+    <state width="807" height="210" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1606860553511" />
+    <state width="807" height="210" key="GridCell.Tab.0.left" timestamp="1606860553511">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="808" height="210" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1606328469899" />
-    <state width="808" height="210" key="GridCell.Tab.0.right" timestamp="1606328469899">
+    <state width="807" height="210" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1606860553511" />
+    <state width="807" height="210" key="GridCell.Tab.0.right" timestamp="1606860553512">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="808" height="210" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1606328469899" />
+    <state width="807" height="210" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1606860553512" />
     <state width="778" height="270" key="GridCell.Tab.1.bottom" timestamp="1599406043347">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
@@ -549,10 +564,10 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state width="778" height="270" key="GridCell.Tab.3.right/0.0.1600.860@0.0.1600.860" timestamp="1599406043348" />
-    <state x="589" y="143" key="RollbackChangesDialog" timestamp="1606844457042">
+    <state x="589" y="143" key="RollbackChangesDialog" timestamp="1606860569290">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="589" y="143" key="RollbackChangesDialog/0.0.1600.860@0.0.1600.860" timestamp="1606844457042" />
+    <state x="589" y="143" key="RollbackChangesDialog/0.0.1600.860@0.0.1600.860" timestamp="1606860569290" />
     <state x="303" y="61" key="SettingsEditor" timestamp="1600445896115">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
