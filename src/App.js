@@ -4,7 +4,6 @@ import {BrowserRouter as Router, Switch, Route} from "react-router-dom";
 import Section from "./components/section/Section";
 import {LANGUAGES, LINKS} from "./res/Constants";
 import loadable from "@loadable/component";
-
 const Background = loadable(() => import('./components/images/Background'));
 
 const App = () => {

@@ -1,10 +1,11 @@
 import React from "react";
-import IframeBlock from "../iframeBlock/IframeBlock";
+import loadable$2 from "@loadable/component";
+const IframeBlock =  loadable$2(() => import("../iframeBlock/IframeBlock"));
 
 const Lessons = (props) => {
     return <div>
         {props.label}
-        <IframeBlock url={'https://www.youtube.com/embed/4-h4QW0J_Fk'}/>
+        <IframeBlock title='Lesson0' url={'https://www.youtube.com/embed/4-h4QW0J_Fk'}/>
     </div>
 };
 export default Lessons;

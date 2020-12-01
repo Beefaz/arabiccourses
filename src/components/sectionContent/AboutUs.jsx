@@ -1,10 +1,9 @@
 import React from "react";
 import image from "../../res/img/avatar.jpg"
 import {useMediaPredicate} from "react-media-hook";
-import loadable$2 from "@loadable/component";
+import loadable$1 from "@loadable/component";
 import {newLinesToComponents} from "../../res/Constants";
-
-const AvatarImage = loadable$2(() => import('../images/AvatarImage'));
+const AvatarImage = loadable$1(() => import('../images/AvatarImage'));
 
 const AboutUs = (props) => {
     const screensize = useMediaPredicate("(min-width: 400px)");
