@@ -3,6 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="e941f123-fb92-418a-82fe-f1ed01a19c98" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/img/gallery/119160502_100791735110771_7614592884645562947_o2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/img/gallery/Certificate.webp" beforeDir="false" afterPath="$PROJECT_DIR$/src/res/img/gallery/2Certificate.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/img/gallery/Lesson.webp" beforeDir="false" afterPath="$PROJECT_DIR$/src/res/img/gallery/1Lesson.webp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +64,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../react-planes-app" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/res/img/gallery" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -73,19 +76,19 @@
     <property name="settings.editor.selected.configurable" value="settings.nodejs" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\SOLO\Desktop\Web\React\arabiccourses\public" />
-      <recent name="C:\Users\SOLO\Desktop\Web\React\arabiccourses\src\res\img\gallery" />
-      <recent name="C:\Users\SOLO\Desktop\Web\React\arabiccourses\src\components\sectionContent" />
-      <recent name="C:\Users\SOLO\Desktop\Web\React\arabiccourses\src\res\img" />
-      <recent name="C:\Users\SOLO\Desktop\Web\React\arabiccourses\src\components\buttons" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\SOLO\Desktop\Web\React\arabiccourses\src\components\background" />
       <recent name="C:\Users\SOLO\Desktop\Web\React\arabiccourses\src\res\img\background" />
       <recent name="C:\Users\SOLO\Desktop\Web\React\arabiccourses\src\res\img\gallery" />
       <recent name="C:\Users\SOLO\Desktop\Web\React\arabiccourses\src\res\img\logo" />
       <recent name="C:\Users\SOLO\Desktop\Web\React\arabiccourses\public" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\SOLO\Desktop\Web\React\arabiccourses\src\res\img\gallery" />
+      <recent name="C:\Users\SOLO\Desktop\Web\React\arabiccourses\public" />
+      <recent name="C:\Users\SOLO\Desktop\Web\React\arabiccourses\src\components\sectionContent" />
+      <recent name="C:\Users\SOLO\Desktop\Web\React\arabiccourses\src\res\img" />
+      <recent name="C:\Users\SOLO\Desktop\Web\React\arabiccourses\src\components\buttons" />
     </key>
   </component>
   <component name="RunManager" selected="npm.npm start">
@@ -178,7 +181,8 @@
       <workItem from="1605996172076" duration="77000" />
       <workItem from="1606243037224" duration="420000" />
       <workItem from="1606312910767" duration="11357000" />
-      <workItem from="1606328027029" duration="298000" />
+      <workItem from="1606328027029" duration="438000" />
+      <workItem from="1606843821204" duration="2707000" />
     </task>
     <task id="LOCAL-00001" summary=".">
       <created>1599928706613</created>
@@ -383,7 +387,42 @@
       <option name="project" value="LOCAL" />
       <updated>1606326243912</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="fixed build error issue">
+      <created>1606328445323</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1606328445323</updated>
+    </task>
+    <task id="LOCAL-00031" summary="readme update">
+      <created>1606844614334</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1606844614334</updated>
+    </task>
+    <task id="LOCAL-00032" summary="added webp images loader.">
+      <created>1606844674831</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1606844674831</updated>
+    </task>
+    <task id="LOCAL-00033" summary="resized, converted gallery image">
+      <created>1606850271867</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1606850271867</updated>
+    </task>
+    <task id="LOCAL-00034" summary="reworked photo (removed finger stamp, resized, converted to .webp)">
+      <created>1606855256958</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1606855256958</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -394,8 +433,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/arabiccourses" />
     </ignored-roots>
-    <MESSAGE value="." />
-    <MESSAGE value="added more responsiveness for all screen sizes.&#10;changed most of text/component styling, sizes" />
     <MESSAGE value="Added 'About us' section content, styles and translations" />
     <MESSAGE value="adjusted 'About us' image size for tablets" />
     <MESSAGE value="final adjustment of 'About us' image size for tablets/phones" />
@@ -416,7 +453,12 @@
     <MESSAGE value="fixed some styling issues, added new text" />
     <MESSAGE value="fixed some styling issues, added new text,&#10;added shadows" />
     <MESSAGE value="changed navbar shadow, gallery item view, added fb links to contacts" />
-    <option name="LAST_COMMIT_MESSAGE" value="changed navbar shadow, gallery item view, added fb links to contacts" />
+    <MESSAGE value="fixed build error issue" />
+    <MESSAGE value="readme update" />
+    <MESSAGE value="added webp images loader." />
+    <MESSAGE value="resized, converted gallery image" />
+    <MESSAGE value="reworked photo (removed finger stamp, resized, converted to .webp)" />
+    <option name="LAST_COMMIT_MESSAGE" value="reworked photo (removed finger stamp, resized, converted to .webp)" />
   </component>
   <component name="WindowStateProjectService">
     <state x="565" y="239" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1600600961713">
@@ -427,38 +469,38 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="530" y="179" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1600.860@0.0.1600.860" timestamp="1600526387908" />
-    <state x="455" y="0" key="CommitChangelistDialog2" timestamp="1606326240844">
+    <state x="455" y="0" key="CommitChangelistDialog2" timestamp="1606856453614">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="455" y="0" key="CommitChangelistDialog2/0.0.1600.860@0.0.1600.860" timestamp="1606326240844" />
+    <state x="455" y="0" key="CommitChangelistDialog2/0.0.1600.860@0.0.1600.860" timestamp="1606856453614" />
     <state x="546" y="107" width="921" height="660" key="DiffContextDialog" timestamp="1599931757512">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="546" y="107" width="921" height="660" key="DiffContextDialog/0.0.1600.860@0.0.1600.860" timestamp="1599931757512" />
-    <state x="580" y="187" key="FileChooserDialogImpl" timestamp="1605991972688">
+    <state x="580" y="187" key="FileChooserDialogImpl" timestamp="1606843918676">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="580" y="187" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1605991972688" />
+    <state x="580" y="187" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1606843918676" />
     <state x="876" y="334" key="Github.ShareDialog" timestamp="1599931671966">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="876" y="334" key="Github.ShareDialog/0.0.1600.860@0.0.1600.860" timestamp="1599931671966" />
-    <state width="808" height="210" key="GridCell.Tab.0.bottom" timestamp="1606328413577">
+    <state width="808" height="210" key="GridCell.Tab.0.bottom" timestamp="1606328469899">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="808" height="210" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1606328413577" />
-    <state width="808" height="210" key="GridCell.Tab.0.center" timestamp="1606328413577">
+    <state width="808" height="210" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1606328469899" />
+    <state width="808" height="210" key="GridCell.Tab.0.center" timestamp="1606328469899">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="808" height="210" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1606328413577" />
-    <state width="808" height="210" key="GridCell.Tab.0.left" timestamp="1606328413561">
+    <state width="808" height="210" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1606328469899" />
+    <state width="808" height="210" key="GridCell.Tab.0.left" timestamp="1606328469899">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="808" height="210" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1606328413561" />
-    <state width="808" height="210" key="GridCell.Tab.0.right" timestamp="1606328413577">
+    <state width="808" height="210" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1606328469899" />
+    <state width="808" height="210" key="GridCell.Tab.0.right" timestamp="1606328469899">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="808" height="210" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1606328413577" />
+    <state width="808" height="210" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1606328469899" />
     <state width="778" height="270" key="GridCell.Tab.1.bottom" timestamp="1599406043347">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
@@ -507,6 +549,10 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state width="778" height="270" key="GridCell.Tab.3.right/0.0.1600.860@0.0.1600.860" timestamp="1599406043348" />
+    <state x="589" y="143" key="RollbackChangesDialog" timestamp="1606844457042">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="589" y="143" key="RollbackChangesDialog/0.0.1600.860@0.0.1600.860" timestamp="1606844457042" />
     <state x="303" y="61" key="SettingsEditor" timestamp="1600445896115">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
@@ -515,10 +561,10 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="392" y="165" key="Vcs.Push.Dialog.v2/0.0.1600.860@0.0.1600.860" timestamp="1600085128544" />
-    <state x="507" y="256" key="com.intellij.ide.util.TipDialog" timestamp="1606328025811">
+    <state x="507" y="256" key="com.intellij.ide.util.TipDialog" timestamp="1606843909547">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="507" y="256" key="com.intellij.ide.util.TipDialog/0.0.1600.860@0.0.1600.860" timestamp="1606328025811" />
+    <state x="507" y="256" key="com.intellij.ide.util.TipDialog/0.0.1600.860@0.0.1600.860" timestamp="1606843909547" />
     <state x="454" y="47" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1606322022229">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
