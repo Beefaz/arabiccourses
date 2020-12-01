@@ -11,7 +11,7 @@ const Gallery = (props) => {
     const [imageIndex, setImageIndex] = useState(0);
     const openCarousel = (e) => {
         e.preventDefault();
-        return e.key === 'Enter' && setModalShow(true);
+        return (e.key === 'Enter' || e.key === ' ') && setModalShow(true);
     };
 
     const rowStyle = {
