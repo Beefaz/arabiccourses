@@ -59,7 +59,6 @@ const Gallery = (props) => {
                                 onKeyPress={(e => openCarousel(e))}
                                 onMouseOver={(e) => e.currentTarget.style.borderStyle = 'inset'}
                                 onMouseOut={(e) => e.currentTarget.style.borderStyle = 'outset'}
-                                role="button"
                                 aria-label={'imageThumbnail'.concat(index.toString())}>
                             <Image src={image}
                                    alt=""
