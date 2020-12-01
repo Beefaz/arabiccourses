@@ -36,6 +36,7 @@ const IframeBlock = (props) => {
                 frameBorder="0"
                 aria-hidden="false"
                 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture; fullscreen"
+                title={props.title}
                 url={props.url}/>
     </div>
 };
