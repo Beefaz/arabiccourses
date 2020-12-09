@@ -3,10 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="e941f123-fb92-418a-82fe-f1ed01a19c98" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/sectionContent/AboutUs.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/sectionContent/AboutUs.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/sectionContent/Contacts.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/sectionContent/Contacts.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/sectionContent/Lessons.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/sectionContent/Lessons.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/images/AvatarImage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/images/AvatarImage.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +63,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../react-planes-app" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -183,7 +181,12 @@
       <workItem from="1606243037224" duration="420000" />
       <workItem from="1606312910767" duration="11357000" />
       <workItem from="1606328027029" duration="438000" />
-      <workItem from="1606843821204" duration="10267000" />
+      <workItem from="1606843821204" duration="10572000" />
+      <workItem from="1606864713861" duration="316000" />
+      <workItem from="1607016950804" duration="3199000" />
+      <workItem from="1607030499205" duration="171000" />
+      <workItem from="1607030997824" duration="75000" />
+      <workItem from="1607519543756" duration="2338000" />
     </task>
     <task id="LOCAL-00001" summary=".">
       <created>1599928706613</created>
@@ -458,7 +461,21 @@
       <option name="project" value="LOCAL" />
       <updated>1606862953046</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="added more code splitting. Testing for performance.">
+      <created>1606864059220</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1606864059220</updated>
+    </task>
+    <task id="LOCAL-00041" summary="added titles to iframe">
+      <created>1606864781270</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1606864781270</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -469,8 +486,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/arabiccourses" />
     </ignored-roots>
-    <MESSAGE value="test fix for slow bootstrap loading speed, to improve google page rating" />
-    <MESSAGE value="changed link of 'About us' section to appear as homepage.&#10;added link which returns wrong URL to homepage." />
     <MESSAGE value="added README.md" />
     <MESSAGE value="removed unused css to increase web speed&#10;made language buttons loadable using '@loadable', to increase web speed.&#10;&#10;lighthouse rating before update: 81" />
     <MESSAGE value="added AvatarImage.jsx for image in About us section.&#10;used @loadable to improve loading speed.&#10;lighthouse rating before update: 88/100" />
@@ -494,7 +509,9 @@
     <MESSAGE value="minor page description changes,&#10;added accessibility params on gallery thumbnail" />
     <MESSAGE value="added space button pressed on gallery thumbnails for accessability" />
     <MESSAGE value="removed aria button role (unnecessary)" />
-    <option name="LAST_COMMIT_MESSAGE" value="removed aria button role (unnecessary)" />
+    <MESSAGE value="added more code splitting. Testing for performance." />
+    <MESSAGE value="added titles to iframe" />
+    <option name="LAST_COMMIT_MESSAGE" value="added titles to iframe" />
   </component>
   <component name="WindowStateProjectService">
     <state x="565" y="239" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1600600961713">
@@ -505,38 +522,38 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="530" y="179" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1600.860@0.0.1600.860" timestamp="1600526387908" />
-    <state x="455" y="0" key="CommitChangelistDialog2" timestamp="1606862951992">
+    <state x="455" y="0" key="CommitChangelistDialog2" timestamp="1607522194083">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="455" y="0" key="CommitChangelistDialog2/0.0.1600.860@0.0.1600.860" timestamp="1606862951992" />
-    <state x="546" y="107" width="921" height="660" key="DiffContextDialog" timestamp="1599931757512">
+    <state x="455" y="0" key="CommitChangelistDialog2/0.0.1600.860@0.0.1600.860" timestamp="1607522194083" />
+    <state x="546" y="107" width="921" height="660" key="DiffContextDialog" timestamp="1607522079116">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="546" y="107" width="921" height="660" key="DiffContextDialog/0.0.1600.860@0.0.1600.860" timestamp="1599931757512" />
-    <state x="580" y="187" key="FileChooserDialogImpl" timestamp="1606859070483">
+    <state x="546" y="107" width="921" height="660" key="DiffContextDialog/0.0.1600.860@0.0.1600.860" timestamp="1607522079116" />
+    <state x="580" y="187" key="FileChooserDialogImpl" timestamp="1607519562095">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="580" y="187" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1606859070483" />
+    <state x="580" y="187" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1607519562095" />
     <state x="876" y="334" key="Github.ShareDialog" timestamp="1599931671966">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="876" y="334" key="Github.ShareDialog/0.0.1600.860@0.0.1600.860" timestamp="1599931671966" />
-    <state width="807" height="210" key="GridCell.Tab.0.bottom" timestamp="1606860553512">
+    <state width="806" height="210" key="GridCell.Tab.0.bottom" timestamp="1607522023250">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="807" height="210" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1606860553512" />
-    <state width="807" height="210" key="GridCell.Tab.0.center" timestamp="1606860553511">
+    <state width="806" height="210" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1607522023250" />
+    <state width="806" height="210" key="GridCell.Tab.0.center" timestamp="1607522023250">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="807" height="210" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1606860553511" />
-    <state width="807" height="210" key="GridCell.Tab.0.left" timestamp="1606860553511">
+    <state width="806" height="210" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1607522023250" />
+    <state width="806" height="210" key="GridCell.Tab.0.left" timestamp="1607522023249">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="807" height="210" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1606860553511" />
-    <state width="807" height="210" key="GridCell.Tab.0.right" timestamp="1606860553512">
+    <state width="806" height="210" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1607522023249" />
+    <state width="806" height="210" key="GridCell.Tab.0.right" timestamp="1607522023250">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="807" height="210" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1606860553512" />
+    <state width="806" height="210" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1607522023250" />
     <state width="778" height="270" key="GridCell.Tab.1.bottom" timestamp="1599406043347">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
@@ -597,10 +614,10 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="392" y="165" key="Vcs.Push.Dialog.v2/0.0.1600.860@0.0.1600.860" timestamp="1600085128544" />
-    <state x="507" y="256" key="com.intellij.ide.util.TipDialog" timestamp="1606843909547">
+    <state x="507" y="256" key="com.intellij.ide.util.TipDialog" timestamp="1607017330352">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="507" y="256" key="com.intellij.ide.util.TipDialog/0.0.1600.860@0.0.1600.860" timestamp="1606843909547" />
+    <state x="507" y="256" key="com.intellij.ide.util.TipDialog/0.0.1600.860@0.0.1600.860" timestamp="1607017330352" />
     <state x="454" y="47" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1606322022229">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
