@@ -49,7 +49,7 @@ export const LANGUAGES = {
                 'Vieną kursą sudaro 20 pamokų (40 akademinių valandų).\n' +
                 'Visa mokymo medžiaga atsiunčiama el. paštu.\n' +
                 'Naujos grupės formuojamos kas du mėnesius arba susidarius grupei iš 4 vienodo lygio žmonių.\n' +
-                'Artimiausia A1 lygio kurso pradžia 2021 m. sausio 11 d.\n' +
+                'Artimiausia A1 lygio kurso pradžia 2021 m. vasario 22 d.\n' +
                 'Registracija el. paštu:'
         },
         ABOUTUS: 'Naujoji arabų kalbos studija Vilniaus centre kviečia mokytis arabų kalbos individualiai arba mažose grupėse (nuo 2 iki 4 žmonių).\n' +
@@ -78,7 +78,7 @@ export const LANGUAGES = {
                 'Full course consists of 20 lessons (40 academic hours).\n' +
                 'All course material will be provided by e-mail.\n' +
                 'New groups are formed each 2 months or when there is 4 people of same level to form a group.\n' +
-                'Closest A1 level course start - 2020 January 11th.\n' +
+                'Closest A1 level course start - 2021 February 22nd.\n' +
                 'Sign up:'
         },
         ABOUTUS: 'New Arabic language studio in Vilnius Center invite you to learn Arabic individually or in small groups (2 to 4 people).\n' +
@@ -107,7 +107,7 @@ export const LANGUAGES = {
                 'الدروس تتم عن بعد من خلال:',
             TEXT2: 'مدة الدرس الواحد - 90 دقيقة.\n' +
                 'تتكون الدورة الكاملة من 20 درسًا.\n' +
-                'تبدأ أقرب دورة مستوى A1 في 11 يناير 2020.\n' +
+                'تبدأ أقرب دورة مستوى A1 في 22 فيفري 2021.\n' +
                 'يتم تشكيل مجموعات جديدة كل شهرين أو عندما يكون هناك 4 أشخاص من نفس المستوى لتشكيل مجموعة.\n' +
                 'التسجيل\n'
         },
