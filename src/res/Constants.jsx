@@ -9,20 +9,18 @@ import 'moment/locale/ar-tn';
 import 'moment/locale/lt';
 import React from "react";
 
+const importAll = r => r.keys().map(r);
+
 export const nextDateOfCourses = () => {
-    let startDate = moment('2021-03-22');
+    let startDate = moment('2021-02-22');
     let newDate = moment();
-    if (newDate.isBefore(startDate)){
-        newDate = startDate;
-    } else {
-        while (newDate.isAfter(startDate)) {
-           newDate = startDate.add(102, 'day').calendar();
-        }
+    while (newDate.isAfter(startDate)) {
+            startDate.add(42, 'day').calendar();
     }
+    newDate = startDate;
     return {EN_TIME: newDate.locale('en-gb').format('LL'), LT_TIME: newDate.locale('lt').format('LL'), AR_TIME: newDate.locale('ar-tn').format('LL')};
 };
 
-const importAll = r => r.keys().map(r);
 export const newLinesToComponents = (HTMLComponentString, styleProp, content) => {
     return content.split('\n').map((lineText, index) => React.createElement(HTMLComponentString, {
         style: styleProp,
