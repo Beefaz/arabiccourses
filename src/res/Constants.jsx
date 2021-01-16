@@ -3,7 +3,24 @@ import flagLT from './img/languageFlags/ltflag.png'
 import flagEN from './img/languageFlags/ukflag.png'
 import skypeLogo from '../res/img/logo/skype.png'
 import googleMeetLogo from '../res/img/logo/googleMeet.png'
+import moment from "moment";
+import 'moment/locale/en-gb';
+import 'moment/locale/ar-tn';
+import 'moment/locale/lt';
 import React from "react";
+
+export const nextDateOfCourses = () => {
+    let startDate = moment('2021-03-22');
+    let newDate = moment();
+    if (newDate.isBefore(startDate)){
+        newDate = startDate;
+    } else {
+        while (newDate.isAfter(startDate)) {
+           newDate = startDate.add(102, 'day').calendar();
+        }
+    }
+    return {EN_TIME: newDate.locale('en-gb').format('LL'), LT_TIME: newDate.locale('lt').format('LL'), AR_TIME: newDate.locale('ar-tn').format('LL')};
+};
 
 const importAll = r => r.keys().map(r);
 export const newLinesToComponents = (HTMLComponentString, styleProp, content) => {
@@ -49,7 +66,7 @@ export const LANGUAGES = {
                 'Vieną kursą sudaro 20 pamokų (40 akademinių valandų).\n' +
                 'Visa mokymo medžiaga atsiunčiama el. paštu.\n' +
                 'Naujos grupės formuojamos kas du mėnesius arba susidarius grupei iš 4 vienodo lygio žmonių.\n' +
-                'Artimiausia A1 lygio kurso pradžia 2021 m. vasario 22 d.\n' +
+                'Artimiausia A1 lygio kurso pradžia '+nextDateOfCourses().LT_TIME+'\n' +
                 'Registracija el. paštu:'
         },
         ABOUTUS: 'Naujoji arabų kalbos studija Vilniaus centre kviečia mokytis arabų kalbos individualiai arba mažose grupėse (nuo 2 iki 4 žmonių).\n' +
@@ -78,7 +95,7 @@ export const LANGUAGES = {
                 'Full course consists of 20 lessons (40 academic hours).\n' +
                 'All course material will be provided by e-mail.\n' +
                 'New groups are formed each 2 months or when there is 4 people of same level to form a group.\n' +
-                'Closest A1 level course start - 2021 February 22nd.\n' +
+                'Closest A1 level course start - '+nextDateOfCourses().EN_TIME+'\n' +
                 'Sign up:'
         },
         ABOUTUS: 'New Arabic language studio in Vilnius Center invite you to learn Arabic individually or in small groups (2 to 4 people).\n' +
@@ -107,7 +124,7 @@ export const LANGUAGES = {
                 'الدروس تتم عن بعد من خلال:',
             TEXT2: 'مدة الدرس الواحد - 90 دقيقة.\n' +
                 'تتكون الدورة الكاملة من 20 درسًا.\n' +
-                'تبدأ أقرب دورة مستوى A1 في 22 فيفري 2021.\n' +
+                'تبدأ أقرب دورة مستوى A1 في '+nextDateOfCourses().AR_TIME+'.\n' +
                 'يتم تشكيل مجموعات جديدة كل شهرين أو عندما يكون هناك 4 أشخاص من نفس المستوى لتشكيل مجموعة.\n' +
                 'التسجيل\n'
         },

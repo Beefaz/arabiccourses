@@ -26,6 +26,7 @@ const Gallery = (props) => {
         boxShadow: '1px 1px 5px 1px #000, -1px -1px 5px 1px #000',
         border: '3px',
         borderStyle: 'inset',
+        padding: '3px',
         backgroundColor: 'rgba(226,157,73,1)',
         borderColor: 'rgba(226,157,73,1)',
         display: 'flex',
@@ -36,11 +37,12 @@ const Gallery = (props) => {
         overflow: 'hidden',
     };
     const imageStyle = {
-        borderRadius: '10%',
+        height: '100%',
         width: '100%',
-        objectFit: 'cover',
-        borderStyle: 'none',
-        padding: '0px',
+        padding: '0',
+        margin: 'auto',
+        border: '0',
+        borderRadius: '10%',
     };
 
     return <div>
