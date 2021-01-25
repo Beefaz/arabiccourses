@@ -5,7 +5,8 @@ const IframeBlock =  loadable$2(() => import("../iframeBlock/IframeBlock"));
 const Lessons = (props) => {
     return <div>
         {props.label}
-        <IframeBlock title='Lesson0' url={'https://www.youtube.com/embed/4-h4QW0J_Fk'}/>
+        <IframeBlock title='Promo' url={'https://www.youtube.com/embed/4ybn3kKuu3I'}/>
+        <IframeBlock title='Lesson' url={'https://www.youtube.com/embed/4-h4QW0J_Fk'}/>
     </div>
 };
 export default Lessons;

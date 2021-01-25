@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e941f123-fb92-418a-82fe-f1ed01a19c98" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/debug.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/res/Constants.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/res/Constants.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/sectionContent/Lessons.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/sectionContent/Lessons.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -192,7 +191,10 @@
       <workItem from="1609849432776" duration="78000" />
       <workItem from="1610635166468" duration="473000" />
       <workItem from="1610759254871" duration="10135000" />
-      <workItem from="1610803442439" duration="3360000" />
+      <workItem from="1610803442439" duration="3643000" />
+      <workItem from="1610807279604" duration="125000" />
+      <workItem from="1611359369565" duration="104000" />
+      <workItem from="1611582982410" duration="272000" />
     </task>
     <task id="LOCAL-00001" summary=".">
       <created>1599928706613</created>
@@ -509,7 +511,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610769394062</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="bugfix for automatic increment of course dates.">
+      <created>1610807061930</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1610807061930</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -520,7 +529,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/arabiccourses" />
     </ignored-roots>
-    <MESSAGE value="added robots.txt" />
     <MESSAGE value="changed div to button for aria accessibility (selectable with keyboard)" />
     <MESSAGE value="minor code changes" />
     <MESSAGE value="added @loadable Background.jsx to increase load speed.&#10;removed unused divs&#10;changed some styling params" />
@@ -545,52 +553,53 @@
     <MESSAGE value="added arabic translations" />
     <MESSAGE value="new dates of courses" />
     <MESSAGE value="added automatic increment of course dates.&#10;fixed minor style issue in gallery thumbnail" />
-    <option name="LAST_COMMIT_MESSAGE" value="added automatic increment of course dates.&#10;fixed minor style issue in gallery thumbnail" />
+    <MESSAGE value="bugfix for automatic increment of course dates." />
+    <option name="LAST_COMMIT_MESSAGE" value="bugfix for automatic increment of course dates." />
   </component>
   <component name="WindowStateProjectService">
-    <state x="546" y="0" key="CommitChangelistDialog2" timestamp="1610769392916">
+    <state x="546" y="0" key="CommitChangelistDialog2" timestamp="1610807060905">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="455" y="0" key="CommitChangelistDialog2/0.0.1600.860@0.0.1600.860" timestamp="1607530263226" />
-    <state x="546" y="0" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1610769392916" />
+    <state x="546" y="0" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1610807060905" />
     <state x="546" y="107" width="921" height="660" key="DiffContextDialog" timestamp="1607522079116">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="546" y="107" width="921" height="660" key="DiffContextDialog/0.0.1600.860@0.0.1600.860" timestamp="1607522079116" />
-    <state x="696" y="226" key="FileChooserDialogImpl" timestamp="1609849505961">
+    <state x="696" y="226" key="FileChooserDialogImpl" timestamp="1611359468993">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="580" y="187" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1607786546571" />
-    <state x="696" y="226" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1609849505961" />
-    <state width="1860" height="278" key="GridCell.Tab.0.bottom" timestamp="1610807019387">
+    <state x="696" y="226" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1611359468993" />
+    <state width="1860" height="275" key="GridCell.Tab.0.bottom" timestamp="1611583290805">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="806" height="210" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1607525812930" />
-    <state width="1860" height="278" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1610807019387" />
-    <state width="1860" height="278" key="GridCell.Tab.0.center" timestamp="1610807019386">
+    <state width="1860" height="275" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1611583290805" />
+    <state width="1860" height="275" key="GridCell.Tab.0.center" timestamp="1611583290805">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="806" height="210" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1607525812921" />
-    <state width="1860" height="278" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1610807019386" />
-    <state width="1860" height="278" key="GridCell.Tab.0.left" timestamp="1610807019386">
+    <state width="1860" height="275" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1611583290805" />
+    <state width="1860" height="275" key="GridCell.Tab.0.left" timestamp="1611583290804">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="806" height="210" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1607525812917" />
-    <state width="1860" height="278" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1610807019386" />
-    <state width="1860" height="278" key="GridCell.Tab.0.right" timestamp="1610807019387">
+    <state width="1860" height="275" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1611583290804" />
+    <state width="1860" height="275" key="GridCell.Tab.0.right" timestamp="1611583290805">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="806" height="210" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1607525812921" />
-    <state width="1860" height="278" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1610807019387" />
+    <state width="1860" height="275" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1611583290805" />
     <state x="589" y="143" key="RollbackChangesDialog" timestamp="1606860569290">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="589" y="143" key="RollbackChangesDialog/0.0.1600.860@0.0.1600.860" timestamp="1606860569290" />
-    <state x="608" y="310" key="com.intellij.ide.util.TipDialog" timestamp="1610803443642">
+    <state x="608" y="310" key="com.intellij.ide.util.TipDialog" timestamp="1611359441689">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="507" y="256" key="com.intellij.ide.util.TipDialog/0.0.1600.860@0.0.1600.860" timestamp="1607786422002" />
-    <state x="608" y="310" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1610803443642" />
+    <state x="608" y="310" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1611359441689" />
     <state x="454" y="47" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1606322022229">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
