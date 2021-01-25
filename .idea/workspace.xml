@@ -194,7 +194,7 @@
       <workItem from="1610803442439" duration="3643000" />
       <workItem from="1610807279604" duration="125000" />
       <workItem from="1611359369565" duration="104000" />
-      <workItem from="1611582982410" duration="272000" />
+      <workItem from="1611582982410" duration="2568000" />
     </task>
     <task id="LOCAL-00001" summary=".">
       <created>1599928706613</created>
@@ -518,7 +518,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610807061930</updated>
     </task>
-    <option name="localTasksCounter" value="47" />
+    <task id="LOCAL-00047" summary="added new video, added additional text in arabic">
+      <created>1611583318470</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1611583318470</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -529,7 +536,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/arabiccourses" />
     </ignored-roots>
-    <MESSAGE value="changed div to button for aria accessibility (selectable with keyboard)" />
     <MESSAGE value="minor code changes" />
     <MESSAGE value="added @loadable Background.jsx to increase load speed.&#10;removed unused divs&#10;changed some styling params" />
     <MESSAGE value="fixed issue when aria-label wasn't showing in html&#10;changed button images to 1:1 ratio, reduced image size" />
@@ -554,14 +560,15 @@
     <MESSAGE value="new dates of courses" />
     <MESSAGE value="added automatic increment of course dates.&#10;fixed minor style issue in gallery thumbnail" />
     <MESSAGE value="bugfix for automatic increment of course dates." />
-    <option name="LAST_COMMIT_MESSAGE" value="bugfix for automatic increment of course dates." />
+    <MESSAGE value="added new video, added additional text in arabic" />
+    <option name="LAST_COMMIT_MESSAGE" value="added new video, added additional text in arabic" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="546" y="0" key="CommitChangelistDialog2" timestamp="1610807060905">
+    <state x="546" y="0" key="CommitChangelistDialog2" timestamp="1611583317635">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="455" y="0" key="CommitChangelistDialog2/0.0.1600.860@0.0.1600.860" timestamp="1607530263226" />
-    <state x="546" y="0" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1610807060905" />
+    <state x="546" y="0" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1611583317635" />
     <state x="546" y="107" width="921" height="660" key="DiffContextDialog" timestamp="1607522079116">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
