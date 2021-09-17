@@ -8,27 +8,22 @@ const Lessons = (props) => {
     const colStyle = {
         padding: '1rem',
     };
+    const youtubeURLs = [
+        '4ybn3kKuu3I',
+        '9wv33WQdqOs',
+        'QqkuP_i9IsU',
+        'vcQNGeUj8C4',
+        'PxDTTD6aK5M',
+        '3r_h8FOABys'
+    ];
     return <div>
         {props.label}
         <Row>
-            <Col xs={12} md={6} lg={4} style={colStyle} >
-                <IframeBlock title='Promo' url={'https://www.youtube.com/embed/4ybn3kKuu3I'}/>
-            </Col>
-            <Col xs={12} md={6} lg={4} style={colStyle} >
-                <IframeBlock title='Promo' url={'https://www.youtube.com/embed/9wv33WQdqOs'}/>
-            </Col>
-            <Col xs={12} md={6} lg={4} style={colStyle} >
-                <IframeBlock title='Lesson' url={'https://www.youtube.com/embed/QqkuP_i9IsU'}/>
-            </Col>
-            <Col xs={12} md={6} lg={4} style={colStyle} >
-                <IframeBlock title='Lesson' url={'https://www.youtube.com/embed/vcQNGeUj8C4'}/>
-            </Col>
-            <Col xs={12} md={6} lg={4} style={colStyle} >
-                <IframeBlock title='Lesson' url={'https://www.youtube.com/embed/PxDTTD6aK5M'}/>
-            </Col>
-            <Col xs={12} md={6} lg={4} style={colStyle} >
-                <IframeBlock title='Lesson' url={'https://www.youtube.com/embed/3r_h8FOABys'}/>
-            </Col>
+            {youtubeURLs.map((url, key)=>
+                <Col xs={12} md={6} lg={4} style={colStyle} key={`video${key}`} >
+                  <IframeBlock url={`https://www.youtube.com/embed/${url}`}/>
+                </Col>
+            )}
         </Row>
     </div>
 };
