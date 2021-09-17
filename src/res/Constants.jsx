@@ -62,14 +62,16 @@ export const LANGUAGES = {
                 'Pamokos vyksta nuotoliniu būdu per:',
             TEXT2: 'Vienos pamokos trukmė 90 min.\n' +
                 'Vieną kursą sudaro 20 pamokų (40 akademinių valandų).\n' +
-                'Visa mokymo medžiaga atsiunčiama el. paštu.\n' +
+                'Visa mokymo medžiaga yra suteikiama nemokamai arba atsiunčiama el. paštu.\n' +
                 'Naujos grupės formuojamos kas du mėnesius arba susidarius grupei iš 4 vienodo lygio žmonių.\n' +
-                'Artimiausia A1 lygio kurso pradžia '+nextDateOfCourses().LT_TIME+'\n' +
+                'Šiuo metu kviečiame mokytis ir į savaitgalines grupes.\n' +
+                //'Artimiausia A1 lygio kurso pradžia '+nextDateOfCourses().LT_TIME+'\n' +
                 'Registracija el. paštu:'
         },
-        ABOUTUS: 'Naujoji arabų kalbos studija Vilniaus centre kviečia mokytis arabų kalbos individualiai arba mažose grupėse (nuo 2 iki 4 žmonių).\n' +
+        ABOUTUS: 'Arabų kalbos studija Vilniaus centre kviečia mokytis arabų kalbos individualiai arba mažose grupėse (nuo 2 iki 4 žmonių).\n' +
             'Mokytojas iš arabų šalies, turintis daugiau nei aštuonerių metų mokymo patirtį tiek individualiai, tiek grupėmis, tiek nuotoliniu būdu.\n' +
             'Pamokų metu ne tik mokysime gramatikos, taisyklingos rašybos bei kalbėsenos, bet ir pasidalinsime naudinga informacija apie arabiškai kalbančias šalis, jų kultūrą, tradicijas bei informacija apie Lietuvoje vykstančius renginius, kurie įtrauks Jus į arabiškąjį pasaulį. Visa mokymo medžiaga bus pateikiama pamokų metu.\n' +
+            'Užsiėmimai vyksta Lietuvių kalba.\n' +
             'O kad mokytis būtų dar maloniau, pavaišinsime karštos arbatos puodeliu!\n ' +
             'Be mokymų galime pasiūlyti vertimus raštu bei žodžiu iš lietuvių ir anglų kalbų į arabų kalbą. Taip pat verčiame iš arabų kalbos.'
     },
@@ -91,17 +93,17 @@ export const LANGUAGES = {
                 'Courses are available on:',
             TEXT2: 'Duration of one lesson - 90 minutes.\n' +
                 'Full course consists of 20 lessons (40 academic hours).\n' +
-                'All course material will be provided by e-mail.\n' +
+                'All course material will be provided free of charge or sent by e-mail.\n' +
                 'New groups are formed each 2 months or when there is 4 people of same level to form a group.\n' +
-                'Closest A1 level course start - '+nextDateOfCourses().EN_TIME+'\n' +
+                'Currently we invite to study in weekend groups.\n' +
+                //'Closest A1 level course start - '+nextDateOfCourses().EN_TIME+'\n' +
                 'Sign up:'
         },
-        ABOUTUS: 'New Arabic language studio in Vilnius Center invite you to learn Arabic individually or in small groups (2 to 4 people).\n' +
+        ABOUTUS: 'Arabic language studio in Vilnius Center invite you to learn Arabic individually or in small groups (2 to 4 people).\n' +
             'A teacher from an Arab country with more than eight years of teaching experience, either individually, collectively or remotely.\n' +
             'During the lectures, we will not only teach grammar, correct spelling and speaking, but also share useful information about Arabic-speaking countries, their culture, traditions and information about events taking place in Lithuania that will involve you in the Arab world. All study materials will be provided during the lectures.\n' +
-            '\n' +
+            'Lectures are held in Lithuanian, English or French languages\n' +
             'And to make studying even more enjoyable, we will serve you a cup of hot tea!\n' +
-            '\n' +
             'In addition to training, we can also offer written and verbal translations from Lithuanian and English into Arabic. We also translate from Arabic.'
     },
     AR: {
@@ -123,11 +125,11 @@ export const LANGUAGES = {
                 'الدروس تتم عن بعد من خلال:',
             TEXT2: 'مدة الدرس الواحد - 90 دقيقة.\n' +
                 'تتكون الدورة الكاملة من 20 درسًا.\n' +
-                'تبدأ أقرب دورة مستوى A1 في '+nextDateOfCourses().AR_TIME+'.\n' +
+                //'تبدأ أقرب دورة مستوى A1 في '+nextDateOfCourses().AR_TIME+'.\n' +
                 'يتم تشكيل مجموعات جديدة كل شهرين أو عندما يكون هناك 4 أشخاص من نفس المستوى لتشكيل مجموعة.\n' +
                 'التسجيل\n'
         },
-        ABOUTUS: 'استوديوجديد للغة العربية  في فيلنيوس لتعلم اللغة العربية بشكل فردي أو في مجموعات صغيرة (من 2 إلى 4 أشخاص).\n' +
+        ABOUTUS: 'استوديو للغة العربية  في فيلنيوس لتعلم اللغة العربية بشكل فردي أو في مجموعات صغيرة (من 2 إلى 4 أشخاص).\n' +
             '\n.مدرس من دولة عربية لديه أكثر من ثماني سنوات من الخبرة في تدريس ، سواء بشكل فردي أو جماعي أو عن بعد.' +
             'خلال الدرس ، لن نقوم فقط بتدريس القواعد اللغوية والتهجئة الصحيحة والتحدث ، ولكننا أيضًا نشارك معلومات مفيدة حول البلدان الناطقة باللغة العربية وثقافاتها وتقاليدها ومعلومات حول الأحداث التي تجري في ليتوانيا والتي ستشركك في العالم العربي. سيتم توفير جميع المواد الدراسية خلال الدروس\n' +
             'ولجعل الدراسة أكثر متعة ، سنقدم لك كوبًا من الشاي الساخن!\n' +

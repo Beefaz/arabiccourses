@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e941f123-fb92-418a-82fe-f1ed01a19c98" name="Default Changelist" comment="">
+    <list default="true" id="e941f123-fb92-418a-82fe-f1ed01a19c98" name="Default Changelist" comment="added thumbnail.png">
+      <change afterPath="$PROJECT_DIR$/public/avatar.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/sectionContent/Lessons.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/sectionContent/Lessons.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/Constants.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/res/Constants.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -11,9 +13,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ComposerSettings">
-    <execution>
-      <executable />
-    </execution>
+    <execution />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -54,7 +54,6 @@
   </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
@@ -72,6 +71,7 @@
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="yarn" />
     <property name="settings.editor.selected.configurable" value="settings.nodejs" />
+    <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -117,6 +117,7 @@
       </list>
     </option>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -194,7 +195,29 @@
       <workItem from="1610803442439" duration="3643000" />
       <workItem from="1610807279604" duration="125000" />
       <workItem from="1611359369565" duration="104000" />
-      <workItem from="1611582982410" duration="2568000" />
+      <workItem from="1611582982410" duration="3311000" />
+      <workItem from="1611618308115" duration="1763000" />
+      <workItem from="1611757499520" duration="1456000" />
+      <workItem from="1611762076993" duration="478000" />
+      <workItem from="1611762569517" duration="654000" />
+      <workItem from="1612182035120" duration="15000" />
+      <workItem from="1612182496759" duration="3129000" />
+      <workItem from="1612188771695" duration="6000" />
+      <workItem from="1612188790579" duration="7000" />
+      <workItem from="1612188811193" duration="21000" />
+      <workItem from="1612295088631" duration="575000" />
+      <workItem from="1612310555895" duration="32000" />
+      <workItem from="1612311057169" duration="64000" />
+      <workItem from="1612459836443" duration="88000" />
+      <workItem from="1613549473033" duration="319000" />
+      <workItem from="1613549979612" duration="134000" />
+      <workItem from="1613552043734" duration="917000" />
+      <workItem from="1613562852569" duration="33000" />
+      <workItem from="1618406961271" duration="14000" />
+      <workItem from="1623417918322" duration="2333000" />
+      <workItem from="1630084562633" duration="597000" />
+      <workItem from="1631894222767" duration="246000" />
+      <workItem from="1631900547344" duration="3139000" />
     </task>
     <task id="LOCAL-00001" summary=".">
       <created>1599928706613</created>
@@ -525,19 +548,31 @@
       <option name="project" value="LOCAL" />
       <updated>1611583318470</updated>
     </task>
-    <option name="localTasksCounter" value="48" />
+    <task id="LOCAL-00048" summary="added styling grid in video section">
+      <created>1611586360422</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1611586360422</updated>
+    </task>
+    <task id="LOCAL-00049" summary="added thumbnail.png">
+      <created>1611762265068</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1611762265069</updated>
+    </task>
+    <option name="localTasksCounter" value="50" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <ignored-roots>
       <path value="$PROJECT_DIR$/arabiccourses" />
     </ignored-roots>
-    <MESSAGE value="minor code changes" />
-    <MESSAGE value="added @loadable Background.jsx to increase load speed.&#10;removed unused divs&#10;changed some styling params" />
     <MESSAGE value="fixed issue when aria-label wasn't showing in html&#10;changed button images to 1:1 ratio, reduced image size" />
     <MESSAGE value="added missing translations,&#10;added proper styling for arabic language (reversed)" />
     <MESSAGE value="updated Boostrap,&#10;added IframeBlock.jsx to show spinner while loading videos or google maps.&#10;changed photos in Gallery.jsx&#10;added additional text in AboutUs section&#10;changed styling of background, to match all screen sizes" />
@@ -561,64 +596,8 @@
     <MESSAGE value="added automatic increment of course dates.&#10;fixed minor style issue in gallery thumbnail" />
     <MESSAGE value="bugfix for automatic increment of course dates." />
     <MESSAGE value="added new video, added additional text in arabic" />
-    <option name="LAST_COMMIT_MESSAGE" value="added new video, added additional text in arabic" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="546" y="0" key="CommitChangelistDialog2" timestamp="1611583317635">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="455" y="0" key="CommitChangelistDialog2/0.0.1600.860@0.0.1600.860" timestamp="1607530263226" />
-    <state x="546" y="0" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1611583317635" />
-    <state x="546" y="107" width="921" height="660" key="DiffContextDialog" timestamp="1607522079116">
-      <screen x="0" y="0" width="1600" height="860" />
-    </state>
-    <state x="546" y="107" width="921" height="660" key="DiffContextDialog/0.0.1600.860@0.0.1600.860" timestamp="1607522079116" />
-    <state x="696" y="226" key="FileChooserDialogImpl" timestamp="1611359468993">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="580" y="187" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1607786546571" />
-    <state x="696" y="226" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1611359468993" />
-    <state width="1860" height="275" key="GridCell.Tab.0.bottom" timestamp="1611583290805">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="806" height="210" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1607525812930" />
-    <state width="1860" height="275" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1611583290805" />
-    <state width="1860" height="275" key="GridCell.Tab.0.center" timestamp="1611583290805">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="806" height="210" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1607525812921" />
-    <state width="1860" height="275" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1611583290805" />
-    <state width="1860" height="275" key="GridCell.Tab.0.left" timestamp="1611583290804">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="806" height="210" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1607525812917" />
-    <state width="1860" height="275" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1611583290804" />
-    <state width="1860" height="275" key="GridCell.Tab.0.right" timestamp="1611583290805">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="806" height="210" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1607525812921" />
-    <state width="1860" height="275" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1611583290805" />
-    <state x="589" y="143" key="RollbackChangesDialog" timestamp="1606860569290">
-      <screen x="0" y="0" width="1600" height="860" />
-    </state>
-    <state x="589" y="143" key="RollbackChangesDialog/0.0.1600.860@0.0.1600.860" timestamp="1606860569290" />
-    <state x="608" y="310" key="com.intellij.ide.util.TipDialog" timestamp="1611359441689">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="507" y="256" key="com.intellij.ide.util.TipDialog/0.0.1600.860@0.0.1600.860" timestamp="1607786422002" />
-    <state x="608" y="310" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1611359441689" />
-    <state x="454" y="47" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1606322022229">
-      <screen x="0" y="0" width="1600" height="860" />
-    </state>
-    <state x="454" y="47" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1600.860@0.0.1600.860" timestamp="1606322022229" />
-    <state x="547" y="230" width="672" height="677" key="run.anything.popup" timestamp="1610806967476">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="456" y="190" key="run.anything.popup/0.0.1600.860@0.0.1600.860" timestamp="1606322811386" />
-    <state x="547" y="230" width="672" height="677" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1610806967476" />
-    <state x="623" y="229" width="672" height="678" key="search.everywhere.popup" timestamp="1610807034985">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="623" y="229" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1610807034985" />
+    <MESSAGE value="added styling grid in video section" />
+    <MESSAGE value="added thumbnail.png" />
+    <option name="LAST_COMMIT_MESSAGE" value="added thumbnail.png" />
   </component>
 </project>
