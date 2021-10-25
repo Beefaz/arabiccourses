@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="e941f123-fb92-418a-82fe-f1ed01a19c98" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/sectionContent/Lessons.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/sectionContent/Lessons.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/Constants.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/res/Constants.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -216,14 +216,10 @@
       <workItem from="1630084562633" duration="597000" />
       <workItem from="1631894222767" duration="246000" />
       <workItem from="1631900547344" duration="3948000" />
-      <workItem from="1631920581174" duration="1492000" />
-    </task>
-    <task id="LOCAL-00002" summary=".">
-      <created>1599930305611</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1599930305611</updated>
+      <workItem from="1631920581174" duration="1550000" />
+      <workItem from="1632115666338" duration="14000" />
+      <workItem from="1633547965753" duration="622000" />
+      <workItem from="1635187279341" duration="824000" />
     </task>
     <task id="LOCAL-00003" summary=".">
       <created>1599930793815</created>
@@ -561,18 +557,35 @@
       <option name="project" value="LOCAL" />
       <updated>1631904002899</updated>
     </task>
-    <option name="localTasksCounter" value="51" />
+    <task id="LOCAL-00051" summary="shortened code">
+      <created>1631922849758</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1631922849759</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <ignored-roots>
       <path value="$PROJECT_DIR$/arabiccourses" />
     </ignored-roots>
-    <MESSAGE value="fixed issue when aria-label wasn't showing in html&#10;changed button images to 1:1 ratio, reduced image size" />
     <MESSAGE value="added missing translations,&#10;added proper styling for arabic language (reversed)" />
     <MESSAGE value="updated Boostrap,&#10;added IframeBlock.jsx to show spinner while loading videos or google maps.&#10;changed photos in Gallery.jsx&#10;added additional text in AboutUs section&#10;changed styling of background, to match all screen sizes" />
     <MESSAGE value="fixed some styling issues, added new text" />
@@ -597,6 +610,7 @@
     <MESSAGE value="added new video, added additional text in arabic" />
     <MESSAGE value="added styling grid in video section" />
     <MESSAGE value="added thumbnail.png" />
-    <option name="LAST_COMMIT_MESSAGE" value="added thumbnail.png" />
+    <MESSAGE value="shortened code" />
+    <option name="LAST_COMMIT_MESSAGE" value="shortened code" />
   </component>
 </project>
