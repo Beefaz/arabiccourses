@@ -12,7 +12,7 @@ import React from "react";
 const importAll = r => r.keys().map(r);
 
 export const nextDateOfCourses = () => {
-    let startDate = moment('2021-11-16');
+    let startDate = moment('2022-01-03');
     let newDate = moment();
     while (newDate.isAfter(startDate)) {
             startDate.add(42, 'day').calendar();
