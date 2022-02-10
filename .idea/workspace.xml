@@ -1,8 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e941f123-fb92-418a-82fe-f1ed01a19c98" name="Default Changelist" comment="">
+    <list default="true" id="e941f123-fb92-418a-82fe-f1ed01a19c98" name="Default Changelist" comment="updated date">
+      <change afterPath="$PROJECT_DIR$/public/arabic2.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/img/logo.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/avatar.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/sectionContent/AboutUs.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/sectionContent/AboutUs.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/res/Constants.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/res/Constants.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -33,6 +38,14 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
   <component name="IgnoredFileRootStore">
     <option name="generatedRoots">
       <set>
@@ -59,7 +72,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../react-solitaire" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -72,19 +85,19 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\SOLO\Desktop\Web\React\arabiccourses\src\components\background" />
-      <recent name="C:\Users\SOLO\Desktop\Web\React\arabiccourses\src\res\img\background" />
-      <recent name="C:\Users\SOLO\Desktop\Web\React\arabiccourses\src\res\img\gallery" />
-      <recent name="C:\Users\SOLO\Desktop\Web\React\arabiccourses\src\res\img\logo" />
-      <recent name="C:\Users\SOLO\Desktop\Web\React\arabiccourses\public" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\SOLO\Desktop\Web\React\arabiccourses\src\res\img\gallery" />
       <recent name="C:\Users\SOLO\Desktop\Web\React\arabiccourses\public" />
       <recent name="C:\Users\SOLO\Desktop\Web\React\arabiccourses\src\components\sectionContent" />
       <recent name="C:\Users\SOLO\Desktop\Web\React\arabiccourses\src\res\img" />
       <recent name="C:\Users\SOLO\Desktop\Web\React\arabiccourses\src\components\buttons" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\justi\Desktop\Web\React\arabiccourses\public" />
+      <recent name="C:\Users\justi\Desktop\Web\React\arabiccourses\src\res\img" />
+      <recent name="C:\Users\justi\Desktop\Web\React\arabiccourses\src\res\img\logo" />
+      <recent name="C:\Users\SOLO\Desktop\Web\React\arabiccourses\src\components\background" />
+      <recent name="C:\Users\SOLO\Desktop\Web\React\arabiccourses\src\res\img\background" />
     </key>
   </component>
   <component name="RunManager" selected="npm.npm start">
@@ -220,20 +233,19 @@
       <workItem from="1632115666338" duration="14000" />
       <workItem from="1633547965753" duration="622000" />
       <workItem from="1635187279341" duration="824000" />
-    </task>
-    <task id="LOCAL-00003" summary=".">
-      <created>1599930793815</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1599930793815</updated>
-    </task>
-    <task id="LOCAL-00004" summary=".">
-      <created>1599931214342</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1599931214342</updated>
+      <workItem from="1638296783476" duration="835000" />
+      <workItem from="1639750758723" duration="33000" />
+      <workItem from="1642190139336" duration="411000" />
+      <workItem from="1643024617290" duration="301000" />
+      <workItem from="1643577673211" duration="376000" />
+      <workItem from="1643578488704" duration="26000" />
+      <workItem from="1643578703393" duration="718000" />
+      <workItem from="1643979847063" duration="2533000" />
+      <workItem from="1644008509411" duration="735000" />
+      <workItem from="1644103601635" duration="908000" />
+      <workItem from="1644146938054" duration="162000" />
+      <workItem from="1644221748265" duration="3000" />
+      <workItem from="1644499296921" duration="2759000" />
     </task>
     <task id="LOCAL-00005" summary=".">
       <created>1599932321001</created>
@@ -564,7 +576,21 @@
       <option name="project" value="LOCAL" />
       <updated>1631922849759</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL-00052" summary="updated date">
+      <created>1638296977800</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1638296977801</updated>
+    </task>
+    <task id="LOCAL-00053" summary="str converter from ąžšę to international">
+      <created>1644501586611</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1644501586611</updated>
+    </task>
+    <option name="localTasksCounter" value="54" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -580,14 +606,13 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <ignored-roots>
       <path value="$PROJECT_DIR$/arabiccourses" />
     </ignored-roots>
-    <MESSAGE value="added missing translations,&#10;added proper styling for arabic language (reversed)" />
-    <MESSAGE value="updated Boostrap,&#10;added IframeBlock.jsx to show spinner while loading videos or google maps.&#10;changed photos in Gallery.jsx&#10;added additional text in AboutUs section&#10;changed styling of background, to match all screen sizes" />
     <MESSAGE value="fixed some styling issues, added new text" />
     <MESSAGE value="fixed some styling issues, added new text,&#10;added shadows" />
     <MESSAGE value="changed navbar shadow, gallery item view, added fb links to contacts" />
@@ -611,6 +636,8 @@
     <MESSAGE value="added styling grid in video section" />
     <MESSAGE value="added thumbnail.png" />
     <MESSAGE value="shortened code" />
-    <option name="LAST_COMMIT_MESSAGE" value="shortened code" />
+    <MESSAGE value="updated date" />
+    <MESSAGE value="str converter from ąžšę to international" />
+    <option name="LAST_COMMIT_MESSAGE" value="str converter from ąžšę to international" />
   </component>
 </project>
