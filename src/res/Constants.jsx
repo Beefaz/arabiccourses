@@ -12,7 +12,7 @@ import React from "react";
 const importAll = r => r.keys().map(r);
 
 export const nextDateOfCourses = () => {
-    let startDate = moment('2022-03-01');
+    let startDate = moment('2022-10-10');
     let newDate = moment();
     while (newDate.isAfter(startDate)) {
             startDate.add(42, 'day').calendar();
@@ -41,7 +41,7 @@ export const LOGOS = {
     }
 };
 export const GALLERY_IMAGES = importAll(require.context('./img/gallery', false, /\.(png|jpe?g|svg|webp)$/));
-export const LINKS = ['/', '/remotecourses', '/lessons', '/gallery', '/contacts'];
+export const LINKS = ['/', '/remotecourses', '/lessons', '/gallery', '/contacts', '/prices'];
 export const FLAGS = [flagLT, flagEN, flagAR];
 export const LANGUAGES = {
     LT: {
@@ -49,7 +49,7 @@ export const LANGUAGES = {
             AVATARIMAGEFLOAT: 'right'
         },
         PAGE404: 'Atsiprašome, toks puslapis neegzistuoja',
-        LINKLABELS: ['Apie mus', 'Nuotoliniai kursai', 'Pamokos', 'Galerija', 'Kontaktai'],
+        LINKLABELS: ['Apie mus', 'Nuotoliniai kursai', 'Pamokos', 'Galerija', 'Kontaktai', 'Kainos'],
         EMAIL: 'El-paštas:',
         ADDRESS: 'Adresas:',
         PHONE: 'Telefonas:',
@@ -65,7 +65,7 @@ export const LANGUAGES = {
                 'Vieną kursą sudaro 20 pamokų (40 akademinių valandų).\n' +
                 'Visa mokymo medžiaga yra suteikiama nemokamai arba atsiunčiama el. paštu.\n' +
                 'Naujos grupės formuojamos kas du mėnesius arba susidarius grupei iš 4 vienodo lygio žmonių.\n' +
-                'Šiuo metu kviečiame mokytis antradieniais bei penktadieniais 17:30 arba trečiadieniais ir penktadieniais 10:00 arba 12:00 nuo kovo 2 dienos.\n' +
+                'Šiuo metu kviečiame mokytis antradieniais bei ketvirtadieniais 14:00 ir 17:30 arba trečiadieniais ir penktadieniais 10:00 ir 13:00.\n' +
                 'Artimiausia A1 ir A2 lygio kurso pradžia '+nextDateOfCourses().LT_TIME+'\n' +
                 'Registracija el. paštu:'
         },
@@ -75,14 +75,20 @@ export const LANGUAGES = {
             'Pamokų metu ne tik mokysime gramatikos, taisyklingos rašybos bei kalbėsenos, bet ir pasidalinsime naudinga informacija apie arabiškai kalbančias šalis, jų kultūrą, tradicijas bei informacija apie Lietuvoje vykstančius renginius, kurie įtrauks Jus į arabiškąjį pasaulį. Visa mokymo medžiaga bus pateikiama pamokų metu.\n' +
             'Užsiėmimai vyksta Lietuvių kalba.\n' +
             'O kad mokytis būtų dar maloniau, pavaišinsime karštos arbatos puodeliu!\n ' +
-            'Be mokymų galime pasiūlyti vertimus raštu bei žodžiu iš lietuvių ir anglų kalbų į arabų kalbą. Taip pat verčiame iš arabų kalbos.'
+            'Be mokymų galime pasiūlyti vertimus raštu bei žodžiu iš lietuvių ir anglų kalbų į arabų kalbą. Taip pat verčiame iš arabų kalbos.',
+        PRICES: 'Mokantis 3-8 mokinių grupėje, vieno lygio (40 akad. val.) kurso kaina yra 200€ (1 akad. val. kaina – 5€, 1 pamoka – 10€).\n' +
+          'Individualių kursų kaina už 1 akademinę valandą - 8€.\n' +
+          'Individualių kursų kaina už 1 akademinę valandą dviems asmenims - 7€/žmogui.\n' +
+          'Mokymosi medžiaga vienam lygiui - nemokamai.\n' +
+          'Pirma pamoka - nemokamai.\n' +
+          'Visos pamokos gali būti vedamos nuotoliniu būdu ar gyvai.'
     },
     EN: {
         STYLES: {
             AVATARIMAGEFLOAT: 'right'
         },
         PAGE404: 'Sorry. Such page does not exist',
-        LINKLABELS: ['About us', 'Remote courses', 'Lessons', 'Gallery', 'Contacts'],
+        LINKLABELS: ['About us', 'Remote courses', 'Lessons', 'Gallery', 'Contacts', 'Prices'],
         EMAIL: 'E-mail:',
         ADDRESS: 'Address:',
         PHONE: 'Phone:',
@@ -98,7 +104,7 @@ export const LANGUAGES = {
                 'Full course consists of 20 lessons (40 academic hours).\n' +
                 'All course material will be provided free of charge or sent by e-mail.\n' +
                 'New groups are formed each 2 months or when there is 4 people of same level to form a group.\n' +
-                'Currently we invite to study on tuesdays or fridays at 5:30pm or from March 2nd in weekend groups at 10:00am and 12:00pm on thursdays and fridays.\n' +
+                'Currently we invite to study on tuesdays or fridays at 2pm and 5:30pm or on thursdays and fridays at 10am and 1pm.\n' +
                 'Closest A1 and A2 level course start - '+nextDateOfCourses().EN_TIME+'\n' +
                 'Sign up:'
         },
@@ -108,7 +114,13 @@ export const LANGUAGES = {
             'During the lectures, we will not only teach grammar, correct spelling and speaking, but also share useful information about Arabic-speaking countries, their culture, traditions and information about events taking place in Lithuania that will involve you in the Arab world. All study materials will be provided during the lectures.\n' +
             'Lectures are held in Lithuanian, English or French languages\n' +
             'And to make studying even more enjoyable, we will serve you a cup of hot tea!\n' +
-            'In addition to training, we can also offer written and verbal translations from Lithuanian and English into Arabic. We also translate from Arabic.'
+            'In addition to training, we can also offer written and verbal translations from Lithuanian and English into Arabic. We also translate from Arabic.',
+        PRICES: 'When studying in a group of 3-8 students the price of one level (40 academic hours) course is 200€ (price of 1 academic hour - 5€, 1 lesson - 10€)\n' +
+          'The price of individual courses for 1 academic hour is €8.\n' +
+          'The price of individual courses for 1 academic hour for two people - 7€/person.\n' +
+          'Learning material for one level is free.\n' +
+          'The first lesson is free.\n' +
+          'All lessons can be conducted remotely or live.'
     },
     AR: {
         STYLES: {
@@ -117,7 +129,7 @@ export const LANGUAGES = {
             AVATARIMAGEFLOAT: 'left',
         },
         PAGE404: 'آسف. هذه الصفحة غير موجودة',
-        LINKLABELS: ['معلومات', 'الدراسة عن  بعد', 'الدروس', 'معرض الصور', 'البريد و الهاتف'],
+        LINKLABELS: ['معلومات', 'الدراسة عن  بعد', 'الدروس', 'معرض الصور', 'البريد و الهاتف', 'arabiskai'],
         EMAIL: 'البريد الإلكتروني:',
         ADDRESS: 'عنوان:',
         PHONE: 'رقم الهاتف:',
@@ -137,6 +149,7 @@ export const LANGUAGES = {
             '\n.مدرس من دولة عربية لديه أكثر من ثماني سنوات من الخبرة في تدريس ، سواء بشكل فردي أو جماعي أو عن بعد.' +
             'خلال الدرس ، لن نقوم فقط بتدريس القواعد اللغوية والتهجئة الصحيحة والتحدث ، ولكننا أيضًا نشارك معلومات مفيدة حول البلدان الناطقة باللغة العربية وثقافاتها وتقاليدها ومعلومات حول الأحداث التي تجري في ليتوانيا والتي ستشركك في العالم العربي. سيتم توفير جميع المواد الدراسية خلال الدروس\n' +
             'ولجعل الدراسة أكثر متعة ، سنقدم لك كوبًا من الشاي الساخن!\n' +
-            'بالإضافة إلى التدريس، يمكننا أيضًا تقديم ترجمات مكتوبة وشفهية من الليتوانية والإنجليزية إلى العربية. كما نترجم من العربية.\n'
+            'بالإضافة إلى التدريس، يمكننا أيضًا تقديم ترجمات مكتوبة وشفهية من الليتوانية والإنجليزية إلى العربية. كما نترجم من العربية.\n',
+        PRICES: 'arabiskai'
     }
 };

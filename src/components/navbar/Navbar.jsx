@@ -21,11 +21,11 @@ const NavBar = (props) => {
 
     return <Navbar collapseOnSelect
                    fixed="top"
-                   expand="lg"
+                   expand="xl"
                    bg="dark"
                    variant="dark"
                    style={navbarStyle}>
-        <Navbar.Toggle style={{margin: '1rem'}}
+        <Navbar.Toggle style={{margin: '1rem 0.5rem'}}
                        aria-controls="responsive-navbar-nav"/>
         <Navbar.Collapse id="responsive-navbar-nav" style={{flexGrow: '15'}}>
             <NavBarItems {...props}/>

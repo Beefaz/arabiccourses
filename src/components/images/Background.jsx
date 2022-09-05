@@ -14,7 +14,8 @@ const Background = () => {
             height:'100%',
             width: '100%',
             objectFit: 'cover',
-            overflow: 'hidden'
+            overflow: 'hidden',
+            objectPosition: 'top'
         },
     };
 
