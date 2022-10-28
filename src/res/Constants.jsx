@@ -168,6 +168,14 @@ export const LANGUAGES = {
           'سعر الدورات الفردية 45 دقيقة لشخصين - 7 يورو / للفرد.\n' +
           'المواد التعليمية لمستوى واحد - مجانًا.\n' +
           'الدرس الأول مجاني.\n' +
-          'يمكن إجراء جميع الدروس عن بُعد أو مباشرة.'
+          'يمكن إجراء جميع الدروس عن بُعد أو مباشرة.',
+        BANNER: {
+            TEXT1: 'At November 21 there will be new groups for A1 - A2. If interested, hurry up and ',
+            LINK: {
+                text: 'register',
+                url: '/contacts'
+            },
+            TEXT2: ' until October 15 and get 10% discount!.'
+        }
     }
 };
