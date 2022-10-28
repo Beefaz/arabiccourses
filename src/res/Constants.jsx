@@ -65,7 +65,7 @@ export const LANGUAGES = {
                 'Vieną kursą sudaro 20 pamokų (40 akademinių valandų).\n' +
                 'Visa mokymo medžiaga yra suteikiama nemokamai arba atsiunčiama el. paštu.\n' +
                 'Naujos grupės formuojamos kas du mėnesius arba susidarius grupei iš 4 vienodo lygio žmonių.\n' +
-                'Šiuo metu kviečiame mokytis antradieniais bei ketvirtadieniais 14:00 ir 17:30 arba trečiadieniais ir penktadieniais 10:00 ir 13:00.\n' +
+                'Šiuo metu kviečiame mokytis antradieniais ir penktadieniais 17:30.\n' +
                 'Artimiausia A1 ir A2 lygio kurso pradžia '+nextDateOfCourses().LT_TIME+'\n' +
                 'Registracija el. paštu:'
         },
@@ -76,12 +76,18 @@ export const LANGUAGES = {
             'Užsiėmimai vyksta Lietuvių kalba.\n' +
             'O kad mokytis būtų dar maloniau, pavaišinsime karštos arbatos puodeliu!\n ' +
             'Be mokymų galime pasiūlyti vertimus raštu bei žodžiu iš lietuvių ir anglų kalbų į arabų kalbą. Taip pat verčiame iš arabų kalbos.',
-        PRICES: 'Mokantis 3-8 mokinių grupėje, vieno lygio (40 akad. val.) kurso kaina yra 200€ (1 akad. val. kaina – 5€, 1 pamoka – 10€).\n' +
-          'Individualių kursų kaina už 1 akademinę valandą - 8€.\n' +
-          'Individualių kursų kaina už 1 akademinę valandą dviems asmenims - 7€/žmogui.\n' +
-          'Mokymosi medžiaga vienam lygiui - nemokamai.\n' +
+        PRICES: 'Mokantis 3-8 mokinių grupėje, vieno lygio (40 akad. val.) kurso kaina yra 200€ (1 akad. val. kaina – 5€, 1 pamoka – 10€). Mokomoji medžiaga įskaičiuota.\n' +
+          'Individualių kursų kaina už 1 akademinę valandą - 7.5€. Viso kurso kaina - 300€\n' +
           'Pirma pamoka - nemokamai.\n' +
-          'Visos pamokos gali būti vedamos nuotoliniu būdu ar gyvai.'
+          'Visos pamokos gali būti vedamos nuotoliniu būdu ar gyvai.',
+        BANNER: {
+            TEXT1: 'Nuo lapkričio 21 d. organizuojami A1 - A2 lygių kursai. Jei susidomėjai, paskubėk ',
+            LINK: {
+                text: 'registruotis',
+                url: '/contacts'
+            },
+            TEXT2: ' su 10% nuolaida iki lapkričio 15d.'
+        }
     },
     EN: {
         STYLES: {
@@ -104,7 +110,7 @@ export const LANGUAGES = {
                 'Full course consists of 20 lessons (40 academic hours).\n' +
                 'All course material will be provided free of charge or sent by e-mail.\n' +
                 'New groups are formed each 2 months or when there is 4 people of same level to form a group.\n' +
-                'Currently we invite to study on tuesdays or fridays at 2pm and 5:30pm or on thursdays and fridays at 10am and 1pm.\n' +
+                'Currently we invite to study on tuesdays or fridays at 5:30pm\n' +
                 'Closest A1 and A2 level course start - '+nextDateOfCourses().EN_TIME+'\n' +
                 'Sign up:'
         },
@@ -115,12 +121,18 @@ export const LANGUAGES = {
             'Lectures are held in Lithuanian, English or French languages\n' +
             'And to make studying even more enjoyable, we will serve you a cup of hot tea!\n' +
             'In addition to training, we can also offer written and verbal translations from Lithuanian and English into Arabic. We also translate from Arabic.',
-        PRICES: 'When studying in a group of 3-8 students the price of one level (40 academic hours) course is 200€ (price of 1 academic hour - 5€, 1 lesson - 10€)\n' +
-          'The price of individual courses for 1 academic hour is €8.\n' +
-          'The price of individual courses for 1 academic hour for two people - 7€/person.\n' +
-          'Learning material for one level is free.\n' +
+        PRICES: 'When studying in a group of 3-8 students the price of one level (40 academic hours) course is 200€ (price of 1 academic hour - 5€, 1 lesson - 10€). Price includes learning material.\n' +
+          'The price of individual courses for 1 academic hour is €7.5. Price for whole course - 300€\n' +
           'The first lesson is free.\n' +
-          'All lessons can be conducted remotely or live.'
+          'All lessons can be conducted remotely or live.',
+        BANNER: {
+            TEXT1: 'At November 21 there will be new groups for A1 - A2. If interested, hurry up and ',
+            LINK: {
+                text: 'register',
+                url: '/contacts'
+            },
+            TEXT2: ' until October 15 and get 10% discount!.'
+        }
     },
     AR: {
         STYLES: {

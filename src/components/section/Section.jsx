@@ -1,6 +1,7 @@
 import React from "react";
 import SectionContentLoader from "../sectionContent/SectionContentLoader";
 import {useMediaPredicate} from "react-media-hook";
+import Banner from "../banner/Banner";
 
 const Section = (props) => {
   const screensize = useMediaPredicate("(min-width: 500px)");
@@ -8,7 +9,7 @@ const Section = (props) => {
 
   const sectionLabelStyle = {
     fontWeight: '900',
-    marginBottom: screensize? '2rem' : '0.5rem',
+    marginBottom: screensize ? '2rem' : '0.5rem',
     ...props.language.STYLES.TEXTDIRECTION
   };
 
@@ -27,11 +28,12 @@ const Section = (props) => {
   };
 
   return <div style={sectionWrapperStyle}>
-    <div style={sectionStyle}>
-      <SectionContentLoader label={setSectionLabel()}
-                            index={props.index}
-                            language={props.language}/>
+      <Banner language={props.language}/>
+      <div style={sectionStyle}>
+        <SectionContentLoader label={setSectionLabel()}
+                              index={props.index}
+                              language={props.language}/>
+      </div>
     </div>
-  </div>
 };
 export default Section;
