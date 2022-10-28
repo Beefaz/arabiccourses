@@ -7,7 +7,7 @@ const Banner = (props) => {
   const screensize = useMediaPredicate("(min-width: 500px)");
 
   const sectionStyle = {
-    backgroundColor: 'rgba(226,157,73,0.9)',
+    backgroundColor: 'rgba(226,157,73,1)',
     borderRadius: '25px',
     width: '100%',
     padding: screensize ? '3rem' : '1rem',
@@ -39,16 +39,16 @@ const Banner = (props) => {
     fill: bannerIsHovered ? 'rgba(0,0,0,0.5)' : 'rgba(0,0,0,1)',
   };
 
-  const getBannerContent = () => Object.values(props.language.BANNER).map((item, index) => {
-    return !item.url
-      ? <span key={index} style={bannerTextStyle}>{item.toString()}</span>
-      : <a key={index} href={item.url} style={bannerLinkStyle}>{item.text}</a>
-  });
-
   const closeBanner = () => {
     sessionStorage.setItem('bannerClosed', 'true');
     setBannerIsClosed(true);
   };
+
+  const getBannerContent = () => Object.values(props.language.BANNER).map((item, index) => {
+    return !item.url
+      ? <span key={index} style={bannerTextStyle}>{item.toString()}</span>
+      : <a onClick={()=>closeBanner()} key={index} href={item.url} style={bannerLinkStyle}>{item.text}</a>
+  });
 
   return <div style={{margin: '0 2px', position: 'relative', display: 'flex'}}>
     {!bannerIsClosed &&
