@@ -1,16 +1,23 @@
 import React, {useState} from "react";
 import {useMediaPredicate} from "react-media-hook";
+import {BANNER_HAS_ENDED} from "../../res/Constants";
 
 const Banner = (props) => {
   const [bannerIsHovered, setBannerIsHovered] = useState(false);
   const [bannerIsClosed, setBannerIsClosed] = useState(sessionStorage.getItem('bannerClosed') ?? false);
-  const screensize = useMediaPredicate("(min-width: 500px)");
+  const screenSize = useMediaPredicate("(min-width: 500px)");
 
-  const sectionStyle = {
+  const bannerContainerStyle = {
+    margin: '0 2px',
+    position: 'relative',
+    display: BANNER_HAS_ENDED() ? 'none' : 'flex'
+  };
+
+  const bannerContentStyle = {
     backgroundColor: 'rgba(226,157,73,1)',
     borderRadius: '25px',
     width: '100%',
-    padding: screensize ? '3rem' : '1rem',
+    padding: screenSize ? '3rem' : '1rem',
     boxShadow: '5px 5px 10px 2px, -5px -5px 10px 2px',
     margin: '0 auto',
     position: 'absolute',
@@ -31,8 +38,8 @@ const Banner = (props) => {
 
   const svgStyle = {
     position: 'absolute',
-    height: screensize ? '2rem' : '1rem',
-    width: screensize ? '2rem' : '1rem',
+    height: screenSize ? '2rem' : '1rem',
+    width: screenSize ? '2rem' : '1rem',
     right: '10px',
     top: '10px',
     cursor: 'pointer',
@@ -47,12 +54,12 @@ const Banner = (props) => {
   const getBannerContent = () => Object.values(props.language.BANNER).map((item, index) => {
     return !item.url
       ? <span key={index} style={bannerTextStyle}>{item.toString()}</span>
-      : <a onClick={()=>closeBanner()} key={index} href={item.url} style={bannerLinkStyle}>{item.text}</a>
+      : <a onClick={() => closeBanner()} key={index} href={item.url} style={bannerLinkStyle}>{item.text}</a>
   });
 
-  return <div style={{margin: '0 2px', position: 'relative', display: 'flex'}}>
+  return <div style={bannerContainerStyle}>
     {!bannerIsClosed &&
-    <div style={sectionStyle}>
+    <div style={bannerContentStyle}>
       <svg xmlns="http://www.w3.org/2000/svg" className="svg-icon"
            style={svgStyle}
            viewBox="0 0 1024 1024" version="1.1"
