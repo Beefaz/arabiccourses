@@ -12,7 +12,7 @@ import React from "react";
 const importAll = r => r.keys().map(r);
 
 export const nextDateOfCourses = () => {
-  let startDate = moment('2022-10-10');
+  let startDate = moment('2022-10-12');
   let newDate = moment();
 
   while (newDate.isAfter(startDate)) {
@@ -54,8 +54,7 @@ export const LINKS = ['/', '/remotecourses', '/lessons', '/gallery', '/contacts'
 export const FLAGS = [flagLT, flagEN, flagAR];
 
 export const BANNER_HAS_ENDED = () => {
-  const endTime = moment('2022-11-15');
-  endTime.add(1, 'day')
+  const endTime = moment('2022-12-20');
   const today = moment();
 
   return today > endTime;
@@ -83,7 +82,7 @@ export const LANGUAGES = {
         'Vieną kursą sudaro 20 pamokų (40 akademinių valandų).\n' +
         'Visa mokymo medžiaga yra suteikiama nemokamai arba atsiunčiama el. paštu.\n' +
         'Naujos grupės formuojamos kas du mėnesius arba susidarius grupei iš 4 vienodo lygio žmonių.\n' +
-        'Šiuo metu kviečiame mokytis antradieniais ir penktadieniais 17:30.\n' +
+        'Šiuo metu kviečiame mokytis antradieniais ir ketvirtadieniais 19:00.\n' +
         'Artimiausia A1 ir A2 lygio kurso pradžia ' + nextDateOfCourses().LT_TIME + '\n' +
         'Registracija el. paštu:'
     },
@@ -99,12 +98,12 @@ export const LANGUAGES = {
       'Pirma pamoka - nemokamai.\n' +
       'Visos pamokos gali būti vedamos nuotoliniu būdu ar gyvai.',
     BANNER: {
-      TEXT1: 'Nuo lapkričio 21 d. organizuojami A1 - A2 lygių kursai. Jei susidomėjai, paskubėk ',
+      TEXT1: 'Nuo sausio 5 d. organizuojami A1 - A2 lygių kursai. Jei susidomėjai, paskubėk ',
       LINK: {
         text: 'registruotis',
         url: '/contacts'
       },
-      TEXT2: ' su 10% nuolaida iki lapkričio 15d.'
+      TEXT2: ' su 10% nuolaida iki gruodžio 20d.'
     }
   },
   EN: {
@@ -128,7 +127,7 @@ export const LANGUAGES = {
         'Full course consists of 20 lessons (40 academic hours).\n' +
         'All course material will be provided free of charge or sent by e-mail.\n' +
         'New groups are formed each 2 months or when there is 4 people of same level to form a group.\n' +
-        'Currently we invite to study on tuesdays or fridays at 5:30pm\n' +
+        'Currently we invite to study on tuesdays or thursdays at 7:00pm\n' +
         'Closest A1 and A2 level course start - ' + nextDateOfCourses().EN_TIME + '\n' +
         'Sign up:'
     },
@@ -144,12 +143,12 @@ export const LANGUAGES = {
       'The first lesson is free.\n' +
       'All lessons can be conducted remotely or live.',
     BANNER: {
-      TEXT1: 'At November 21 there will be new groups for A1 - A2. If interested, hurry up and ',
+      TEXT1: 'At January 5 there will be new groups for A1 - A2. If interested, hurry up and ',
       LINK: {
         text: 'register',
         url: '/contacts'
       },
-      TEXT2: ' until October 15 and get 10% discount!.'
+      TEXT2: ' until December 20 and get 10% discount!.'
     }
   },
   AR: {
@@ -188,12 +187,12 @@ export const LANGUAGES = {
       'الدرس الأول مجاني.\n' +
       'يمكن إجراء جميع الدروس عن بُعد أو مباشرة.',
     BANNER: {
-      TEXT1: 'At November 21 there will be new groups for A1 - A2. If interested, hurry up and ',
+      TEXT1: 'At January 5 there will be new groups for A1 - A2. If interested, hurry up and ',
       LINK: {
         text: 'register',
         url: '/contacts'
       },
-      TEXT2: ' until October 15 and get 10% discount!.'
+      TEXT2: ' until December 20 and get 10% discount!.'
     }
   }
 };
