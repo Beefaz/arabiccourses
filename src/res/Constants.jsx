@@ -12,7 +12,7 @@ import React from "react";
 const importAll = r => r.keys().map(r);
 
 export const nextDateOfCourses = () => {
-  let startDate = moment('2022-10-12');
+  let startDate = moment('2022-10-13');
   let newDate = moment();
 
   while (newDate.isAfter(startDate)) {
@@ -82,7 +82,7 @@ export const LANGUAGES = {
         'Vieną kursą sudaro 20 pamokų (40 akademinių valandų).\n' +
         'Visa mokymo medžiaga yra suteikiama nemokamai arba atsiunčiama el. paštu.\n' +
         'Naujos grupės formuojamos kas du mėnesius arba susidarius grupei iš 4 vienodo lygio žmonių.\n' +
-        'Šiuo metu kviečiame mokytis antradieniais ir ketvirtadieniais 19:00.\n' +
+        'Šiuo metu kviečiame mokytis antradieniais ir ketvirtadieniais 19:00 valandą.\n' +
         'Artimiausia A1 ir A2 lygio kurso pradžia ' + nextDateOfCourses().LT_TIME + '\n' +
         'Registracija el. paštu:'
     },
