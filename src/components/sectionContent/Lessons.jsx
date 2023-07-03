@@ -1,23 +1,13 @@
 import React from "react";
 import loadable$2 from "@loadable/component";
 import {Row, Col} from "react-bootstrap";
-
+import {youtubeURLs} from "../../res/Constants";
 const IframeBlock = loadable$2(() => import("../iframeBlock/IframeBlock"));
 
 const Lessons = (props) => {
     const colStyle = {
         padding: '1rem',
     };
-    const youtubeURLs = [
-        '4ybn3kKuu3I',
-        '9wv33WQdqOs',
-        'QqkuP_i9IsU',
-        'vcQNGeUj8C4',
-        'PxDTTD6aK5M',
-        '3r_h8FOABys',
-        '34vSxE9eEAU',
-        'eUYpNPkIRcU'
-    ];
     return <div>
         {props.label}
         <Row>

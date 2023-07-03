@@ -1,5 +1,5 @@
 import React from "react";
-import image from "../../res/img/logo.jpg"
+import image from "../../res/img/avatar.jpg"
 import {useMediaPredicate} from "react-media-hook";
 import loadable$1 from "@loadable/component";
 import {newLinesToComponents} from "../../res/Constants";
