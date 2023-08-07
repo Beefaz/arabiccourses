@@ -27,13 +27,15 @@ const Section = (props) => {
     margin: '0 auto'
   };
 
+  const bannerDisabled = props.language.BANNER.DISABLED;
+
   return <div style={sectionWrapperStyle}>
-      <Banner language={props.language}/>
-      <div style={sectionStyle}>
-        <SectionContentLoader label={setSectionLabel()}
-                              index={props.index}
-                              language={props.language}/>
-      </div>
+    {!bannerDisabled && <Banner language={props.language}/>}
+    <div style={sectionStyle}>
+      <SectionContentLoader label={setSectionLabel()}
+                            index={props.index}
+                            language={props.language}/>
     </div>
+  </div>
 };
 export default Section;

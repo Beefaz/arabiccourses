@@ -12,7 +12,7 @@ import React from "react";
 const importAll = r => r.keys().map(r);
 
 export const nextDateOfCourses = () => {
-  let startDate = moment('2023-08-09');
+  let startDate = moment('2023-09-15');
   let newDate = moment();
 
   while (newDate.isAfter(startDate)) {
@@ -54,7 +54,7 @@ export const LINKS = ['/', '/remotecourses', '/lessons', '/gallery', '/contacts'
 export const FLAGS = [flagLT, flagEN, flagAR];
 
 export const BANNER_HAS_ENDED = () => {
-  const endTime = moment('2023-08-09');
+  const endTime = moment('2023-09-15');
   const today = moment();
 
   return today > endTime;
@@ -93,7 +93,7 @@ export const LANGUAGES = {
         'Vieną kursą sudaro 20 pamokų (40 akademinių valandų).\n' +
         'Visa mokymo medžiaga yra suteikiama nemokamai arba atsiunčiama el. paštu.\n' +
         'Naujos grupės formuojamos kas du mėnesius arba susidarius grupei iš 4 vienodo lygio žmonių.\n' +
-        'Šiuo metu kviečiame mokytis trečiadieniais ir penktadieniais 19:30 bei savaitgaliais 11:00.\n' +
+        'Šiuo metu kviečiame mokytis pirmadieniais ir penktadieniais 19:30.\n' +
         'Artimiausia A1 ir A2 lygio kurso pradžia ' + nextDateOfCourses().LT_TIME + '\n' +
         'Registracija el. paštu:'
     },
@@ -105,12 +105,12 @@ export const LANGUAGES = {
       'O kad mokytis būtų dar maloniau, pavaišinsime karštos arbatos puodeliu!\n ' +
       'Be mokymų galime pasiūlyti vertimus raštu bei žodžiu iš lietuvių ir anglų kalbų į arabų kalbą. Taip pat verčiame iš arabų kalbos.',
     PRICES: 'Mokantis 3-8 mokinių grupėje, vieno lygio (40 akad. val.) kurso kaina yra 200€ (1 akad. val. kaina – 5€, 1 pamoka – 10€). Mokomoji medžiaga įskaičiuota.\n' +
-      'Individualių kursų kaina už 1 akademinę valandą - 7.5€. Viso kurso kaina - 300€\n' +
+      'Individualių kursų kaina už 1 akademinę valandą - 7.5€. Viso kurso kaina - 300€ (1 pamoka - 20€)\n' +
       'Pirma pamoka - nemokamai.\n' +
       'Visos pamokos gali būti vedamos nuotoliniu būdu ar gyvai.\n' +
       'Verslo klientams - 35€ už 2 akademines valandas (90min) visai grupei.',
     BANNER: {
-      TEXT1: 'Nuo rugpjūčio 9 d. organizuojami A1 - A2 lygių kursai. Jei susidomėjai, paskubėk ',
+      TEXT1: 'Nuo rugsėjo 15 d. organizuojami A1 - A2 lygių kursai. Jei susidomėjai, paskubėk ',
       LINK: {
         text: 'registruotis',
         url: '/contacts'
@@ -139,7 +139,7 @@ export const LANGUAGES = {
         'Full course consists of 20 lessons (40 academic hours).\n' +
         'All course material will be provided free of charge or sent by e-mail.\n' +
         'New groups are formed each 2 months or when there is 4 people of same level to form a group.\n' +
-        'Currently we invite to study on wednesdays and fridays at 7:30pm or on weekends at 11am\n' +
+        'Currently we invite to study on mondays and fridays at 7:30pm\n' +
         'Closest A1 and A2 level course start - ' + nextDateOfCourses().EN_TIME + '\n' +
         'Sign up:'
     },
@@ -151,12 +151,12 @@ export const LANGUAGES = {
       'And to make studying even more enjoyable, we will serve you a cup of hot tea!\n' +
       'In addition to training, we can also offer written and verbal translations from Lithuanian and English into Arabic. We also translate from Arabic.',
     PRICES: 'When studying in a group of 3-8 students the price of one level (40 academic hours) course is 200€ (price of 1 academic hour - 5€, 1 lesson - 10€). Price includes learning material.\n' +
-      'The price of individual courses for 1 academic hour is 7.5€. Price for whole course - 300€\n' +
+      'The price of individual courses for 1 academic hour is 7.5€. Price for whole course - 300€ (1 lesson - 20€)\n' +
       'The first lesson is free.\n' +
       'All lessons can be conducted remotely or live.\n' +
       'For business clients - 35€ for 2 academic hours (90min) for the whole group.',
     BANNER: {
-      TEXT1: 'At August 9 there will be new groups for A1 - A2. If interested, hurry up and ',
+      TEXT1: 'At September 15 there will be new groups for A1 - A2. If interested, hurry up and ',
       LINK: {
         text: 'register',
         url: '/contacts'
@@ -200,6 +200,7 @@ export const LANGUAGES = {
       'الدرس الأول مجاني.\n' +
       'يمكن إجراء جميع الدروس عن بُعد أو مباشرة.',
     BANNER: {
+      DISABLED: true,
       TEXT1: 'At August 9 there will be new groups for A1 - A2. If interested, hurry up and ',
       LINK: {
         text: 'register',
