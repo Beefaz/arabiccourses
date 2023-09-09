@@ -85,7 +85,7 @@ export const LANGUAGES = {
     JOIN: 'Prisijunkite prie mūsų grupės',
     REMOTECOURSES: {
       TEXT1: 'Užsiėmimai vyksta jums patogiu laiku.\n' +
-        'Pirma pamoka nemokama.\n' +
+        // 'Pirma pamoka nemokama.\n' +
         'Grupėse ne daugiau 4 žmonių.\n' +
         'Yra galimybė mokytis individualiai.\n' +
         'Pamokos vyksta nuotoliniu būdu per:',
@@ -131,7 +131,7 @@ export const LANGUAGES = {
     JOIN: 'Join our group',
     REMOTECOURSES: {
       TEXT1: 'Courses can be scheduled for any time.\n' +
-        'First lesson for free.\n' +
+        // 'First lesson for free.\n' +
         'Group size - 4 people or less.\n' +
         'There is an option of personal lectures.\n' +
         'Courses are available on:',
@@ -179,7 +179,7 @@ export const LANGUAGES = {
     JOIN: 'انضم لمجموعتنا',
     REMOTECOURSES: {
       TEXT1: 'دورات عن بعد لمجموعات لا تزيد عن 4 أشخاص.\n' +
-        'الدرس الاول مجاني.\n' +
+        // 'الدرس الاول مجاني.\n' +
         'الدروس تتم عن بعد من خلال:',
       TEXT2: 'مدة الدرس الواحد - 90 دقيقة.\n' +
         'تتكون الدورة الكاملة من 20 درسًا.\n' +
