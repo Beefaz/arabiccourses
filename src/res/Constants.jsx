@@ -12,7 +12,7 @@ import React from "react";
 const importAll = r => r.keys().map(r);
 
 export const nextDateOfCourses = () => {
-  let startDate = moment('2023-09-15');
+  let startDate = moment('2023-11-02');
   let newDate = moment();
 
   while (newDate.isAfter(startDate)) {
@@ -54,7 +54,7 @@ export const LINKS = ['/', '/remotecourses', '/lessons', '/gallery', '/contacts'
 export const FLAGS = [flagLT, flagEN, flagAR];
 
 export const BANNER_HAS_ENDED = () => {
-  const endTime = moment('2023-09-15');
+  const endTime = moment('2023-10-23');
   const today = moment();
 
   return today > endTime;
@@ -105,17 +105,18 @@ export const LANGUAGES = {
       'O kad mokytis būtų dar maloniau, pavaišinsime karštos arbatos puodeliu!\n ' +
       'Be mokymų galime pasiūlyti vertimus raštu bei žodžiu iš lietuvių ir anglų kalbų į arabų kalbą. Taip pat verčiame iš arabų kalbos.',
     PRICES: 'Mokantis 3-8 mokinių grupėje, vieno lygio (40 akad. val.) kurso kaina yra 200€ (1 akad. val. kaina – 5€, 1 pamoka – 10€). Mokomoji medžiaga įskaičiuota.\n' +
-      'Individualių kursų kaina už 1 akademinę valandą - 7.5€. Viso kurso kaina - 300€ (1 pamoka - 20€)\n' +
-      'Pirma pamoka - nemokamai.\n' +
+      'Individualių kursų kaina už 1 akademinę valandą - 7.5€. Viso kurso kaina - 300€\n' +
+      'Pamokos kaina - 20€.\n' +
+      // 'Pirma pamoka - nemokamai.\n' +
       'Visos pamokos gali būti vedamos nuotoliniu būdu ar gyvai.\n' +
       'Verslo klientams - 35€ už 2 akademines valandas (90min) visai grupei.',
     BANNER: {
-      TEXT1: 'Nuo rugsėjo 15 d. organizuojami A1 - A2 lygių kursai. Jei susidomėjai, paskubėk ',
+      TEXT1: 'Nuo lapkričio 2d. organizuojami A1 - A2 lygių kursai. Jei susidomėjai, paskubėk ',
       LINK: {
         text: 'registruotis',
         url: '/contacts'
       },
-      TEXT2: '.'
+      TEXT2: ' su 15% nuolaida iki spalio 23d.'
     }
   },
   EN: {
@@ -151,17 +152,18 @@ export const LANGUAGES = {
       'And to make studying even more enjoyable, we will serve you a cup of hot tea!\n' +
       'In addition to training, we can also offer written and verbal translations from Lithuanian and English into Arabic. We also translate from Arabic.',
     PRICES: 'When studying in a group of 3-8 students the price of one level (40 academic hours) course is 200€ (price of 1 academic hour - 5€, 1 lesson - 10€). Price includes learning material.\n' +
-      'The price of individual courses for 1 academic hour is 7.5€. Price for whole course - 300€ (1 lesson - 20€)\n' +
-      'The first lesson is free.\n' +
+      'The price of individual courses for 1 academic hour is 7.5€. Price for whole course - 300€.\n' +
+      'Price of one lesson - 20€.\n' +
+      // 'The first lesson is free.\n' +
       'All lessons can be conducted remotely or live.\n' +
       'For business clients - 35€ for 2 academic hours (90min) for the whole group.',
     BANNER: {
-      TEXT1: 'At September 15 there will be new groups for A1 - A2. If interested, hurry up and ',
+      TEXT1: 'At November 2 there will be new groups for A1 - A2. If interested, hurry up and ',
       LINK: {
         text: 'register',
         url: '/contacts'
       },
-      TEXT2: '.'
+      TEXT2: ' until October 23 and get 15% discount!.'
     }
   },
   AR: {
@@ -197,7 +199,7 @@ export const LANGUAGES = {
       'سعر الدورات الفردية45 دقيقة هو 8 يورو.\n' +
       'سعر الدورات الفردية 45 دقيقة لشخصين - 7 يورو / للفرد.\n' +
       'المواد التعليمية لمستوى واحد - مجانًا.\n' +
-      'الدرس الأول مجاني.\n' +
+      // 'الدرس الأول مجاني.\n' +
       'يمكن إجراء جميع الدروس عن بُعد أو مباشرة.',
     BANNER: {
       DISABLED: true,
