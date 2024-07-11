@@ -99,11 +99,14 @@ export const LANGUAGES = {
     },
     ABOUTUS: 'Arabų kalbos studija Vilniaus centre kviečia mokytis arabų kalbos individualiai arba mažose grupėse (nuo 2 iki 4 žmonių).\n' +
       'Mokytojas iš arabų šalies, turintis daugiau nei aštuonerių metų mokymo patirtį tiek individualiai, tiek grupėmis, tiek nuotoliniu būdu.\n' +
-      'Mokome visų kalbos lygių (A1 - C2).\n' +
-      'Pamokų metu ne tik mokysime gramatikos, taisyklingos rašybos bei kalbėsenos, bet ir pasidalinsime naudinga informacija apie arabiškai kalbančias šalis, jų kultūrą, tradicijas bei informacija apie Lietuvoje vykstančius renginius, kurie įtrauks Jus į arabiškąjį pasaulį. Visa mokymo medžiaga bus pateikiama pamokų metu.\n' +
-      'Užsiėmimai vyksta Lietuvių kalba.\n' +
-      'O kad mokytis būtų dar maloniau, pavaišinsime karštos arbatos puodeliu!\n ' +
-      'Be mokymų galime pasiūlyti vertimus raštu bei žodžiu iš lietuvių ir anglų kalbų į arabų kalbą. Taip pat verčiame iš arabų kalbos.',
+      'Mokome visų kalbos lygių (A1 - C2) ir išduodame lygių sertifikatą.\n' +
+      'Pamokų metu ne tik mokysime klasikinės arabų kalbos gramatikos, taisyklingos rašybos bei kalbėsenos, bet ir pasidalinsime naudinga informacija apie arabiškai kalbančias šalis, jų kultūrą ir tradicijas.\n' +
+      'Visa mokymo medžiaga, pateikiama pamokų metu, yra įskaičiuota į pamokų kainą ir išduodama nemokamai, be jokio papildomo mokesčio.\n' +
+      'Užsiėmimai vyksta arabų - lietuvių kalbomis.\n' +
+      'Metų eigoje organizuojami susitikimai su studentais pabendrauti arabų kalba.\n' +
+      'Vieną kartą į metus organizuojama patirtinė kelionė į arabų šalį.\n ' +
+      'Norint sužinoti lygį, žinių lygio patikrinimas atliekamas nemokamai.\n' +
+      'Be mokymų galime pasiūlyti vertimus raštu bei žodžiu iš lietuvių į arabų kalbą.\n',
     PRICES: 'Mokantis 3-8 mokinių grupėje, vieno lygio (40 akad. val.) kurso kaina yra 200€ (1 akad. val. kaina – 5€, 1 pamoka – 10€). Mokomoji medžiaga įskaičiuota.\n' +
       'Individualių kursų kaina už 1 akademinę valandą - 7.5€. Viso kurso kaina - 300€\n' +
       'Pamokos kaina - 20€.\n' +
@@ -144,13 +147,15 @@ export const LANGUAGES = {
         'Closest A1 and A2 level course start - ' + nextDateOfCourses().EN_TIME + '\n' +
         'Sign up:'
     },
-    ABOUTUS: 'Arabic language studio in Vilnius Center invite you to learn Arabic individually or in small groups (2 to 4 people).\n' +
+    ABOUTUS: 'Arabic language studio in Vilnius Center invites you to learn Arabic individually or in small groups (2 to 4 people).\n' +
       'A teacher from an Arab country with more than eight years of teaching experience, either individually, collectively or remotely.\n' +
-      'We teach all language levels (A1 - C2).\n' +
-      'During the lectures, we will not only teach grammar, correct spelling and speaking, but also share useful information about Arabic-speaking countries, their culture, traditions and information about events taking place in Lithuania that will involve you in the Arab world. All study materials will be provided during the lectures.\n' +
-      'Lectures are held in Lithuanian, English or French languages\n' +
-      'And to make studying even more enjoyable, we will serve you a cup of hot tea!\n' +
-      'In addition to training, we can also offer written and verbal translations from Lithuanian and English into Arabic. We also translate from Arabic.',
+      'We teach all language levels (A1 - C2) and provide certificate of competency level.\n' +
+      'All study material is included in lecture price and will be given for free on lectures with no additional charge.\n' +
+      'Lectures are held in Arabic and Lithuanian languages.\n' +
+      'In the course of the year, meetings with students are organized to communicate in Arabic.\n' +
+      'A learning trip to an Arab country is organized once a year.\n' +
+      'To determine the competency, the test is done free of charge.\n' +
+      'In addition to courses, we can also offer written and verbal translations from Lithuanian and English into Arabic. We also translate from Arabic.',
     PRICES: 'When studying in a group of 3-8 students the price of one level (40 academic hours) course is 200€ (price of 1 academic hour - 5€, 1 lesson - 10€). Price includes learning material.\n' +
       'The price of individual courses for 1 academic hour is 7.5€. Price for whole course - 300€.\n' +
       'Price of one lesson - 20€.\n' +
