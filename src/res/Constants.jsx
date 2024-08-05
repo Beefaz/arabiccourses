@@ -107,10 +107,10 @@ export const LANGUAGES = {
       'Vieną kartą į metus organizuojama patirtinė kelionė į arabų šalį.\n ' +
       'Norint sužinoti lygį, žinių lygio patikrinimas atliekamas nemokamai.\n' +
       'Be mokymų galime pasiūlyti vertimus raštu bei žodžiu iš lietuvių į arabų kalbą.\n',
-    PRICES: 'Mokantis 3-8 mokinių grupėje, vieno lygio (40 val.) kurso kaina yra 200€ (1 val. kaina – 5€, 1 pamoka – 10€). Mokomoji medžiaga įskaičiuota.\n' +
-      'Viso kurso kaina (20 pamokų po 1 valandą) kaina - 300€\n' +
-      'Pamokų laikas - sutartinis.' +
-      'Pamokos kaina - 20€.\n' +
+    PRICES: 'Viso kurso kaina (20 pamokų po 1 valandą) kaina - 300€\n' +
+      'Pamokos kaina - 20€. \n' +
+      'Pamokų laikas - sutartinis. \n'+
+      'Mokomoji medžiaga įskaičiuota.\n' +
       // 'Pirma pamoka - nemokamai.\n' +
       'Visos pamokos gali būti vedamos nuotoliniu būdu ar gyvai.\n' +
       'Verslo klientams - 30€ už valandą (60min) visai grupei.',
@@ -157,9 +157,10 @@ export const LANGUAGES = {
       'A learning trip to an Arab country is organized once a year.\n' +
       'To determine the competency, the test is done free of charge.\n' +
       'In addition to courses, we can also offer written and verbal translations from Lithuanian and English into Arabic. We also translate from Arabic.',
-    PRICES: 'When studying in a group of 3-8 students the price of one level (40 academic hours) course is 200€ (price of 1 academic hour - 5€, 1 lesson - 10€). Price includes learning material.\n' +
-      'Price for whole course (20 lessons 1 hour each) - 300€.\n' +
+    PRICES: 'Price for whole course (20 lessons 1 hour each) - 300€.\n' +
       'Price of one lesson - 20€.\n' +
+      'Lessons can be scheduled on mutually agreed time. \n'+
+      'Price includes learning material.\n' +
       // 'The first lesson is free.\n' +
       'All lessons can be conducted remotely or live.\n' +
       'For business clients - 30€ for 1 hour (60min) for the whole group.',
@@ -189,9 +190,9 @@ export const LANGUAGES = {
       TEXT1: 'دورات عن بعد لمجموعات لا تزيد عن 4 أشخاص.\n' +
         // 'الدرس الاول مجاني.\n' +
         'الدروس تتم عن بعد من خلال:',
-      TEXT2: 'مدة الدرس الواحد - 90 دقيقة.\n' +
+      TEXT2: 'مدة الدرس الواحد - 60 دقيقة.\n' +
         'تتكون الدورة الكاملة من 20 درسًا.\n' +
-        'ندعوكم لدورة تعلمية جديدة يومي الثلاثاء و الخميس في الساعة 19:30.\n' +
+        'ندعوكم لدورة تعلمية جديدة يومي الثلاثاء و والجمعة الجمعة 17:30.\n' +
         'أقرب بداية لدورة المستوى A1 و A2 هي في عام ' + nextDateOfCourses().AR_TIME + '.\n' +
         'يتم تشكيل مجموعات جديدة كل شهرين أو عندما يكون هناك 4 أشخاص من نفس المستوى لتشكيل مجموعة.\n' +
         'التسجيل\n'
