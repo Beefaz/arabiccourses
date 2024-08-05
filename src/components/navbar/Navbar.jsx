@@ -41,7 +41,7 @@ const NavBar = (props) => {
     <div style={langButtonContainerStyle}>
       {Object.entries(LANGUAGES).map(([language, params]) => {
          return <NavItem as={LanguageButton}
-                   onClick={() => props.setLanguage(language)}
+                   onClick={() => props.setLanguage(LANGUAGES[language])}
                    label={params.FLAG_LABEL}
                    image={params.FLAG}
           />
