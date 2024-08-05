@@ -1,10 +1,7 @@
-import React, {useEffect} from "react";
+import React from "react";
 import {useMediaPredicate} from "react-media-hook";
 
 const LanguageButton = (props) => {
-    useEffect(() => {
-        console.dir(props);
-    }, []);
     const screensize = useMediaPredicate("(min-width: 400px)");
 
     const buttonStyle = {
