@@ -1,4 +1,4 @@
-import React, from "react";
+import React from "react";
 import {Navbar} from "react-bootstrap";
 import NavBarItems from "./NavbarItems";
 import {LANGUAGES} from "../../res/Constants";
