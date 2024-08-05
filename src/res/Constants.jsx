@@ -108,7 +108,8 @@ export const LANGUAGES = {
       'Norint sužinoti lygį, žinių lygio patikrinimas atliekamas nemokamai.\n' +
       'Be mokymų galime pasiūlyti vertimus raštu bei žodžiu iš lietuvių į arabų kalbą.\n',
     PRICES: 'Mokantis 3-8 mokinių grupėje, vieno lygio (40 val.) kurso kaina yra 200€ (1 val. kaina – 5€, 1 pamoka – 10€). Mokomoji medžiaga įskaičiuota.\n' +
-      'Individualių kursų kaina už 1 valandą - 7.5€. Viso kurso kaina - 300€\n' +
+      'Viso kurso kaina (20 pamokų po 1 valandą) kaina - 300€\n' +
+      'Pamokų laikas - sutartinis.' +
       'Pamokos kaina - 20€.\n' +
       // 'Pirma pamoka - nemokamai.\n' +
       'Visos pamokos gali būti vedamos nuotoliniu būdu ar gyvai.\n' +
@@ -157,11 +158,11 @@ export const LANGUAGES = {
       'To determine the competency, the test is done free of charge.\n' +
       'In addition to courses, we can also offer written and verbal translations from Lithuanian and English into Arabic. We also translate from Arabic.',
     PRICES: 'When studying in a group of 3-8 students the price of one level (40 academic hours) course is 200€ (price of 1 academic hour - 5€, 1 lesson - 10€). Price includes learning material.\n' +
-      'The price of individual courses for 1 academic hour is 7.5€. Price for whole course - 300€.\n' +
+      'Price for whole course (20 lessons 1 hour each) - 300€.\n' +
       'Price of one lesson - 20€.\n' +
       // 'The first lesson is free.\n' +
       'All lessons can be conducted remotely or live.\n' +
-      'For business clients - 35€ for 2 academic hours (90min) for the whole group.',
+      'For business clients - 30€ for 1 hour (60min) for the whole group.',
     BANNER: {
       TEXT1: 'At January 16th there will be new groups for A1 - A2. If interested, hurry up and ',
       LINK: {
