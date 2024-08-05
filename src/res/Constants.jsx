@@ -12,7 +12,7 @@ import React from "react";
 const importAll = r => r.keys().map(r);
 
 export const nextDateOfCourses = () => {
-  let startDate = moment('2024-01-16');
+  let startDate = moment('2024-09-10');
   let newDate = moment();
 
   while (newDate.isAfter(startDate)) {
@@ -89,11 +89,11 @@ export const LANGUAGES = {
         'Grupėse ne daugiau 4 žmonių.\n' +
         'Yra galimybė mokytis individualiai.\n' +
         'Pamokos vyksta nuotoliniu būdu per:',
-      TEXT2: 'Vienos pamokos trukmė 90 min.\n' +
-        'Vieną kursą sudaro 20 pamokų (40 akademinių valandų).\n' +
+      TEXT2: 'Vienos pamokos trukmė 60 min.\n' +
+        'Vieną kursą sudaro 20 pamokų (20 valandų).\n' +
         'Visa mokymo medžiaga yra suteikiama nemokamai arba atsiunčiama el. paštu.\n' +
         'Naujos grupės formuojamos kas du mėnesius arba susidarius grupei iš 4 vienodo lygio žmonių.\n' +
-        'Šiuo metu kviečiame mokytis antradieniais ir ketvirtadieniais 19:30.\n' +
+        'Šiuo metu kviečiame mokytis antradieniais ir penktadieniais 17:30.\n' +
         'Artimiausia A1 ir A2 lygio kurso pradžia ' + nextDateOfCourses().LT_TIME + '\n' +
         'Registracija el. paštu:'
     },
@@ -107,12 +107,12 @@ export const LANGUAGES = {
       'Vieną kartą į metus organizuojama patirtinė kelionė į arabų šalį.\n ' +
       'Norint sužinoti lygį, žinių lygio patikrinimas atliekamas nemokamai.\n' +
       'Be mokymų galime pasiūlyti vertimus raštu bei žodžiu iš lietuvių į arabų kalbą.\n',
-    PRICES: 'Mokantis 3-8 mokinių grupėje, vieno lygio (40 akad. val.) kurso kaina yra 200€ (1 akad. val. kaina – 5€, 1 pamoka – 10€). Mokomoji medžiaga įskaičiuota.\n' +
-      'Individualių kursų kaina už 1 akademinę valandą - 7.5€. Viso kurso kaina - 300€\n' +
+    PRICES: 'Mokantis 3-8 mokinių grupėje, vieno lygio (40 val.) kurso kaina yra 200€ (1 val. kaina – 5€, 1 pamoka – 10€). Mokomoji medžiaga įskaičiuota.\n' +
+      'Individualių kursų kaina už 1 valandą - 7.5€. Viso kurso kaina - 300€\n' +
       'Pamokos kaina - 20€.\n' +
       // 'Pirma pamoka - nemokamai.\n' +
       'Visos pamokos gali būti vedamos nuotoliniu būdu ar gyvai.\n' +
-      'Verslo klientams - 35€ už 2 akademines valandas (90min) visai grupei.',
+      'Verslo klientams - 30€ už valandą (60min) visai grupei.',
     BANNER: {
       TEXT1: 'Nuo sausio 16d. organizuojami A1 - A2 lygių kursai. Jei susidomėjai, paskubėk ',
       LINK: {
@@ -139,11 +139,11 @@ export const LANGUAGES = {
         'Group size - 4 people or less.\n' +
         'There is an option of personal lectures.\n' +
         'Courses are available on:',
-      TEXT2: 'Duration of one lesson - 90 minutes.\n' +
-        'Full course consists of 20 lessons (40 academic hours).\n' +
+      TEXT2: 'Duration of one lesson - 60 minutes.\n' +
+        'Full course consists of 20 lessons (20 hours).\n' +
         'All course material will be provided free of charge or sent by e-mail.\n' +
         'New groups are formed each 2 months or when there is 4 people of same level to form a group.\n' +
-        'Currently we invite to study on tuesdays and thursdays at 7:30pm\n' +
+        'Currently we invite to study on tuesdays and fridays at 5:30pm\n' +
         'Closest A1 and A2 level course start - ' + nextDateOfCourses().EN_TIME + '\n' +
         'Sign up:'
     },
