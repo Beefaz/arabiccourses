@@ -76,6 +76,8 @@ export const LANGUAGES = {
     STYLES: {
       AVATARIMAGEFLOAT: 'right'
     },
+    FLAG: flagLT,
+    FLAG_LABEL: "Lietuvių",
     PAGE404: 'Atsiprašome, toks puslapis neegzistuoja',
     LINKLABELS: ['Apie mus', 'Nuotoliniai kursai', 'Pamokos', 'Galerija', 'Kontaktai', 'Kainos'],
     EMAIL: 'El-paštas:',
@@ -109,7 +111,7 @@ export const LANGUAGES = {
       'Be mokymų galime pasiūlyti vertimus raštu bei žodžiu iš lietuvių į arabų kalbą.\n',
     PRICES: 'Viso kurso kaina (20 pamokų po 1 valandą) kaina - 300€\n' +
       'Pamokos kaina - 20€. \n' +
-      'Pamokų laikas - sutartinis. \n'+
+      'Pamokų laikas - sutartinis. \n' +
       'Mokomoji medžiaga įskaičiuota.\n' +
       // 'Pirma pamoka - nemokamai.\n' +
       'Visos pamokos gali būti vedamos nuotoliniu būdu ar gyvai.\n' +
@@ -127,6 +129,8 @@ export const LANGUAGES = {
     STYLES: {
       AVATARIMAGEFLOAT: 'right'
     },
+    FLAG: flagEN,
+    FLAG_LABEL: "English",
     PAGE404: 'Sorry. Such page does not exist',
     LINKLABELS: ['About us', 'Remote courses', 'Lessons', 'Gallery', 'Contacts', 'Prices'],
     EMAIL: 'E-mail:',
@@ -159,7 +163,7 @@ export const LANGUAGES = {
       'In addition to courses, we can also offer written and verbal translations from Lithuanian and English into Arabic. We also translate from Arabic.',
     PRICES: 'Price for whole course (20 lessons 1 hour each) - 300€.\n' +
       'Price of one lesson - 20€.\n' +
-      'Lessons can be scheduled on mutually agreed time. \n'+
+      'Lessons can be scheduled on mutually agreed time. \n' +
       'Price includes learning material.\n' +
       // 'The first lesson is free.\n' +
       'All lessons can be conducted remotely or live.\n' +
@@ -173,49 +177,51 @@ export const LANGUAGES = {
       TEXT2: ' until January 10th and get 50€ discount!.'
     }
   },
-  AR: {
-    STYLES: {
-      PHONEDIRECTION: {direction: 'ltr', textAlign: 'end'},
-      TEXTDIRECTION: {direction: 'rtl', textAlign: 'start'},
-      AVATARIMAGEFLOAT: 'left',
-    },
-    PAGE404: 'آسف. هذه الصفحة غير موجودة',
-    LINKLABELS: ['معلومات', 'الدراسة عن  بعد', 'الدروس', 'معرض الصور', 'البريد و الهاتف', 'الأسعار'],
-    EMAIL: 'البريد الإلكتروني:',
-    ADDRESS: 'عنوان:',
-    PHONE: 'رقم الهاتف:',
-    FB: 'فيسبوك:',
-    JOIN: 'انضم لمجموعتنا',
-    REMOTECOURSES: {
-      TEXT1: 'دورات عن بعد لمجموعات لا تزيد عن 4 أشخاص.\n' +
-        // 'الدرس الاول مجاني.\n' +
-        'الدروس تتم عن بعد من خلال:',
-      TEXT2: 'مدة الدرس الواحد - 60 دقيقة.\n' +
-        'تتكون الدورة الكاملة من 20 درسًا.\n' +
-        'ندعوكم لدورة تعلمية جديدة يومي الثلاثاء و والجمعة الجمعة 17:30.\n' +
-        'أقرب بداية لدورة المستوى A1 و A2 هي في عام ' + nextDateOfCourses().AR_TIME + '.\n' +
-        'يتم تشكيل مجموعات جديدة كل شهرين أو عندما يكون هناك 4 أشخاص من نفس المستوى لتشكيل مجموعة.\n' +
-        'التسجيل\n'
-    },
-    ABOUTUS: 'استوديو للغة العربية  في فيلنيوس لتعلم اللغة العربية بشكل فردي أو في مجموعات صغيرة (من 2 إلى 4 أشخاص).\n' +
-      '\n.مدرس من دولة عربية لديه أكثر من ثماني سنوات من الخبرة في تدريس ، سواء بشكل فردي أو جماعي أو عن بعد.' +
-      'خلال الدرس ، لن نقوم فقط بتدريس القواعد اللغوية والتهجئة الصحيحة والتحدث ، ولكننا أيضًا نشارك معلومات مفيدة حول البلدان الناطقة باللغة العربية وثقافاتها وتقاليدها ومعلومات حول الأحداث التي تجري في ليتوانيا والتي ستشركك في العالم العربي. سيتم توفير جميع المواد الدراسية خلال الدروس\n' +
-      'ولجعل الدراسة أكثر متعة ، سنقدم لك كوبًا من الشاي الساخن!\n' +
-      'بالإضافة إلى التدريس، يمكننا أيضًا تقديم ترجمات مكتوبة وشفهية من الليتوانية والإنجليزية إلى العربية. كما نترجم من العربية.\n',
-    PRICES: 'عند التعلم في مجموعة مكونة من 3-8 طلاب ، يكون سعر دورة المستوى الواحد (30 ساعة ) هو 200 يورو (سعر 45 دقيقة- 5 يورو ، درس واحد - 10 يورو).\n' +
-      'سعر الدورات الفردية45 دقيقة هو 8 يورو.\n' +
-      'سعر الدورات الفردية 45 دقيقة لشخصين - 7 يورو / للفرد.\n' +
-      'المواد التعليمية لمستوى واحد - مجانًا.\n' +
-      // 'الدرس الأول مجاني.\n' +
-      'يمكن إجراء جميع الدروس عن بُعد أو مباشرة.',
-    BANNER: {
-      DISABLED: true,
-      TEXT1: 'At August 9 there will be new groups for A1 - A2. If interested, hurry up and ',
-      LINK: {
-        text: 'register',
-        url: '/contacts'
-      },
-      TEXT2: '.'
-    }
-  }
+  // AR: {
+  //   STYLES: {
+  //     PHONEDIRECTION: {direction: 'ltr', textAlign: 'end'},
+  //     TEXTDIRECTION: {direction: 'rtl', textAlign: 'start'},
+  //     AVATARIMAGEFLOAT: 'left',
+  //   },
+  //   FLAG: flagAR,
+  //   FLAG_LABEL: "اَلْعَرَبِيَّةُ",
+  //   PAGE404: 'آسف. هذه الصفحة غير موجودة',
+  //   LINKLABELS: ['معلومات', 'الدراسة عن  بعد', 'الدروس', 'معرض الصور', 'البريد و الهاتف', 'الأسعار'],
+  //   EMAIL: 'البريد الإلكتروني:',
+  //   ADDRESS: 'عنوان:',
+  //   PHONE: 'رقم الهاتف:',
+  //   FB: 'فيسبوك:',
+  //   JOIN: 'انضم لمجموعتنا',
+  //   REMOTECOURSES: {
+  //     TEXT1: 'دورات عن بعد لمجموعات لا تزيد عن 4 أشخاص.\n' +
+  //       // 'الدرس الاول مجاني.\n' +
+  //       'الدروس تتم عن بعد من خلال:',
+  //     TEXT2: 'مدة الدرس الواحد - 60 دقيقة.\n' +
+  //       'تتكون الدورة الكاملة من 20 درسًا.\n' +
+  //       'ندعوكم لدورة تعلمية جديدة يومي الثلاثاء و والجمعة الجمعة 17:30.\n' +
+  //       'أقرب بداية لدورة المستوى A1 و A2 هي في عام ' + nextDateOfCourses().AR_TIME + '.\n' +
+  //       'يتم تشكيل مجموعات جديدة كل شهرين أو عندما يكون هناك 4 أشخاص من نفس المستوى لتشكيل مجموعة.\n' +
+  //       'التسجيل\n'
+  //   },
+  //   ABOUTUS: 'استوديو للغة العربية  في فيلنيوس لتعلم اللغة العربية بشكل فردي أو في مجموعات صغيرة (من 2 إلى 4 أشخاص).\n' +
+  //     '\n.مدرس من دولة عربية لديه أكثر من ثماني سنوات من الخبرة في تدريس ، سواء بشكل فردي أو جماعي أو عن بعد.' +
+  //     'خلال الدرس ، لن نقوم فقط بتدريس القواعد اللغوية والتهجئة الصحيحة والتحدث ، ولكننا أيضًا نشارك معلومات مفيدة حول البلدان الناطقة باللغة العربية وثقافاتها وتقاليدها ومعلومات حول الأحداث التي تجري في ليتوانيا والتي ستشركك في العالم العربي. سيتم توفير جميع المواد الدراسية خلال الدروس\n' +
+  //     'ولجعل الدراسة أكثر متعة ، سنقدم لك كوبًا من الشاي الساخن!\n' +
+  //     'بالإضافة إلى التدريس، يمكننا أيضًا تقديم ترجمات مكتوبة وشفهية من الليتوانية والإنجليزية إلى العربية. كما نترجم من العربية.\n',
+  //   PRICES: 'عند التعلم في مجموعة مكونة من 3-8 طلاب ، يكون سعر دورة المستوى الواحد (30 ساعة ) هو 200 يورو (سعر 45 دقيقة- 5 يورو ، درس واحد - 10 يورو).\n' +
+  //     'سعر الدورات الفردية45 دقيقة هو 8 يورو.\n' +
+  //     'سعر الدورات الفردية 45 دقيقة لشخصين - 7 يورو / للفرد.\n' +
+  //     'المواد التعليمية لمستوى واحد - مجانًا.\n' +
+  //     // 'الدرس الأول مجاني.\n' +
+  //     'يمكن إجراء جميع الدروس عن بُعد أو مباشرة.',
+  //   BANNER: {
+  //     DISABLED: true,
+  //     TEXT1: 'At August 9 there will be new groups for A1 - A2. If interested, hurry up and ',
+  //     LINK: {
+  //       text: 'register',
+  //       url: '/contacts'
+  //     },
+  //     TEXT2: '.'
+  //   }
+  // }
 };

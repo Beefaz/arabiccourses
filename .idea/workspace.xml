@@ -1,11 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="e941f123-fb92-418a-82fe-f1ed01a19c98" name="Default Changelist" comment="updated texts, dates, added prices section">
+    <list default="true" id="e941f123-fb92-418a-82fe-f1ed01a19c98" name="Default Changelist" comment="updated texts">
+      <change beforePath="$PROJECT_DIR$/.idea/arabiccourses.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/arabiccourses.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/sectionContent/AboutUs.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/sectionContent/AboutUs.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/sectionContent/Lessons.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/sectionContent/Lessons.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/buttons/LanguageButton.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/buttons/LanguageButton.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/navbar/Navbar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/navbar/Navbar.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/res/Constants.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/res/Constants.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,9 +37,6 @@
     <expand />
     <select />
   </component>
-  <component name="FavoritesManager">
-    <favorites_list name="arabiccourses" />
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -50,6 +55,13 @@
       </set>
     </option>
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP" />
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
   <component name="ProjectId" id="1faeLmD0v7SLGlCifqiQp5JzMRS" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -58,24 +70,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../VUE/Scoding" />
-    <property name="node.js.detected.package.eslint" value="true" />
-    <property name="node.js.detected.package.tslint" value="true" />
-    <property name="node.js.path.for.package.eslint" value="project" />
-    <property name="node.js.path.for.package.tslint" value="project" />
-    <property name="node.js.selected.package.eslint" value="(autodetect)" />
-    <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="nodejs_interpreter_path" value="node" />
-    <property name="nodejs_package_manager_path" value="yarn" />
-    <property name="settings.editor.selected.configurable" value="settings.nodejs" />
-    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\PhpStorm 2019.3.1\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
-    <property name="vue.rearranger.settings.migration" value="true" />
-  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "yarn",
+    "npm.npm start.executor": "Run",
+    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors",
+    "ts.external.directory.path": "C:\\Program Files\\JetBrains\\PhpStorm 2023.3.2\\plugins\\javascript-impl\\jsLanguageServicesImpl\\external",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\justi\Desktop\Web\React\arabiccourses" />
@@ -119,6 +127,13 @@
         </serviceView>
       </list>
     </option>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-php-predefined-ba97393d7c68-b4dcf6bb9de9-com.jetbrains.php.sharedIndexes-PS-233.13135.108" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
@@ -264,49 +279,40 @@
       <workItem from="1683152198496" duration="2374000" />
       <workItem from="1683203514778" duration="283000" />
       <workItem from="1687011514054" duration="614000" />
-      <workItem from="1688404643477" duration="910000" />
-    </task>
-    <task id="LOCAL-00018" summary="Fixed issue when nav menu wasn't closing">
-      <created>1600600641100</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1600600641101</updated>
-    </task>
-    <task id="LOCAL-00019" summary="added robots.txt">
-      <created>1600600835586</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1600600835586</updated>
-    </task>
-    <task id="LOCAL-00020" summary="changed div to button for aria accessibility (selectable with keyboard)">
-      <created>1600604043416</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1600604043416</updated>
-    </task>
-    <task id="LOCAL-00021" summary="minor code changes">
-      <created>1600604066620</created>
-      <option name="number" value="00021" />
-      <option name="presentableId" value="LOCAL-00021" />
-      <option name="project" value="LOCAL" />
-      <updated>1600604066620</updated>
-    </task>
-    <task id="LOCAL-00022" summary="added @loadable Background.jsx to increase load speed.&#10;removed unused divs&#10;changed some styling params">
-      <created>1600619412227</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1600619412227</updated>
-    </task>
-    <task id="LOCAL-00023" summary="fixed issue when aria-label wasn't showing in html&#10;changed button images to 1:1 ratio, reduced image size">
-      <created>1600621434281</created>
-      <option name="number" value="00023" />
-      <option name="presentableId" value="LOCAL-00023" />
-      <option name="project" value="LOCAL" />
-      <updated>1600621434281</updated>
+      <workItem from="1688404643477" duration="1071000" />
+      <workItem from="1689695494554" duration="11000" />
+      <workItem from="1691415835293" duration="2050000" />
+      <workItem from="1691508287778" duration="7000" />
+      <workItem from="1694294514755" duration="238000" />
+      <workItem from="1695656631953" duration="4000" />
+      <workItem from="1696342860420" duration="770000" />
+      <workItem from="1696787247779" duration="28000" />
+      <workItem from="1701275101199" duration="127000" />
+      <workItem from="1703179694928" duration="977000" />
+      <workItem from="1703840804867" duration="21000" />
+      <workItem from="1703855258818" duration="40000" />
+      <workItem from="1703855744723" duration="10000" />
+      <workItem from="1704266543474" duration="21000" />
+      <workItem from="1704808695967" duration="48000" />
+      <workItem from="1704809386882" duration="309000" />
+      <workItem from="1704957731048" duration="1672000" />
+      <workItem from="1705046331414" duration="1207000" />
+      <workItem from="1706609260589" duration="678000" />
+      <workItem from="1709211249442" duration="890000" />
+      <workItem from="1709287644929" duration="1057000" />
+      <workItem from="1709293090969" duration="104000" />
+      <workItem from="1709803443067" duration="534000" />
+      <workItem from="1709817032561" duration="736000" />
+      <workItem from="1709820148278" duration="335000" />
+      <workItem from="1709887862828" duration="1593000" />
+      <workItem from="1709893491535" duration="590000" />
+      <workItem from="1711557226211" duration="45000" />
+      <workItem from="1712224725416" duration="608000" />
+      <workItem from="1720709585314" duration="2988000" />
+      <workItem from="1720714515087" duration="22000" />
+      <workItem from="1721731752779" duration="12000" />
+      <workItem from="1721734084393" duration="81000" />
+      <workItem from="1722881928077" duration="10645000" />
     </task>
     <task id="LOCAL-00024" summary="added missing translations,&#10;added proper styling for arabic language (reversed)">
       <created>1601840441635</created>
@@ -609,7 +615,49 @@
       <option name="project" value="LOCAL" />
       <updated>1680547421879</updated>
     </task>
-    <option name="localTasksCounter" value="67" />
+    <task id="LOCAL-00067" summary="updated texts and main logo">
+      <created>1688405657546</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1688405657547</updated>
+    </task>
+    <task id="LOCAL-00068" summary="disabled arabic banner&#10;updated texts">
+      <created>1691417886332</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1691417886332</updated>
+    </task>
+    <task id="LOCAL-00069" summary="updated texts">
+      <created>1694294742541</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1694294742541</updated>
+    </task>
+    <task id="LOCAL-00070" summary="updated texts and banners">
+      <created>1696343616178</created>
+      <option name="number" value="00070" />
+      <option name="presentableId" value="LOCAL-00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1696343616179</updated>
+    </task>
+    <task id="LOCAL-00071" summary="updated texts">
+      <created>1701275165606</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1701275165606</updated>
+    </task>
+    <task id="LOCAL-00072" summary="updated texts and main logo">
+      <created>1703180233778</created>
+      <option name="number" value="00072" />
+      <option name="presentableId" value="LOCAL-00072" />
+      <option name="project" value="LOCAL" />
+      <updated>1703180233778</updated>
+    </task>
+    <option name="localTasksCounter" value="77" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -626,7 +674,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="github/master" />
+                        <option value="HEAD" />
                       </list>
                     </value>
                   </entry>
@@ -637,17 +685,12 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <ignored-roots>
       <path value="$PROJECT_DIR$/arabiccourses" />
     </ignored-roots>
-    <MESSAGE value="reworked photo (removed finger stamp, resized, converted to .webp)" />
-    <MESSAGE value="renamed" />
-    <MESSAGE value="minor page description changes,&#10;added accessibility params on gallery thumbnail" />
-    <MESSAGE value="added space button pressed on gallery thumbnails for accessability" />
     <MESSAGE value="removed aria button role (unnecessary)" />
     <MESSAGE value="added more code splitting. Testing for performance." />
     <MESSAGE value="added titles to iframe" />
@@ -669,6 +712,10 @@
     <MESSAGE value="changed dates" />
     <MESSAGE value="updated texts, dates, added prices section" />
     <MESSAGE value="updated dates" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated dates" />
+    <MESSAGE value="disabled arabic banner&#10;updated texts" />
+    <MESSAGE value="updated texts and banners" />
+    <MESSAGE value="updated texts and main logo" />
+    <MESSAGE value="updated texts" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated texts" />
   </component>
 </project>

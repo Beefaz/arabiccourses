@@ -1,7 +1,7 @@
-import React from "react";
+import React, from "react";
 import {Navbar} from "react-bootstrap";
 import NavBarItems from "./NavbarItems";
-import {LANGUAGES, FLAGS} from "../../res/Constants";
+import {LANGUAGES} from "../../res/Constants";
 import loadable from '@loadable/component'
 import NavItem from "react-bootstrap/NavItem";
 
@@ -39,21 +39,13 @@ const NavBar = (props) => {
       <NavBarItems {...props}/>
     </Navbar.Collapse>
     <div style={langButtonContainerStyle}>
-      <NavItem as={LanguageButton}
-               onClick={() => props.setLanguage(LANGUAGES.LT)}
-               label="Lietuvių"
-               image={FLAGS[0]}
-      />
-      <NavItem as={LanguageButton}
-               onClick={() => props.setLanguage(LANGUAGES.EN)}
-               label="English"
-               image={FLAGS[1]}
-      />
-      <NavItem as={LanguageButton}
-               onClick={() => props.setLanguage(LANGUAGES.AR)}
-               label="اَلْعَرَبِيَّةُ"
-               image={FLAGS[2]}
-      />
+      {Object.entries(LANGUAGES).map(([language, params]) => {
+         return <NavItem as={LanguageButton}
+                   onClick={() => props.setLanguage(language)}
+                   label={params.FLAG_LABEL}
+                   image={params.FLAG}
+          />
+      })}
     </div>
   </Navbar>
 };
