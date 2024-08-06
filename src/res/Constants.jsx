@@ -112,8 +112,9 @@ export const LANGUAGES = {
       '10€/val. - mokantis 3-8 vienodo lygio žmonių grupėje. \n' +
       '15€/val. - vienam asmeniui. \n' +
       '20€/val. - už papildomas pamokas. \n' +
-      '30€/val. - verslo klientams visai grupei \n' +
-      'Visą kursą sudaro 20 pamokų po 1 valandą (60min).',
+      '30€/val. - verslo klientams visai grupei. \n' +
+      'Visą kursą sudaro 20 pamokų po 1 valandą (60min). \n' +
+      'Mokymo medžiaga - įskaičiuota į kainą.',
     BANNER: {
       TEXT1: 'Nuo sausio 16d. organizuojami A1 - A2 lygių kursai. Jei susidomėjai, paskubėk ',
       LINK: {
