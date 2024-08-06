@@ -109,7 +109,7 @@ export const LANGUAGES = {
       'Norint sužinoti lygį, žinių lygio patikrinimas atliekamas nemokamai.\n' +
       'Be mokymų galime pasiūlyti vertimus raštu bei žodžiu iš lietuvių į arabų kalbą.\n',
     PRICES:
-      '10€/val. - mokantis 3-8 vienodo lygio žmonių grupėje. \n' +
+      '10€/val. - mokantis iki 4 vienodo lygio žmonių grupėje. \n' +
       '15€/val. - vienam asmeniui. \n' +
       '20€/val. - už papildomas pamokas. \n' +
       '30€/val. - verslo klientams visai grupei. \n' +
@@ -162,7 +162,7 @@ export const LANGUAGES = {
       'To determine the competency, the test is done free of charge.\n' +
       'In addition to courses, we can also offer written and verbal translations from Lithuanian and English into Arabic. We also translate from Arabic.',
     PRICES:
-      '10€/hour - when studying in a group of 3-8 students \n' +
+      '10€/hour - when studying in a group of up to 4 students \n' +
       '15€/hour - for single person. \n' +
       '20€/hour - for additional lesson. \n' +
       '30€/hour - for business clients for a whole group. \n' +
