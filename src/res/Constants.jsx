@@ -91,8 +91,7 @@ export const LANGUAGES = {
         'Grupėse ne daugiau 4 žmonių.\n' +
         'Yra galimybė mokytis individualiai.\n' +
         'Pamokos vyksta nuotoliniu būdu per:',
-      TEXT2: 'Vienos pamokos trukmė 60 min.\n' +
-        'Vieną kursą sudaro 20 pamokų (20 valandų).\n' +
+      TEXT2: 'Visą kursą sudaro 20 pamokų po 1 valandą (60 min).\n' +
         'Visa mokymo medžiaga yra suteikiama nemokamai arba atsiunčiama el. paštu.\n' +
         'Naujos grupės formuojamos kas du mėnesius arba susidarius grupei iš 4 vienodo lygio žmonių.\n' +
         'Šiuo metu kviečiame mokytis antradieniais ir penktadieniais 17:30.\n' +
@@ -109,13 +108,12 @@ export const LANGUAGES = {
       'Vieną kartą į metus organizuojama patirtinė kelionė į arabų šalį.\n ' +
       'Norint sužinoti lygį, žinių lygio patikrinimas atliekamas nemokamai.\n' +
       'Be mokymų galime pasiūlyti vertimus raštu bei žodžiu iš lietuvių į arabų kalbą.\n',
-    PRICES: 'Viso kurso kaina (20 pamokų po 1 valandą) kaina - 300€\n' +
-      'Pamokos kaina - 20€. \n' +
-      'Pamokų laikas - sutartinis. \n' +
-      'Mokomoji medžiaga įskaičiuota.\n' +
-      // 'Pirma pamoka - nemokamai.\n' +
-      'Visos pamokos gali būti vedamos nuotoliniu būdu ar gyvai.\n' +
-      'Verslo klientams - 30€ už valandą (60min) visai grupei.',
+    PRICES:
+      '10€/val. - mokantis 3-8 vienodo lygio žmonių grupėje. \n' +
+      '15€/val. - vienam asmeniui. \n' +
+      '20€/val. - už papildomas pamokas. \n' +
+      '30€/val. - verslo klientams visai grupei \n' +
+      'Visą kursą sudaro 20 pamokų po 1 valandą (60min).',
     BANNER: {
       TEXT1: 'Nuo sausio 16d. organizuojami A1 - A2 lygių kursai. Jei susidomėjai, paskubėk ',
       LINK: {
