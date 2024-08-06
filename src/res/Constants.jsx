@@ -114,7 +114,8 @@ export const LANGUAGES = {
       '20€/val. - už papildomas pamokas. \n' +
       '30€/val. - verslo klientams visai grupei. \n' +
       'Visą kursą sudaro 20 pamokų po 1 valandą (60min). \n' +
-      'Mokymo medžiaga - įskaičiuota į kainą.',
+      'Mokymo medžiaga - įskaičiuota į kainą. \n' +
+      'Visos pamokos gali būti vedamos nuotoliniu būdu ar gyvai.',
     BANNER: {
       TEXT1: 'Nuo sausio 16d. organizuojami A1 - A2 lygių kursai. Jei susidomėjai, paskubėk ',
       LINK: {
@@ -160,13 +161,14 @@ export const LANGUAGES = {
       'A learning trip to an Arab country is organized once a year.\n' +
       'To determine the competency, the test is done free of charge.\n' +
       'In addition to courses, we can also offer written and verbal translations from Lithuanian and English into Arabic. We also translate from Arabic.',
-    PRICES: 'Price for whole course (20 lessons 1 hour each) - 300€.\n' +
-      'Price of one lesson - 20€.\n' +
-      'Lessons can be scheduled on mutually agreed time. \n' +
-      'Price includes learning material.\n' +
-      // 'The first lesson is free.\n' +
-      'All lessons can be conducted remotely or live.\n' +
-      'For business clients - 30€ for 1 hour (60min) for the whole group.',
+    PRICES:
+      '10€/hour - when studying in a group of 3-8 students \n' +
+      '15€/hour - for single person. \n' +
+      '20€/hour - for additional lesson. \n' +
+      '30€/hour - for business clients for a whole group. \n' +
+      'Whole course consists of 20 lessons (1 hour each). \n' +
+      'Course material price is included. \n' +
+      'All lessons can be conducted remotely or live.',
     BANNER: {
       TEXT1: 'At January 16th there will be new groups for A1 - A2. If interested, hurry up and ',
       LINK: {
