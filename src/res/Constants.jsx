@@ -162,7 +162,7 @@ export const LANGUAGES = {
       'To determine the competency, the test is done free of charge.\n' +
       'In addition to courses, we can also offer written and verbal translations from Lithuanian and English into Arabic. We also translate from Arabic.',
     PRICES:
-      '10€/hour - when studying in a group of up to 4 students \n' +
+      '10€/hour - when studying in a group of up to 4 students of same proficiency level \n' +
       '15€/hour - for single person. \n' +
       '20€/hour - for additional lesson. \n' +
       '30€/hour - for business clients for a whole group. \n' +
