@@ -6,6 +6,7 @@ const AvatarImage = (props) => {
         boxShadow: '1px 1px 5px 1px, -1px -1px 5px 1px',
         shapeOutside: 'ellipse(50% 50% at 50% 50%)',
         borderRadius: '50%',
+        maxWidth: '40%',
         float: props.float,
         width: '50vmin',
         margin: '10px',
