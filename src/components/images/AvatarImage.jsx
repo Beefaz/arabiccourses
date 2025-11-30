@@ -4,14 +4,14 @@ import React from "react";
 const AvatarImage = (props) => {
     const containerStyle = {
         boxShadow: '1px 1px 5px 1px, -1px -1px 5px 1px',
-        shapeOutside: 'circle(50%)',
+        shapeOutside: 'ellipse(50% 50% at 50% 50%)',
         borderRadius: '50%',
         float: props.float,
-        height: '50vmin',
         width: '50vmin',
         margin: '10px',
         overflow: 'hidden'
     };
+
     const imageStyle = {
         backgroundColor: 'rgba(0,0,0,0.3)',
         padding: '3px',
